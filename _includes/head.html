@@ -1,0 +1,70 @@
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  {% seo %}
+
+   <style>
+  .preloader-content {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    background-image: url({{site.data.main.logo}});
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .preloader-plus {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #201169;
+    z-index: 9999999;
+  }
+
+  .preloader-plus.complete {
+    z-index: -9999999;
+    opacity: 0;
+  }
+  </style>
+
+                                  
+
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+  
+  <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+  <link rel='dns-prefetch' href='//s.w.org' />
+  <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Hide preloader when everything loads -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){ 
+        document.querySelector(".preloader-plus").style.display = "none";
+    }, false);
+  </script>
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+  <noscript>
+    <style>
+      .wpb_animate_when_almost_visible {
+      opacity: 1;
+      }
+    </style>
+  </noscript>
+
+</head>
+

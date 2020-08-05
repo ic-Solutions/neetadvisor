@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$spacing-unit:     30px;
+
+$brand-color:      #fcd21c;
+$h-color:          #270a68;
+
+$text-color:       #777;
+$background-color: #f9f9f9;
+
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        1000px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"web-grid",
+	"c1",
+	"c3",
+	"c4",
+	"c5",
+	"c6",
+	"pe-icons",
+	"pricing-table",
+	"share-buttons",
+	"bootstrap-utilities",
+	"old-styles",
+	"custom"
+;

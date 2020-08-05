@@ -1,0 +1,97 @@
+.pricing-table {
+  float: none;
+  clear: both;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .table-header {
+    font-size: 2.5em !important;
+    text-transform: uppercase !important;
+     @include media-query($on-palm) {
+      font-size: 1.8em !important;
+      margin: 0;
+     }
+  }
+  
+  h3 {
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+      margin: 0;
+     }
+  }
+
+  .price {
+    font-size: 1.8em !important;
+     @include media-query($on-palm) {
+      font-size: 1.4em !important;
+     }
+  }
+  p {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    @include media-query($on-palm) {
+      font-size: 0.9em !important;
+    }
+  }
+
+
+  .table-wrapper {
+    float: none;
+    clear: both;
+    border: 3px solid black;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    background-color: $brand-color;
+  }
+
+  .r {
+    border-top: 2px solid black;
+    @include media-query($on-palm) {
+      grid-gap: 5px;
+    }
+
+    .c-2, .c-10 {
+      @include media-query($on-palm) {
+        padding: 0;
+      }
+    }
+  }
+  
+
+  
+  .table-title, .table-description {
+    @include media-query($on-palm) {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+
+  .table-title {
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+    }
+  }
+  .features {
+    li {
+      font-size: 0.9em;
+      font-weight: 400;
+      margin-left: 20px;
+    }
+  }
+
+  .image {
+    @include media-query($on-palm) {
+      display: none;
+    }
+  }
+
+}
+
+.neet-info {
+  .r {
+    border: none;
+  }
+}
+
+

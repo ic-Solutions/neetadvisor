@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+<div class="blog-container px-3 px-md-0 py-3 py-md-5">
+	<div class="blog-content">
+		<div class="image">
+			<img src="{{page.image}}" alt="{{page.title}}">
+		</div>
+		<div class="title">
+			<h1>{{page.title}}</h1>
+		</div>
+
+		<div class="meta">
+			<p><small>
+				<span><i class="fa fa-calendar mr-2"></i></span>
+				<span class="text-gray">{{ page.date | date: '%B %d, %Y' }}</span>
+				
+				<span class="ml-3">
+					
+					<a href="/about/"><span><i class="fa fa-user mr-2"></i></span>{{page.author}}</a></span>
+			</small></p>
+		</div>
+		
+		<div class="content text-body">
+			{{content}}
+		</div>
+		{% include share.html %}
+		{% include disqus.html %}
+		{% include related-blogs.html %}
+	</div>
+
+	<div class="blog-sidebar"></div>
+</div>
