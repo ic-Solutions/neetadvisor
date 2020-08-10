@@ -8,7 +8,7 @@ permalink: /privacy-policy/
 
 Effective date: 1st may, 2020
 
-Leopride career solutions private limited (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the https://www.leopride.in/ website (the &quot;Service&quot;).
+NEET Advisor (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the https://www.neetadvisor.com/ website (the &quot;Service&quot;).
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Services.
 
@@ -50,7 +50,7 @@ Examples of Cookies we use:
 
 ## **Use Of Data**
 
-Leopride career solutions private limited uses the collected data for various purposes:
+NEET Advisor uses the collected data for various purposes:
 
 - To provide and maintain the Service
 - To notify you about changes to our Service
@@ -68,16 +68,16 @@ If you are located outside India and choose to provide information to us, please
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
-Leopride career solutions private limited will take all reasonably necessary steps to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+NEET Advisor will take all reasonably necessary steps to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
 ## **Disclosure Of Data**
 
 **Legal Requirements**
 
-Leopride career solutions may disclose your Personal Data in the good faith belief that such action is necessary to:
+NEET Advisor may disclose your Personal Data in the good faith belief that such action is necessary to:
 
 - To comply with a legal obligation
-- To protect and defend the rights or property of leopride career solutions pvt. ltd.
+- To protect and defend the rights or property of NEET Advisor
 - To prevent or investigate possible wrongdoing in connection with the Service
 - To protect the personal safety of users of the Service or the public
 - To protect against legal liability

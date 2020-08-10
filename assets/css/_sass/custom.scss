@@ -783,3 +783,15 @@ a.control_next {
       font-size: 0.9em !important;
     }
 }
+.nav-neet{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.vc_row.vc_hidden[data-vc-full-width]{
+    opacity: 1
+}
+.vc_column_container > .vc_column-inner{
+    padding-left: 25px;
+    padding-right: 25px;
+}
