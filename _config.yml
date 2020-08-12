@@ -16,12 +16,12 @@ include:
 
 # These details are for opengraph tags
 social:
-  name: LeoPride Consultants
+  name: NEET Advisor
   links:
-    - https://www.facebook.com/leopride.in/
-    - https://www.linkedin.com/company/14512687/
-    - https://www.instagram.com/leopridecareersolutions/
-    - https://www.youtube.com/channel/UCiJqbK5EeRtijkCgqwP5e4A
+    - https://www.facebook.com/pg/NEETADVISOR/
+    - https://in.linkedin.com/company/neetadvisordotcom
+    - https://www.instagram.com/neetadvisor_com/
+    - https://www.youtube.com/channel/UCiJqbK5EeRtijkCgqwP5e4A/
 
 facebook:
   app_id: 272085763872601
