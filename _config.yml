@@ -1,5 +1,6 @@
 title: NEET Advisor
 description: An Initiative of Leopride Career Solutions
+url: https://neetadvisor.com
 
 permalink: /blog/:title/
 
@@ -35,4 +36,3 @@ destination: public
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
