@@ -795,3 +795,6 @@ a.control_next {
     padding-left: 25px;
     padding-right: 25px;
 }
+body:not(.block-editor-page):not(.wp-core-ui){
+    font-weight: 400
+}
