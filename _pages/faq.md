@@ -6,7 +6,7 @@ permalink: /faq/
 
 # Frequently Asked Questions
 
-## About Entrance Exam 
+### About Entrance Exam 
 
 **Q: Is NEET 2020 twice a year?**
 
@@ -36,7 +36,7 @@ A: There are a total of 1,200+ MBBS seats in the 15 AIIMS spread across the leng
 
 A: JIPMER provides total 200 seats, 150 seats offered in JIPMER, Puducherry campus and 50 seats offered in Karaikal campus. 
 
-## About Eligibility 
+### About Eligibility 
 
 **Q: Does a gap year between Class 11 and 12 will affect the eligibility for NEET 2020?**
 
@@ -62,7 +62,7 @@ A: As per NTA, candidates with Biology as an additional subject are eligible for
 
 A: There is no attempt limit for NEET 2020. Candidates can appear for NEET any number of times. 
 
-## Application Process 
+### Application Process 
 
 **Q: How can I change my address in NEET application form?**
 
@@ -72,7 +72,7 @@ A: The correction window of NEET 2020 application form can be used to change the
 
 A: This confirmation page that opens up  after the payment has been processed successfully, is a confirmation that the NEET 2020 application fee has been received by the NTA. Save and print this page for future reference. 
 
-## NEET Exam Pattern 
+### NEET Exam Pattern 
 
 **Q: As AIIMS and JIPMER are merged with NEET, The exam pattern of NEET 2020 will be changed or not?**
 
@@ -90,7 +90,7 @@ A: Stay clear of guesses. Do not answer a question if you are not sure about it.
 
 A: NEET exam will be in offline mode. (pen and paper mode). 
 
-## About Result 
+### About Result 
 
 **Q: Is the NEET result and score card one and the same?**
 
@@ -104,7 +104,7 @@ A: Actually, the better thing to do will be to download the NEET 2020 result and
 
 A: Since the NEET result is the basis of admission to medical courses in the country, it is advisable to keep it safe till your admission formalities are complete. All you have to do is to keep a soft copy for your reference which can be retrived anytime you need it. 
 
-## Preparation Tips 
+### Preparation Tips 
 
 **Q: Is NCERT enough for Biology section?**
 
@@ -146,7 +146,7 @@ A: The most important element to prepare for any exam is good study material. Fo
 | Concepts of Physics Vol I and II by H.C. Verma | Physical Chemistry for Medical Entrance by OP Tandon | Books by T.L Rayar |
 | The Feynman Lectures on Physics Vol. I (Mechanics. Radiation and Heat) | Organic Chemistry – M. S. Chauhan | 11th and 12th NCERT textbooks |
 
-## About Counselling 
+### About Counselling 
 
 **Q: Which Colleges/ Universities are allotted through MCC/DGHS Counseling?**
 
