@@ -10,7 +10,7 @@ permalink: /faq/
 
 **Q: Is NEET 2020 twice a year?**
 
-A: So far there has been no official announcement which suggests that NEET 2020 will not be conducted twice. As per the official announcement, NTA has revealed that NEET 2020 is scheduled to be conducted on July 26, 2020, only. 
+A: So far there has been no official announcement which suggests that NEET 2020 will not be conducted twice. As per the official announcement, NTA has revealed that NEET 2020 is scheduled to be conducted on August 13, 2020, only. 
 
 **Q: What will be the mode of entrance exam?**
 
