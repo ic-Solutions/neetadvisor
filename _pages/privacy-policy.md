@@ -3,16 +3,17 @@ layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
 ---
-
+ 
 # Privacy Policy
 
-Effective date: 1st may, 2020
+Effective date: 22nd September, 2020
 
-NEET Advisor (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the https://www.neetadvisor.com/ website (the &quot;Service&quot;).
+NEET ADVISOR PVT. LTD. ("us", "we", or "our") operates the https://www.neetadvisor.com/ website (the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Services.
 
 We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
+
 
 ## **Information Collection And Use**
 
@@ -22,7 +23,7 @@ We collect several type of information for various purposes to provide and impro
 
 **Personal Data**
 
-While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (&quot;Personal Data&quot;). Personally identifiable information may include, but is not limited to:
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
 
 - Email address
 - First name and last name
@@ -32,7 +33,7 @@ While using our Service, we may ask you to provide us with certain personally id
 
 **Usage Data**
 
-We may also collect information how the Service is accessed and used (&quot;Usage Data&quot;). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
 **Tracking &amp; Cookies Data**
 
@@ -50,7 +51,7 @@ Examples of Cookies we use:
 
 ## **Use Of Data**
 
-NEET Advisor uses the collected data for various purposes:
+NEET ADVISOR PVT. LTD.  uses the collected data for various purposes:
 
 - To provide and maintain the Service
 - To notify you about changes to our Service
@@ -68,16 +69,17 @@ If you are located outside India and choose to provide information to us, please
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
-NEET Advisor will take all reasonably necessary steps to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+NEET ADVISOR PVT. LTD.  will take all reasonably necessary steps to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+
 
 ## **Disclosure Of Data**
 
 **Legal Requirements**
 
-NEET Advisor may disclose your Personal Data in the good faith belief that such action is necessary to:
+NEET ADVISOR PVT. LTD.  may disclose your Personal Data in the good faith belief that such action is necessary to:
 
 - To comply with a legal obligation
-- To protect and defend the rights or property of NEET Advisor
+- To protect and defend the rights or property of NEET ADVISOR PVT. LTD.
 - To prevent or investigate possible wrongdoing in connection with the Service
 - To protect the personal safety of users of the Service or the public
 - To protect against legal liability
@@ -88,7 +90,7 @@ The security of your data is important to us, but remember that no method of tra
 
 ## **Service Providers**
 
-We may employ third party companies and individuals to facilitate our Service (&quot;Service Providers&quot;), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
 
 These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
 
@@ -102,11 +104,11 @@ Google Analytics is a web analytics service offered by Google that tracks and re
 
 You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.
 
-For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)
+For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)
 
 ## **Links To Other Sites**
 
-Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&##39;s site. We strongly advise you to review the Privacy Policy of every site you visit.
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
@@ -114,13 +116,14 @@ We have no control over and assume no responsibility for the content, privacy po
 
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the &quot;effective date&quot; at the top of this Privacy Policy.
+We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
 
 ## **Contact Us**
 
 If you have any questions about this Privacy Policy, please contact us:
 
-- By email: vipinbansal.in@gmail.com
-- By phone number: +91 9600112804
+- By email: [vipinbansal.in@gmail.com](mailto:vipinbansal.in@gmail.com)
+- By phone number: [+91 9600112804](tel:+919600112804)
