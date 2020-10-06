@@ -6,7 +6,7 @@ permalink: /privacy-policy/
  
 # Privacy Policy
 
-Effective date: 22nd September, 2020
+Effective date: 5th October, 2020
 
 NEET ADVISOR PVT. LTD. ("us", "we", or "our") operates the https://www.neetadvisor.com/ website (the "Service").
 
