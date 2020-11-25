@@ -20,7 +20,7 @@ Keep all your doubts ready and track us through our Facebook and Instagram pages
 
 Free Entry upon a pre-registration. 
 
-To register, Call at: [tel:09911203280](+91 9911203280)
+To register, Call at:  [+91 9911203280](tel:09911203280)
 
 <hr>
 

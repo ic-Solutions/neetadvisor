@@ -34,7 +34,7 @@ NEET advisor have been working on making medical aspirants dream to come true. N
 NEET advisor is the organization you can have trust on and we will definitely guide you with complete satisfaction.
 
 
-We are just a call away..  [tel:09911203280](+91 9911203280)
+We are just a call away..  [+91 9911203280](tel:09911203280)
 
 [www.neetadvisor.com](https://neetadvisor.com)
 
