@@ -1882,13 +1882,6 @@ img
 }
 
 
-/*----*****---- <<  Prettyphoto >> ----*****----*/
-body div.pp_overlay
-{
-    z-index: 9999;
-}
-
-
 /*----*****---- <<  Ultimate Addon >> ----*****----*/
 .ubtn-ctn-center button,
 .ubtn-ctn-right button
@@ -2822,49 +2815,6 @@ input:disabled{ opacity:0.5; pointer-events:none}
         width: 100%;
     }
 
-    /*----*****---- << PrettyPhoto >> --****--*/
-    .pp_pic_holder
-    {
-        left: 5% !important;
-        overflow: hidden; 
-        width: 90% !important;
-    }
-    .pp_content
-    {
-        height: auto!important; 
-        width: 98%!important;
-    }
-    .pp_fade
-    {
-        height: 100%!important; 
-        width: 100%!important;
-    }
-    a.pp_expand,
-    a.pp_contract,
-    .pp_hoverContainer,
-    .pp_gallery
-    {
-        display: none!important;
-    }
-    #pp_full_res img
-    {
-        height: auto!important; 
-        width: 100%!important;
-    }
-    .pp_details
-    {
-        min-height: 25px; 
-        position: static!important;
-        width: 100%!important;
-    }
-    .pp_details a.pp_close
-    {
-        right: 25px;
-    }
-    div.pp_default .pp_content_container .pp_details
-    {
-        margin-top: 15px;
-    }
 
     /*----*****---- << Tooltip >> --****--*/
     #tiptip_content
@@ -11993,16 +11943,6 @@ ul.side-nav > li > ul > li > ul > li.current_page_item > a:before
 {
     margin-left: -15px;
     margin-right: -15px;
-}
-
-
-/*--------------------------------------------------------------
-	Pretty Photo
-	--------------------------------------------------------------*/
-
-div.pp_default  .pp_content .pp_description
-{
-    line-height: inherit;
 }
 
 
