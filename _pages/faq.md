@@ -148,15 +148,15 @@ A: The most important element to prepare for any exam is good study material. Fo
 
 ### About Counselling 
 
-**Q: Which Colleges/ Universities are allotted through MCC/DGHS Counseling?**
+**Q: Which Colleges/ Universities are allotted through MCC/DGHS counselling?**
 
-A: DGHS (The Directorate General of Health Services) on behalf of the MCC will conduct counseling for the 15% All India Quota and all seats of Deemed universities/ Central universities/ seats of ESIC & AFMC counseling including Delhi University (DU), VMMC, BHU, AMU, AIIMS & JIPMER. 
+A: DGHS (The Directorate General of Health Services) on behalf of the MCC will conduct counselling for the 15% All India Quota and all seats of Deemed universities/ Central universities/ seats of ESIC & AFMC counselling including Delhi University (DU), VMMC, BHU, AMU, AIIMS & JIPMER. 
 
 **Q: What is All India Rank (AIR)?**
 
 A: AIR places a student depending upon their position scored amongst all candidates who have qualified NEET. 
 
-**Q: Who are eligible for ESIC Counseling?**
+**Q: Who are eligible for ESIC counselling?**
 
 A: Regarding eligibility for ESI 15% of seats would be filled through All India Quota and seats that are unfilled after contribution to state quota would be set aside for candidates who are wards of Insured persons of ESI. 
 
@@ -180,11 +180,11 @@ A: The candidate can fix the problem using the reset initialization option provi
 
 A: Yes, at present there are three medical colleges exclusively for Girls, namely Lady Hardinge Medical College Delhi, BPS Govt. Medical College, Sonepat and SVIMS, Sri Padmavati College for Women Tirupati. 
 
-**Q: What does exit with forfeiture mean in 2 nd round of counseling?**
+**Q: What does exit with forfeiture mean in 2 nd round of counselling?**
 
-A: Exit with forfeiture means if a candidate allotted a seat in 2 nd round of counseling and does not want to join the allotted seat he can still exit with forfeiture (losing security amount deposited) and once candidate joined the allotted seat would not be eligible for resigning/surrender of joined seat.
+A: Exit with forfeiture means if a candidate allotted a seat in 2 nd round of counselling and does not want to join the allotted seat he can still exit with forfeiture (losing security amount deposited) and once candidate joined the allotted seat would not be eligible for resigning/surrender of joined seat.
 
-**Q: After I join second round of counseling of 15% AIQ can I leave/ resign to join state Quota/private college seat?**
+**Q: After I join second round of counselling of 15% AIQ can I leave/ resign to join state Quota/private college seat?**
 
 A: Once you join second round seat from 15% All India Quota, you will not be allowed to vacate from allotted 2nd round seat as per direction by Hon'ble supreme court in WP(C) (267/2017) dated 09/05/2017. However if you are allotted a seat in second round in AIQ/ Deemed you can exit with forfeiture of security amount. 
 
@@ -200,17 +200,17 @@ A: Fresh choice submission by eligible candidates is necessary for consideration
 
 A: Certificates issued by the competent authority on standard format, should be in English or Hindi language. Please remember that some of the states insist for certificate in English language only. Candidates are advised to carry certified (attested) Copy of English version of the original certificate, in case certificate issued is in other than English language, along with original certificate. 
 
-Q: Whether Up-gradation is allowed from 2nd round counseling of Deemed/ Central Universities to Mop-up Round counseling of DGHS for Central / Deemed Universities?**
+Q: Whether Up-gradation is allowed from 2nd round counselling of Deemed/ Central Universities to Mop-up Round counselling of DGHS for Central / Deemed Universities?**
 
-A: No, Up-gradation is not allowed once a candidate joins a seat allotted in Round II of Deemed/ Central Universities and the candidate will not be allowed to vacate the seat. For Deemed/ Central Universities the candidate will not be allowed in any further counseling including Stray Vacancy Round of Deemed/ Central Universities. 
+A: No, Up-gradation is not allowed once a candidate joins a seat allotted in Round II of Deemed/ Central Universities and the candidate will not be allowed to vacate the seat. For Deemed/ Central Universities the candidate will not be allowed in any further counselling including Stray Vacancy Round of Deemed/ Central Universities. 
 
 **Q: What is the eligibility criteria for admission to AFMS?**
 
-A: Candidates seeking admission to AFMS can register with MCC expressing willingness of admission to the institute. The list of such candidates will be sent to AFMS, which will conduct offline counseling of such candidates. The offline counseling will include physical fitness and personality test. The result of the test will be sent back to MCC, who will display the allotment result on its website.
+A: Candidates seeking admission to AFMS can register with MCC expressing willingness of admission to the institute. The list of such candidates will be sent to AFMS, which will conduct offline counselling of such candidates. The offline counselling will include physical fitness and personality test. The result of the test will be sent back to MCC, who will display the allotment result on its website.
 
 **Q: How much time will I be given to join the allotted college?**
 
-A: Candidates allotted seats will be required to join the allotted college/course within stipulated time. However, candidates are advised to join as early as possible and not to wait for last day of joining. In some of the colleges/ universities, 2-3 days time is required to complete admission formalities. Therefore, candidates are advised to contact allotted college immediately after declaration of result of counseling allotment process, to know the details. If candidate fails to join the allotted Medical/Dental College within stipulated time, then the allotted seat will be cancelled.
+A: Candidates allotted seats will be required to join the allotted college/course within stipulated time. However, candidates are advised to join as early as possible and not to wait for last day of joining. In some of the colleges/ universities, 2-3 days time is required to complete admission formalities. Therefore, candidates are advised to contact allotted college immediately after declaration of result of counselling allotment process, to know the details. If candidate fails to join the allotted Medical/Dental College within stipulated time, then the allotted seat will be cancelled.
 
 **Q: Who are eligible for 2nd round of allotment?**
 

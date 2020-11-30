@@ -24,7 +24,7 @@ permalink: /terms-refund-policy/
 6. NEET ADVISOR PVT. LTD.  does not take any liabilities if the subscriber fails to get a seat or admission for non-fulfillment of eligibilities, preconditions, etc., as laid down by various medical councils, boards and authorities like MCC, MCI, IMA, NEET, etc., underperformance and any other bars and conditions laid down by concerned institution which would render the subscriber ineligible for any course or admission. NEET ADVISOR PVT. LTD. does not take any liabilities if the subscriber fails to get a seat or admission due to decisions taken by the admission controlling bodies, authorities and institutions.
 
 
-7. NEET ADVISOR PVT. LTD. only assists and facilitates the subscriber in seeking all information about the NEET Counseling process subject to the service package opted by the applicant.
+7. NEET ADVISOR PVT. LTD. only assists and facilitates the subscriber in seeking all information about the NEET counselling process subject to the service package opted by the applicant.
 
 
 8. NEET ADVISOR PVT. LTD. provides updates, information and opinions based on past analysis, research, experience and expertise. The said updates and information may change from time to time upon happening and non-happening of uncertain events and developments. NEET ADVISOR PVT. LTD. does not hold 
@@ -42,7 +42,7 @@ responsibilities in such cases.
 12. NEET ADVISOR PVT. LTD. is not bound by any verbal commitments made by any of its employee/s or representative/s. It shall not be held responsible for any such representation made and its consequences.
 
 
-13. “NEET GUIDE Premium/ Exclusive/ Platinum service” offered by NEET ADVISOR PVT. LTD. is inclusive of the listed services as per the subscribed NEET GUIDE Premium/ Exclusive/ Platinum Service package and detailed in the Service Sheet. Services under NEET GUIDE PREMIUM/ EXCLUSIVE/ PLATINUM PACKAGE will last up to the end of NEET UG 2020 Counseling. Any amount payable to the Counseling Board / Authority if any such like; application fee, registration fee is not included and shall be payable by the subscriber directly. 
+13. “NEET GUIDE Premium/ Exclusive/ Platinum service” offered by NEET ADVISOR PVT. LTD. is inclusive of the listed services as per the subscribed NEET GUIDE Premium/ Exclusive/ Platinum Service package and detailed in the Service Sheet. Services under NEET GUIDE PREMIUM/ EXCLUSIVE/ PLATINUM PACKAGE will last up to the end of NEET UG 2020 counselling. Any amount payable to the counselling Board / Authority if any such like; application fee, registration fee is not included and shall be payable by the subscriber directly. 
 
 
 14. “NEET GUIDE Premium/ Exclusive/ Platinum service” registration/subscription fee once paid shall not be refundable under any circumstances. 

@@ -1,12 +1,12 @@
 ---
-title: Maharashtra NEET UG Counseling
-image: /assets/images/blog/Maharashtra-NEET-UG-counseling.jpg
-description: To pursue a lucrative medical career, securing an admission in the top medical college in Maharashtra, requires you to clear NEET exam along with undergoing Maharashtra NEET UG counseling.
+title: Maharashtra NEET UG counselling
+image: /assets/images/blog/Maharashtra-NEET-UG-counselling.jpg
+description: To pursue a lucrative medical career, securing an admission in the top medical college in Maharashtra, requires you to clear NEET exam along with undergoing Maharashtra NEET UG counselling.
 layout: post
 author: NEET Advisor
 ---
 
-To pursue a lucrative medical career, securing an admission in the top medical college in Maharashtra, requires you to clear NEET exam along with undergoing Maharashtra NEET UG counseling. There is a definite percentile cut off for MBBS and in case you don’t reach that mark, you can opt for other Health science courses. The courses include BAMS, BHMS, BPT, BOT, BP&O, BASLP, and B.Sc (nursing).
+To pursue a lucrative medical career, securing an admission in the top medical college in Maharashtra, requires you to clear NEET exam along with undergoing Maharashtra NEET UG counselling. There is a definite percentile cut off for MBBS and in case you don’t reach that mark, you can opt for other Health science courses. The courses include BAMS, BHMS, BPT, BOT, BP&O, BASLP, and B.Sc (nursing).
 
 Seat allotment for MBBS and BDS admission will take place after the NEET results are declared.  
 
@@ -20,11 +20,11 @@ Admissions are strictly on merit for medical science and it largely depends on t
 
 ## NEET Eligibility Criteria for MBBS BDS Admission:  
 
-These are the minimum qualifications needed for Maharashtra NEET UG counseling:  
+These are the minimum qualifications needed for Maharashtra NEET UG counselling:  
 
 1. You must be an Indian national. If you are a non-resident Indian, you are eligible for admission in private colleges unaided by the government under NRI quota only. 
 2. You must be a domicile of Maharashtra  
-3. You must have obtained a minimum of 50 percentile marks in NEET 2020 to qualify for counseling. If you belong to SC, ST, or OBC- you must obtain at least 40 percentiles, and for the general physically handicapped category, 45 percentile marks. 
+3. You must have obtained a minimum of 50 percentile marks in NEET 2020 to qualify for counselling. If you belong to SC, ST, or OBC- you must obtain at least 40 percentiles, and for the general physically handicapped category, 45 percentile marks. 
 4. You must have completed the SSC or equivalent examination from a Maharashtra institution  
 5. You must have passed HSC or equivalent examination from an institution in Maharashtra  
 6. Overseas citizen of India (OCI) are eligible for all types of seats (Govt./Corporation/ Govt. aided/ Private/ Institutional quota), if 10th & 12th standard of the aspirant is from Maharashtra and he is also having a domicile with minimum 10 years of stay in Maharashtra. 
@@ -45,7 +45,7 @@ NEET Advisor helps you in document preparation which must be submitted with orig
 10. Online application form filled at the official website www.mahacet.org  
 11. Other documents if required: Caste proof, proof of EWS (economically weaker section), disability certificate, or documents supporting minority status, documents supporting specified reservation claim, such as children of defense personnel, document proof if belonging to Gujarati/Sindhi minority category, proof of Hindu Linguistic minority.
 
-## Procedure to Apply Online for Maharashtra NEET UG counseling  
+## Procedure to Apply Online for Maharashtra NEET UG counselling  
 
 Follow this step-by-step process for applying online and if you are stuck at any stage, feel free to reach out to NEET Advisor:
 
@@ -76,15 +76,15 @@ After finishing registration, you get the option to lock your choice of college 
 
 ## Seat Allotment Results  
 
-The seat allotment results are displayed after each round of counseling in the form of a list. The seat allotment letter is handed over to the candidates. The candidates can verify their name, roll number, allotted college, and other details on the list. During the time of admission, the students must carry the seat allotment letter, along with other required documents.
+The seat allotment results are displayed after each round of counselling in the form of a list. The seat allotment letter is handed over to the candidates. The candidates can verify their name, roll number, allotted college, and other details on the list. During the time of admission, the students must carry the seat allotment letter, along with other required documents.
 
-After Maharashtra NEET UG counseling is completed, candidates have to report to the allotted colleges according to the reporting time. The next step to complete admission process would be to submit documents and fees. The admission of any candidate can be cancelled if found ineligible in later stages and the seat will be transferred to another candidate.  
+After Maharashtra NEET UG counselling is completed, candidates have to report to the allotted colleges according to the reporting time. The next step to complete admission process would be to submit documents and fees. The admission of any candidate can be cancelled if found ineligible in later stages and the seat will be transferred to another candidate.  
  
 **NEET ADVISOR** ensures that you follow all the steps of NEET counselling process carefully to avoid last minute seat cancellation. We have a team of experts who will scrutinize all the steps and help you to sail through the process of the counselling swiftly.  
  
-We are a one stop solution for NEET COUNSELING where we provide innovative counselling services to NEET UG and NEET PG aspirants. We have helped thousands of NEET aspirants carving successful career in medicine.  
+We are a one stop solution for NEET counselling where we provide innovative counselling services to NEET UG and NEET PG aspirants. We have helped thousands of NEET aspirants carving successful career in medicine.  
  
-Our unique process of preparation of personalized reports (based on student’s NEET score/rank)and help them to select the best medical college. We have a team of NEET counseling  Expert who guides the aspirant and NEET aspirants can clear all their queries in one-to-one session so as to make an informed decision.  
+Our unique process of preparation of personalized reports (based on student’s NEET score/rank)and help them to select the best medical college. We have a team of NEET counselling  Expert who guides the aspirant and NEET aspirants can clear all their queries in one-to-one session so as to make an informed decision.  
  
 We provide all the important and crucial information required for All India quota, state quota, Deemed, Central, AFMC, AIIMS, JIPMER and various other State quota counselling under non domicile criterion too. We provide handholding throughout the entire process – From start to finish, till an aspirant get admission in a good medical college. This helps the medical aspirants to negate any errors during form filling or choosing the college. With **14+ Glorious years of Excellence**, we have guided millions of students across India and Abroad. 
 

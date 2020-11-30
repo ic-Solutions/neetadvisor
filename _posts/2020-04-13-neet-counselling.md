@@ -6,9 +6,9 @@ layout: post
 author: NEET Advisor
 ---
 
-As soon as the NEET result is declared, every parent, every student gets busy in preparing an action plan for the admission procedure. That includes the most crucial, Counseling procedure as well. 
+As soon as the NEET result is declared, every parent, every student gets busy in preparing an action plan for the admission procedure. That includes the most crucial, counselling procedure as well. 
 
-Seminars are the most trending at this time of the pre-academic year since they are a one-stop destination to gather some more information about the counseling and the admission procedure. From domicile requirements, quotas and categories, these seminars cover it all. 
+Seminars are the most trending at this time of the pre-academic year since they are a one-stop destination to gather some more information about the counselling and the admission procedure. From domicile requirements, quotas and categories, these seminars cover it all. 
 
 ## Seminars by NEET ADVISOR    
 NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars. 

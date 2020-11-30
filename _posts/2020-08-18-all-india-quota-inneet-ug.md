@@ -41,7 +41,7 @@ As per the eligibility criteria, the candidates should not own the following:
 
 By ensuring the above, the NEET counselling ensures that students with financial constraints canfullfill their MBBS dreams
 
-## Eligibility criteria of PWD candidates for AIQ counseling
+## Eligibility criteria of PWD candidates for AIQ counselling
 
 The candidates are required to produce Disability Certificate from any of the Disability assessment boards, at the four metro cities, given below:
 1. Vardhaman Mahavir Medical College and Safdarjung Hospital, Ansari Nagar,Ring, road, New Delhi -110029
@@ -80,7 +80,7 @@ Next, the students are asked to pay a refundable and non-refundable counselling 
 
 Following each counselling round, seat allotment results will be released by MCC, and an allotment letter will be given to the selected candidates. To complete the admission process, candidates must report to the allotted colleges, along with the allotted letter and other papers.
 
-At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, we will help you realize your medical aspirations through personalized counseling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota and prepare you well for the NEET counseling 2020. We have already impacted the medical careers of more than 50,000 students and will fulfill your dreams of getting admission into the top medical college of your choice. We assess your competitive exam score/rankand other details and suggest the best choices you can make. Being in this field for more than 14 years, we will guide you effectively through the vital application process and help in documentation and submission. For all queries related to NEET UG 2020 and AIQ, meet our friendly advisor at the earliest. Through our experience, we will ensure you grab the best opportunity in Indian medical college.
+At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, we will help you realize your medical aspirations through personalized counselling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota and prepare you well for the NEET counselling 2020. We have already impacted the medical careers of more than 50,000 students and will fulfill your dreams of getting admission into the top medical college of your choice. We assess your competitive exam score/rankand other details and suggest the best choices you can make. Being in this field for more than 14 years, we will guide you effectively through the vital application process and help in documentation and submission. For all queries related to NEET UG 2020 and AIQ, meet our friendly advisor at the earliest. Through our experience, we will ensure you grab the best opportunity in Indian medical college.
 
 
 <hr>
