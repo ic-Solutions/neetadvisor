@@ -1,6 +1,6 @@
 ---
 title: Maharashtra NEET UG counselling
-image: /assets/images/blog/Maharashtra-NEET-UG-counselling.jpg
+image: /assets/images/blog/Maharashtra-NEET-UG-counseling.jpg
 description: To pursue a lucrative medical career, securing an admission in the top medical college in Maharashtra, requires you to clear NEET exam along with undergoing Maharashtra NEET UG counselling.
 layout: post
 author: NEET Advisor

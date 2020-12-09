@@ -23,17 +23,17 @@ permalink: /gallery/
             <div class="vc_column-inner">
                <div class="wpb_wrapper">
                   <ul class="gallery-tabs">
-                     <li><a href="javascript:rudrSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active">Going International</a></li>
-                     <li><a href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">Guidance Across Country</a></li>
-                     <li><a href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu">NEET PG Info Sessions</a></li>
-                     <li><a href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu">Seminars and Workshops</a></li>
-                     <li><a href="javascript:rudrSwitchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu">Happy Clients</a></li>
+                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active">Going International</a></li>
+                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">Guidance Across Country</a></li>
+                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu">NEET PG Info Sessions</a></li>
+                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu">Seminars and Workshops</a></li>
+                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu">Happy Clients</a></li>
                   </ul>
                    
                   <div id="content_1" class="tabcontent"> 
                      <div class="image-grid">
                         {% for item in site.data.gallery.international %}
-                           <a data-fancybox="gallery" href="{{item}}">
+                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
                               <img src="{{item}}" alt="Going International">
                            </a>
                         {% endfor %}
@@ -42,7 +42,7 @@ permalink: /gallery/
                   <div id="content_2" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.country %}
-                           <a data-fancybox="gallery" href="{{item}}">
+                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
                               <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Guidance Across Country">
                            </a>
                         {% endfor %}
@@ -51,7 +51,7 @@ permalink: /gallery/
                   <div id="content_3" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.neet %}
-                           <a data-fancybox="gallery" href="{{item}}">
+                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
                               <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} PG Info Sessions">
                            </a>
                         {% endfor %}
@@ -60,7 +60,7 @@ permalink: /gallery/
                   <div id="content_4" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.seminars %}
-                           <a data-fancybox="gallery" href="{{item}}">
+                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
                               <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Seminars and Workshops">
                            </a>
                         {% endfor %}
@@ -69,7 +69,7 @@ permalink: /gallery/
                   <div id="content_5" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.happy %}
-                           <a data-fancybox="gallery" href="{{item}}">
+                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
                               <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Happy Clients">
                            </a>
                         {% endfor %}
