@@ -1,0 +1,40 @@
+title: NEET Advisor
+description: An Initiative of Leopride Career Solutions
+url: https://neetadvisor.com
+
+permalink: /blog/:title/
+
+rzp-key: rzp_live_5l5MyQbw9aux1L
+#rzp-neet-key: rzp_live_LLG1Bxq7atk0FU
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - public
+
+# These details are for opengraph tags
+social:
+  name: NEET Advisor
+  links:
+    - https://www.facebook.com/pg/NEETADVISOR/
+    - https://in.linkedin.com/company/neetadvisordotcom
+    - https://www.instagram.com/neetadvisor_com/
+    - https://www.youtube.com/channel/UCiJqbK5EeRtijkCgqwP5e4A/
+
+facebook:
+  app_id: 272085763872601
+  # publisher: 1234
+  # admins: 1234
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+
+destination: _site
+
+plugins:
+  - jekyll-seo-tag

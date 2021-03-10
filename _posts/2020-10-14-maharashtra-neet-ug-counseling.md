@@ -29,6 +29,8 @@ These are the minimum qualifications needed for Maharashtra NEET UG counselling:
 5. You must have passed HSC or equivalent examination from an institution in Maharashtra  
 6. Overseas citizen of India (OCI) are eligible for all types of seats (Govt./Corporation/ Govt. aided/ Private/ Institutional quota), if 10th & 12th standard of the aspirant is from Maharashtra and he is also having a domicile with minimum 10 years of stay in Maharashtra. 
  
+Read [To become a Doctor, speak to a Doctor](/blog/become-doctor/)
+
 ## Certificates needed for document verification and admission  
 
 NEET Advisor helps you in document preparation which must be submitted with original, and attested copies for document verification and admission in MCI Approved Medical Colleges:

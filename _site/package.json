@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "jekyll serve --config _config-dev.yml --livereload --livereload-port 3000",
+    "build": "jekyll build"
+  }
+}

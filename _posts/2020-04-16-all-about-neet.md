@@ -12,6 +12,10 @@ In India children are always protected by their parents no matter how old their 
 
 Sometimes because of lot of information parents get puzzled like on which information they should focus on and vice versa. Information on internet is in abundance where parents need to put filter on their information which is not possible. That is why even after clearing NEET, Student lacks in counselling procedure and are happen to step behind in race of getting admission in the best medical college. NEET advisor with exclusive information makes counselling procedure and admission procedure sort and easier. On behalf of parents we will handhold the student to get their admission in the best medical college according to their marks and ranks in NEET.
 
+
+Read [Are you Ready for Neet?](/blog/ready-for-neet/)
+
+
 ## NEET and Coaching Centres
 
 Students and parents blame coaching centre for not helping them in the procedure which comes after NEET but the reality is that coaching centres are only for preparation of NEET and their expertise lies in imparting education with regards to NEET after that they can roughly guide you but won&#39;t be able to assure you about the counselling procedure and admission procedure because this is not their working zone hence, they are not much reliable for such services.

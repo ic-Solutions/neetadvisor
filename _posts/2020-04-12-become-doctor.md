@@ -16,6 +16,10 @@ NEET advisor with 14+ years of expertise helps you in guiding through the admiss
 
 NEET advisor helps those who have been cheated by vultures present in the society, it’s never too late and we firmly believe in this as our hardworking team will assist you and give right guidance so that the future of aspirant won’t spoil and their dream of becoming doctor comes true.
 
+
+Read [NEET COUNSELLING: Seminars and Workshops by NEET ADVISOR](/blog/neet-counselling/)
+
+
 ## How to reach us?
 
 To reach NEET advisor you can call or visit our website and book your appointment for the one on one counselling session. We at NEET advisor provide skype session too for the convenience. Our organization is very flexible and work according to the needs of aspirants. 
