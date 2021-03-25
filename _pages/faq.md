@@ -8,25 +8,25 @@ permalink: /faq/
 
 ### About Entrance Exam 
 
-**Q: Is NEET 2020 twice a year?**
+**Q: Is {{site.data.keywords.keyword-year}} twice a year?**
 
-A: So far there has been no official announcement which suggests that NEET 2020 will not be conducted twice. As per the official announcement, NTA has revealed that NEET 2020 is scheduled to be conducted on August 13, 2020, only. 
+A: So far there has been no official announcement which suggests that {{site.data.keywords.keyword-year}} will not be conducted twice. As per the official announcement, NTA has revealed that {{site.data.keywords.keyword-year}} is scheduled to be conducted on August 13, 2020, only. 
 
 **Q: What will be the mode of entrance exam?**
 
 A: NEET will be conducted in offline mode i.e., pen and paper mode. Candidates will be given NEET OMR sheet 2020 to fill the answers which will be evaluated electronically. 
 
-**Q: Who will be the conducting body for NEET 2020?**
+**Q: Who will be the conducting body for {{site.data.keywords.keyword-year}}?**
 
 A: Since 2019, National Testing Agency has been entrusted with the responsibility to conduct NEET.
 
-**Q: What is the new change introduced in NEET 2020?**
+**Q: What is the new change introduced in {{site.data.keywords.keyword-year}}?**
 
-A: NEET 2020 will serve as the single entrance test through which all MBBS or BDS seats offered in the country will be filled. Candidates will have to appear for NEET in order to get admission in AIIMS and JIPMER as well. Based on NEET score, candidates will be granted admission in medical and dental colleges 
+A: {{site.data.keywords.keyword-year}} will serve as the single entrance test through which all MBBS or BDS seats offered in the country will be filled. Candidates will have to appear for NEET in order to get admission in AIIMS and JIPMER as well. Based on NEET score, candidates will be granted admission in medical and dental colleges 
 
-**Q: What will be the pattern of questions in the NEET 2020 after scrapping AIIMS and JIPMER?**
+**Q: What will be the pattern of questions in the {{site.data.keywords.keyword-year}} after scrapping AIIMS and JIPMER?**
 
-A: There is no change in the NEET 2020 question pattern. NEET 2020 question paper will have total 180 objective type (multiple-choice) questions of Physics, Chemistry and Biology. 45 each in Physics & Chemistry and 90 questions from Biology (Botany and Zoology). 
+A: There is no change in the {{site.data.keywords.keyword-year}} question pattern. {{site.data.keywords.keyword-year}} question paper will have total 180 objective type (multiple-choice) questions of Physics, Chemistry and Biology. 45 each in Physics & Chemistry and 90 questions from Biology (Botany and Zoology). 
 
 **Q: How many seats are there for MBBS in AIIMS?**
 
@@ -38,45 +38,45 @@ A: JIPMER provides total 200 seats, 150 seats offered in JIPMER, Puducherry camp
 
 ### About Eligibility 
 
-**Q: Does a gap year between Class 11 and 12 will affect the eligibility for NEET 2020?**
+**Q: Does a gap year between Class 11 and 12 will affect the eligibility for {{site.data.keywords.keyword-year}}?**
 
-A: Gap of a year does not affect the eligibility for NEET 2020. Candidates with a gap year will be eligible for NEET 2020. The latest information brochure of NEET also specifies the same. 
+A: Gap of a year does not affect the eligibility for {{site.data.keywords.keyword-year}}. Candidates with a gap year will be eligible for {{site.data.keywords.keyword-year}}. The latest information brochure of NEET also specifies the same. 
 
 **Q: I will complete 25 years of age in March 2020. Will I be eligible for NEET?**
 
 A: Yes, you will be eligible to appear for the NEET exam as the candidates who are 25 years or above will now be able to take the exam as the Supreme Court has a directive. 
 
-**Q: Are NIOS students eligible for NEET 2020?**
+**Q: Are NIOS students eligible for {{site.data.keywords.keyword-year}}?**
 
-A: NIOS students are eligible to take NEET 2020 as the High Court of Delhi removed the clause which barred such students. However, NTA has stated that eligibility depends on the final verdict of the special leave petitions filed by MCI. 
+A: NIOS students are eligible to take {{site.data.keywords.keyword-year}} as the High Court of Delhi removed the clause which barred such students. However, NTA has stated that eligibility depends on the final verdict of the special leave petitions filed by MCI. 
 
-**Q: Will NTA consider my Class 12 marks for NEET 2020?**
+**Q: Will NTA consider my Class 12 marks for {{site.data.keywords.keyword-year}}?**
 
-A: The minimum required percentage in Class 12 will only make candidates eligible to appear for NEET 2020 but does not ensure qualification in the exam. 
+A: The minimum required percentage in Class 12 will only make candidates eligible to appear for {{site.data.keywords.keyword-year}} but does not ensure qualification in the exam. 
 
-**Q: In Class 11 and 12, I had Biology as an additional subject. Does that make me ineligible for NEET 2020?**
+**Q: In Class 11 and 12, I had Biology as an additional subject. Does that make me ineligible for {{site.data.keywords.keyword-year}}?**
 
-A: As per NTA, candidates with Biology as an additional subject are eligible for NEET 2020. Although, the final outcome will depend on the verdict of the special leave petitions filed by MCI. This clause was introduced by MCI for NEET 2018 but was overruled by the Delhi High Court which means that the students with Biology/Biotechnology as an additional subject in Class 11 and 12 are eligible for NEET 2020. 
+A: As per NTA, candidates with Biology as an additional subject are eligible for {{site.data.keywords.keyword-year}}. Although, the final outcome will depend on the verdict of the special leave petitions filed by MCI. This clause was introduced by MCI for NEET 2018 but was overruled by the Delhi High Court which means that the students with Biology/Biotechnology as an additional subject in Class 11 and 12 are eligible for {{site.data.keywords.keyword-year}}. 
 
-**Q: Is there any attempt limit for NEET 2020?**
+**Q: Is there any attempt limit for {{site.data.keywords.keyword-year}}?**
 
-A: There is no attempt limit for NEET 2020. Candidates can appear for NEET any number of times. 
+A: There is no attempt limit for {{site.data.keywords.keyword-year}}. Candidates can appear for NEET any number of times. 
 
 ### Application Process 
 
 **Q: How can I change my address in NEET application form?**
 
-A: The correction window of NEET 2020 application form can be used to change the address. Though the details can be edited using the correction window, candidates are advised to fill the application form carefully and check the details thoroughly before submitting it. 
+A: The correction window of {{site.data.keywords.keyword-year}} application form can be used to change the address. Though the details can be edited using the correction window, candidates are advised to fill the application form carefully and check the details thoroughly before submitting it. 
 
 **Q: How can I be sure that NTA has received the application fee?**
 
-A: This confirmation page that opens up  after the payment has been processed successfully, is a confirmation that the NEET 2020 application fee has been received by the NTA. Save and print this page for future reference. 
+A: This confirmation page that opens up  after the payment has been processed successfully, is a confirmation that the {{site.data.keywords.keyword-year}} application fee has been received by the NTA. Save and print this page for future reference. 
 
 ### NEET Exam Pattern 
 
-**Q: As AIIMS and JIPMER are merged with NEET, The exam pattern of NEET 2020 will be changed or not?**
+**Q: As AIIMS and JIPMER are merged with NEET, The exam pattern of {{site.data.keywords.keyword-year}} will be changed or not?**
 
-A: There has been no official declaration regarding a change in the existing exam pattern of NEET 2020. NTA has released the information brochure of NEET 2020 on December 2nd which also states that there is no such change is the exam pattern. 
+A: There has been no official declaration regarding a change in the existing exam pattern of {{site.data.keywords.keyword-year}}. NTA has released the information brochure of {{site.data.keywords.keyword-year}} on December 2nd which also states that there is no such change is the exam pattern. 
 
 **Q: How much time should be given to each question?**
 
@@ -94,11 +94,11 @@ A: NEET exam will be in offline mode. (pen and paper mode).
 
 **Q: Is the NEET result and score card one and the same?**
 
-A: Actually, the NEET 2020 result will be in the form of a score card which is the downloadable version of the same. 
+A: Actually, the {{site.data.keywords.keyword-year}} result will be in the form of a score card which is the downloadable version of the same. 
 
 **Q: If I misplace the result of NEET, can I download it again?**
 
-A: Actually, the better thing to do will be to download the NEET 2020 result and keep a soft copy saved. This way, you can avail it anytime. The link to download is generally available way after the admissions are over but it's advisable to be on the safer side and not risk it. 
+A: Actually, the better thing to do will be to download the {{site.data.keywords.keyword-year}} result and keep a soft copy saved. This way, you can avail it anytime. The link to download is generally available way after the admissions are over but it's advisable to be on the safer side and not risk it. 
 
 **Q: How long should I keep the NEET result 2020 cum score card?**
 
@@ -110,21 +110,21 @@ A: Since the NEET result is the basis of admission to medical courses in the cou
 
 A: NCERT is without a doubt the best source to learn Biology. The text of NCERT diagrams & their labelling, table's & their data should be learnt & memorized thoroughly. Students should essentially go through exemplars provided by CBSE/NCERT for question practice. 
 
-**Q: How do I crack NEET 2020 by self-study?**
+**Q: How do I crack {{site.data.keywords.keyword-year}} by self-study?**
 
-A: Self-study requires a lot of self-motivation as well. The preparation for NEET 2020 can be a tedious task, thus making a pragmatic time-table can be very helpful. Keeping a close tab on the mistakes and improvements can be beneficial. Making notes after concluding a chapter will allow you to revise the important topics and retain it for longer. 
+A: Self-study requires a lot of self-motivation as well. The preparation for {{site.data.keywords.keyword-year}} can be a tedious task, thus making a pragmatic time-table can be very helpful. Keeping a close tab on the mistakes and improvements can be beneficial. Making notes after concluding a chapter will allow you to revise the important topics and retain it for longer. 
 
 **Q: Is NEET a tough exam?**
 
-A: NEET is relatively a moderately easy exam, however, the number of applicants with respect to the number of seats available is very high making it tough to get admission. To get an MBBS seat it is very important to secure a good rank in NEET 2020. 
+A: NEET is relatively a moderately easy exam, however, the number of applicants with respect to the number of seats available is very high making it tough to get admission. To get an MBBS seat it is very important to secure a good rank in {{site.data.keywords.keyword-year}}. 
 
 **Q: How many hours should I study for NEET?**
 
-A: Experts and toppers suggest that every day at least 5-6 hours of sincere study can be fruitful in achieving a good score in NEET 2020. 
+A: Experts and toppers suggest that every day at least 5-6 hours of sincere study can be fruitful in achieving a good score in {{site.data.keywords.keyword-year}}. 
 
-**Q: What should be the daily routine to crack NEET 2020 with good rank?**
+**Q: What should be the daily routine to crack {{site.data.keywords.keyword-year}} with good rank?**
 
-A: In order to succeed, NEET 2020 aspirants must have a solid strategy which will guide you through the preparation journey. A daily routine for different people can be different, the key is to find what works best for you. Studying early in the day often helps. Regular intervals in the study schedule help in the long run. Candidates must study and practice for NEET 2020 with unwavering focus. 
+A: In order to succeed, {{site.data.keywords.keyword-year}} aspirants must have a solid strategy which will guide you through the preparation journey. A daily routine for different people can be different, the key is to find what works best for you. Studying early in the day often helps. Regular intervals in the study schedule help in the long run. Candidates must study and practice for {{site.data.keywords.keyword-year}} with unwavering focus. 
 
 **Q: Has anyone ever cracked NEET exam without coaching?**
 
@@ -134,9 +134,9 @@ A: Yes, it is possible to crack NEET without any coaching as it is upto the stud
 
 A: One of the greatest challenges for any entrance exam is the time limitation. You have to complete 180 questions with time duration of 3 hours. Practice NEET sample papers and previous year question paper to improve time and accuracy.
 
-**Q: What are the best books for NEET 2020?**
+**Q: What are the best books for {{site.data.keywords.keyword-year}}?**
 
-A: The most important element to prepare for any exam is good study material. Following the right NEET study material is very important to prepare for the examination. NCERT are the best NEET books to prepare for the exam. Aspirants can consult NEET teachers and toppers or read their interviews and check which books they had referred. Here are some NEET Preparation books which aspirants can follow while preparing for NEET 2020. 
+A: The most important element to prepare for any exam is good study material. Following the right NEET study material is very important to prepare for the examination. NCERT are the best NEET books to prepare for the exam. Aspirants can consult NEET teachers and toppers or read their interviews and check which books they had referred. Here are some NEET Preparation books which aspirants can follow while preparing for {{site.data.keywords.keyword-year}}. 
 
 | Physics     | Chemistry   | Biology       |
 | :---        | :---        | :---          |
