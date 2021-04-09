@@ -4,97 +4,183 @@ title: Gallery
 image: /wp-content/uploads/2019/11/1-6-1024x768.jpg
 permalink: /gallery/
 ---
-<section id="primary" class="px-2 px-md-0 py-3 py-md-0 gallery-page content-full-width">
-   <div id="post-19227" class="post-19227 page type-page status-publish hentry">
-      <div data-delay="0" class="vc_row wpb_row vc_row-fluid vc_custom_1573902800881">
 
-         <div class="wpb_column vc_column_container">
-            <div class="vc_column-inner">
-               <div class="wpb_wrapper">
-                  <div class='pb-3 pb-md-5 dt-sc-title with-right-border-decor  without-bottom-space aligncenter' data-delay='0'>
-                     <h2>Gallery</h2>
-                  </div>
-               </div>
+<section
+  id="primary"
+  class="px-2 px-md-0 py-3 py-md-0 gallery-page content-full-width"
+>
+  <div id="post-19227" class="post-19227 page type-page status-publish hentry">
+    <div
+      data-delay="0"
+      class="vc_row wpb_row vc_row-fluid vc_custom_1573902800881"
+    >
+      <div class="wpb_column vc_column_container">
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper">
+            <div
+              class="pb-3 pb-md-5 dt-sc-title with-right-border-decor without-bottom-space aligncenter"
+              data-delay="0"
+            >
+              <h2>Gallery</h2>
             </div>
-         </div>
-
-
-         <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
-            <div class="vc_column-inner">
-               <div class="wpb_wrapper">
-                  <ul class="gallery-tabs">
-                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active">Going International</a></li>
-                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">Guidance Across Country</a></li>
-                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu">NEET PG Info Sessions</a></li>
-                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu">Seminars and Workshops</a></li>
-                     <li><a title="neet counselling gallery" href="javascript:rudrSwitchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu">Happy Clients</a></li>
-                  </ul>
-                   
-                  <div id="content_1" class="tabcontent"> 
-                     <div class="image-grid">
-                        {% for item in site.data.gallery.international %}
-                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
-                              <img src="{{item}}" alt="Going International">
-                           </a>
-                        {% endfor %}
-                     </div>
-                  </div> 
-                  <div id="content_2" class="tabcontent" style="display:none;">
-                     <div class="image-grid">
-                        {% for item in site.data.gallery.country %}
-                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Guidance Across Country">
-                           </a>
-                        {% endfor %}
-                     </div>
-                  </div>   
-                  <div id="content_3" class="tabcontent" style="display:none;">
-                     <div class="image-grid">
-                        {% for item in site.data.gallery.neet %}
-                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} PG Info Sessions">
-                           </a>
-                        {% endfor %}
-                     </div>
-                  </div>                    
-                  <div id="content_4" class="tabcontent" style="display:none;">
-                     <div class="image-grid">
-                        {% for item in site.data.gallery.seminars %}
-                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Seminars and Workshops">
-                           </a>
-                        {% endfor %}
-                     </div>
-                  </div>                  
-                  <div id="content_5" class="tabcontent" style="display:none;">
-                     <div class="image-grid">
-                        {% for item in site.data.gallery.happy %}
-                           <a title="NEET counselling gallery image" data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Happy Clients">
-                           </a>
-                        {% endfor %}
-                     </div>
-                  </div>                  
-
-                  <script>
-                     function rudrSwitchTab(rudr_tab_id, rudr_tab_content) {
-                     var x = document.getElementsByClassName("tabcontent");
-                     var i;
-                     for (i = 0; i < x.length; i++) {
-                        x[i].style.display = 'none'; 
-                     }
-                     document.getElementById(rudr_tab_content).style.display = 'block'; 
-                     var x = document.getElementsByClassName("tabmenu");
-                     var i;
-                     for (i = 0; i < x.length; i++) {
-                        x[i].className = 'tabmenu'; 
-                     }
-                     document.getElementById(rudr_tab_id).className = 'tabmenu active';
-                  }
-                  </script>
-
-               </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
+
+      <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper">
+            <ul class="gallery-tabs">
+              <li>
+                <a
+                  title="neet counselling gallery"
+                  href="javascript:rudrSwitchTab('tb_1', 'content_1');"
+                  id="tb_1"
+                  class="tabmenu active"
+                  >Going International</a
+                >
+              </li>
+              <li>
+                <a
+                  title="neet counselling gallery"
+                  href="javascript:rudrSwitchTab('tb_2', 'content_2');"
+                  id="tb_2"
+                  class="tabmenu"
+                  >Guidance Across Country</a
+                >
+              </li>
+              <li>
+                <a
+                  title="neet counselling gallery"
+                  href="javascript:rudrSwitchTab('tb_3', 'content_3');"
+                  id="tb_3"
+                  class="tabmenu"
+                  >NEET PG Info Sessions</a
+                >
+              </li>
+              <li>
+                <a
+                  title="neet counselling gallery"
+                  href="javascript:rudrSwitchTab('tb_4', 'content_4');"
+                  id="tb_4"
+                  class="tabmenu"
+                  >Seminars and Workshops</a
+                >
+              </li>
+              <li>
+                <a
+                  title="neet counselling gallery"
+                  href="javascript:rudrSwitchTab('tb_5', 'content_5');"
+                  id="tb_5"
+                  class="tabmenu"
+                  >Happy Clients</a
+                >
+              </li>
+            </ul>
+
+            <div id="content_1" class="tabcontent">
+              <div class="image-grid">
+                {% for item in site.data.gallery.international %}
+                <a
+                  title="NEET counselling gallery image"
+                  data-fancybox="gallery"
+                  href="{{item}}"
+                >
+                  <img src="{{item}}" alt="Going International" />
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div id="content_2" class="tabcontent" style="display: none">
+              <div class="image-grid">
+                {% for item in site.data.gallery.country %}
+                <a
+                  title="NEET counselling gallery image"
+                  data-fancybox="gallery"
+                  href="{{item}}"
+                >
+                  <img
+                    loading="lazy"
+                    src="{{item}}"
+                    alt="{{site.data.keywords.keyword-year}} Guidance Across Country"
+                  />
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div id="content_3" class="tabcontent" style="display: none">
+              <div class="image-grid">
+                {% for item in site.data.gallery.neet %}
+                <a
+                  title="NEET counselling gallery image"
+                  data-fancybox="gallery"
+                  href="{{item}}"
+                >
+                  <img
+                    loading="lazy"
+                    src="{{item}}"
+                    alt="{{site.data.keywords.keyword-year}} PG Info Sessions"
+                  />
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div id="content_4" class="tabcontent" style="display: none">
+              <div class="image-grid">
+                {% for item in site.data.gallery.seminars %}
+                <a
+                  title="NEET counselling gallery image"
+                  data-fancybox="gallery"
+                  href="{{item}}"
+                >
+                  <img
+                    loading="lazy"
+                    src="{{item}}"
+                    alt="{{site.data.keywords.keyword-year}} Seminars and Workshops"
+                  />
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div id="content_5" class="tabcontent" style="display: none">
+              <div class="image-grid">
+                {% for item in site.data.gallery.happy %}
+                <a
+                  title="NEET counselling gallery image"
+                  data-fancybox="gallery"
+                  href="{{item}}"
+                >
+                  <img
+                    loading="lazy"
+                    src="{{item}}"
+                    alt="{{site.data.keywords.keyword-year}} Happy Clients"
+                  />
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+
+            <script>
+              function rudrSwitchTab(rudr_tab_id, rudr_tab_content) {
+                var x = document.getElementsByClassName("tabcontent");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+                document.getElementById(rudr_tab_content).style.display =
+                  "block";
+                var x = document.getElementsByClassName("tabmenu");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                  x[i].className = "tabmenu";
+                }
+                document.getElementById(rudr_tab_id).className =
+                  "tabmenu active";
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
