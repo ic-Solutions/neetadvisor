@@ -1,0 +1,15 @@
+- count: 60000
+  image: /assets/images/icons8-ios-100.png
+  text: Students Positively Impacted
+
+- count: 14000
+  image: /assets/images/icons8-comments-52.png
+  text: Counselling one to one
+
+- count: 4500
+  image: /assets/images/icons8-ios-100-1.png
+  text: Successful Clients
+
+- count: 500
+  image: /assets/images/icons8-training-100.png
+  text: Seminars/Webinars

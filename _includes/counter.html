@@ -109,134 +109,40 @@
         <div
           class="vc_row wpb_row vc_inner vc_row-fluid dt-sc-column-overflow-top"
         >
-          <div class="wpb_column vc_column_container vc_col-sm-3">
-            <div class="vc_column-inner">
-              <div class="wpb_wrapper">
-                <div
-                  class="dt-sc-counter type1 aligncenter custom-style"
-                  data-delay="0"
-                >
-                  <div class="dt-sc-couter-icon-holder">
-                    <div class="icon-wrapper">
-                      <span>
-                        <img
-                          width="100"
-                          height="100"
-                          alt="NEET 2021 engineering students"
-                          src="/assets/images/icons8-ios-100.png"
-                          class="attachment-full"
-                        />
-                      </span>
+          {% for item in site.data.counter %}
+            <div class="wpb_column vc_column_container vc_col-sm-3">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div
+                    class="dt-sc-counter type1 aligncenter custom-style"
+                    data-delay="0"
+                  >
+                    <div class="dt-sc-couter-icon-holder">
+                      <div class="icon-wrapper">
+                        <span>
+                          <img
+                            width="100"
+                            height="100"
+                            alt="NEET 2021 engineering students"
+                            src="{{item.image}}"
+                            class="attachment-full"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="dt-sc-counter-number"
+                        data-value="{{item.count}}"
+                        data-append="+"
+                      >
+                        {{item.count}}
+                      </div>
                     </div>
-                    <div
-                      class="dt-sc-counter-number"
-                      data-value="60000"
-                      data-append="+"
-                    >
-                      60000
-                    </div>
+                    <h4>{{item.text}}</h4>
                   </div>
-                  <h4>Students Positively Impacted</h4>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-3">
-            <div class="vc_column-inner">
-              <div class="wpb_wrapper">
-                <div
-                  class="dt-sc-counter type1 aligncenter custom-style"
-                  data-delay="0"
-                >
-                  <div class="dt-sc-couter-icon-holder">
-                    <div class="icon-wrapper">
-                      <span>
-                        <img
-                          width="52"
-                          height="52"
-                          alt="NEET 2021 engineering counselling"
-                          src="/assets/images/icons8-comments-52.png"
-                          class="attachment-full"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="dt-sc-counter-number"
-                      data-value="14000"
-                      data-append="+"
-                    >
-                      14000
-                    </div>
-                  </div>
-                  <h4>Counselling one to one</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-3">
-            <div class="vc_column-inner">
-              <div class="wpb_wrapper">
-                <div
-                  class="dt-sc-counter type1 aligncenter custom-style"
-                  data-delay="0"
-                >
-                  <div class="dt-sc-couter-icon-holder">
-                    <div class="icon-wrapper">
-                      <span>
-                        <img
-                          width="100"
-                          height="100"
-                          alt="NEET 2021 engineering success stories"
-                          src="/assets/images/icons8-ios-100-1.png"
-                          class="attachment-full"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="dt-sc-counter-number"
-                      data-value="4500"
-                      data-append="+"
-                    >
-                      4500
-                    </div>
-                  </div>
-                  <h4>Successful Clients</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="wpb_column vc_column_container vc_col-sm-3">
-            <div class="vc_column-inner">
-              <div class="wpb_wrapper">
-                <div
-                  class="dt-sc-counter type1 aligncenter custom-style"
-                  data-delay="0"
-                >
-                  <div class="dt-sc-couter-icon-holder">
-                    <div class="icon-wrapper">
-                      <span>
-                        <img
-                          width="100"
-                          height="100"
-                          alt="NEET 2021 engineering seminars"
-                          src="/assets/images/icons8-training-100.png"
-                          class="attachment-full"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="dt-sc-counter-number"
-                      data-value="500"
-                      data-append="+"
-                    >
-                      500
-                    </div>
-                  </div>
-                  <h4>Seminars/Webinars</h4>
-                </div>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
