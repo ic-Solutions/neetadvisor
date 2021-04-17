@@ -1,76 +1,163 @@
 neet-ug:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
-    image: /assets/images/icons/Medical-Mantra.png
+    image: /assets/images/pricing-table-icons/1.png
+    mode: Online
+    basic: true
+    premium: true
 
-  - title: Profile Mapping
-    description: Best possible state’s counselling where we should apply based on NEET Score / Category / Domicile 
-    image: /assets/images/icons/Profile-Mapping.png
+  - title: Rank UP NEET
+    description: Boost up your NEET Score and enhance final preparation for NEET 2021.
+    image: /assets/images/pricing-table-icons/2.png
+    mode: Online
+    basic: true
+    premium: true
 
-  - title: Application Filling
-    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/icons/Application-Filling.png
+  - title: Gear UP NEET
+    description:
+    features:
+      - Predict your Rank based on your Expected Score.
+      - Facts & Figures of NEET 2020.
+      - Get E-Books on State Quota Counselling
+    image: /assets/images/pricing-table-icons/3.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Periodic Alerts
-    description: Regular SMS / Email alerts on announcements, notifications, updates, counselling dates, etc.
-    image: /assets/images/icons/Periodic-Alerts.png
+    description: Regular SMS/ Email alerts on announcements, notifications, updates, news, counselling dates, and other updates will be sent.
+    image: /assets/images/pricing-table-icons/4.png
+    mode: "SMS / <br> WhatsApp /<br> Email"
+    basic: true
+    premium: true
 
-  - title: College Health Analysis
-    description: Get health analysis of medical colleges to find out which college to choose first ?
-    image: /assets/images/icons/College-Health-Analysis.png
+  - title: Exclusive Webinars by Vipin Bansal
+    description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
+    image: /assets/images/pricing-table-icons/5.png
+    mode: Online
+    basic: Two Sessions*
+    premium: Six Sessions*
+
+  - title: Guidance from your Advisor
+    description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling
+    features:
+      - All about NEET Counselling
+      - Look Beyond MBBS
+      - Life in a Medical College
+      - Study Medicine
+      - Abroad
+    image: /assets/images/pricing-table-icons/6.png
+    mode: Offline / Online
+    basic: Two Sessions*
+    premium: Eight Sessions*
+
+  - title: Application Filling
+    description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
+    image: /assets/images/pricing-table-icons/7.png
+    mode: Tele-Support /<br> At our office
+    basic: false
+    premium: true
+
+  - title: Profile Mapping
+    description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
+    image: /assets/images/pricing-table-icons/8.png
+    mode: Online
+    basic: false
+    premium: true
+
+  - title: Health Analysis
+    description: Get complete health report of medical colleges, "To know which college to choose first"
+    image: /assets/images/pricing-table-icons/9.png
+    mode: Online
+    basic: false
+    premium: true
 
   - title: Counselling
-    description: Post result consultation with our career expert based on actual NEET score on AIQ, Deemed and state counselling.
-    image: /assets/images/icons/Counselling.png
+    description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
+    image: /assets/images/pricing-table-icons/10.png
+    mode: Offline / Online
+    basic: false
+    premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/pricing-table-icons/11.png
+    mode: Online
+    basic: false
+    premium: true
 
-  - title: Guidance from our Advisor
-    description: An Intensive one to one session with our advisor, who will answer your queries about NEET.
-    image: /assets/images/icons/Guidance-From-Advisor.png
-    features:
-      - Look Beyond MBBS
-      - All about NEET counselling
-      - Life in a Medical College
-      - Study MBBS Abroad
+  - title: Refund Formalities
+    description: We help you to track the refund status of security deposits paid by you in various counselling.
+    image: /assets/images/pricing-table-icons/12.png
+    mode: Online
+    basic: false
+    premium: true
 
+  - title: Complete Tracking and Monitoring
+    description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
+    image: /assets/images/pricing-table-icons/13.png
+    mode: All
+    basic: On Demand*
+    premium: On Demand*
 
 neet-pg:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
-    image: /assets/images/icons/Medical-Mantra.png
-      
+    image: /assets/images/pricing-table-icons/2.png
+    mode: Online
+    basic: true
+    premium: true
+
   - title: Profile Mapping
-    description: Best possible state’s counselling where we should apply based on NEET Score / Category / Domicile 
+    description: Best possible state’s counselling where we should apply based on NEET Score / Category / Domicile
     image: /assets/images/icons/Profile-Mapping.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
     image: /assets/images/icons/Application-Filling.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Periodic Alerts
     description: Regular SMS / Email alerts on announcements, notifications, updates, counselling dates, etc.
     image: /assets/images/icons/Periodic-Alerts.png
-    
+    mode: Online
+    basic: true
+    premium: true
+
   - title: College Health Analysis
     description: Get health analysis of medical colleges to find out which college to choose first ?
-    image: /assets/images/icons/College-Health-Analysis.png    
+    image: /assets/images/icons/College-Health-Analysis.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Counselling
     description: Post result consultation with our career expert based on actual NEET score on AIQ, Deemed and state counselling.
     image: /assets/images/icons/Counselling.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
     image: /assets/images/icons/Documentation.png
-  
+    mode: Online
+    basic: true
+    premium: true
+
   - title: Guidance from our Advisor
     description: An Intensive one to one session with NEET advisor, who will answer your queries about NEET PG.
     image: /assets/images/icons/Guidance-From-Advisor.png
+    mode: Online
+    basic: true
+    premium: true
     features:
       - All about NEET counselling
-      - Look Beyond MD/MS      
+      - Look Beyond MD/MS
       - Life in a Medical College
       - Study Medicine Abroad

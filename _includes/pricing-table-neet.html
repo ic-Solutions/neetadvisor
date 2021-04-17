@@ -15,60 +15,113 @@
 </div>
 
 <div class="centeral py-3 py-md-5">
-  <div class="rows8 table-head">
+  <div class="rows8 table-head m-2 mb-md-5">
     <div class="c-5 place-items-center bg-secondary">
-      <h3>Services</h3>
+      <h2 class="text-center">NEET UG Services</h2>
     </div>
-    <div class="c-1 place-items-center bg-secondary">
-      <h3>Mode of Delivery</h3>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>Mode of Delivery</h4>
     </div>
-    <div class="c-1 place-items-center bg-secondary">
-      <h3>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>
         Basic <br />
         ₹7,980 /-
-      </h3>
+      </h4>
     </div>
-    <div class="c-1 place-items-center bg-secondary">
-      <h3>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>
         Premium <br />
         ₹24980 /-
-      </h3>
+      </h4>
     </div>
   </div>
-
-  <div class="rows8">
+  {% for item in site.data.pricing-table.neet-ug %}
+  <div class="rows8 m-2 mb-md-5">
     <div class="c-5 relative place-items-center" style="padding: 0">
       <img
-        class="left-0 absolute"
-        src="/assets/images/pricing-table-icons/1.png"
-        alt=""
-        width="100"
+        class="left-0 absolute hide-on-phone"
+        src="{{item.image}}"
+        alt="NEET UG Package"
+        width="80"
       />
-      <div class="bg-primary p-10 left-rounded-border ml-50-pl-60">
-        <div class="font-bold text-xl">Medical Mantra</div>
-        <p>
-          A comprehensive handbook which answer all questions on preparation,
-          cut-off, fees and admission process through NEET.
-        </p>
+      <div
+        class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60"
+      >
+        {% if item.basic != true %} {% if item.premium.size %}
+        <span
+          class="hide-on-desk bg-accent text-white border-radius px-2 absolute right-0 top--1"
+          >{{item.premium}}</span
+        >
+        {% else %}
+        <span
+          class="hide-on-desk bg-accent text-white border-radius px-2 absolute right-0 top--1"
+          >Premium</span
+        >
+        {% endif %} {% else %}
+        <span
+          class="hide-on-desk bg-success text-white border-radius px-2 absolute right-0 top--1"
+          >Basic</span
+        >
+        {% endif %}
+        <div class="font-bold text-xl">{{item.title}}</div>
+        <p>{{item.description}}</p>
+        <ul class="features">
+          {% for feat in item.features %}
+          <li>{{feat}}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
-    <div class="c-1 place-items-center bg-accent">
-      <p class="text-white">Offline</p>
+    <div class="c-1 place-items-center bg-accent hide-on-phone">
+      <p class="text-white">{{item.mode}}</p>
     </div>
-    <div class="c-1 place-items-center bg-primary-light">
+    <div class="c-1 place-items-center bg-primary-light hide-on-phone">
+      {% if item.basic.size > 1 %}
+      <p>{{item.basic}}</p>
+      {% else %} {% if item.basic %}
       <img
         src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
         alt="NEET counselling"
-        width="60"
+        width="50"
       />
+      {% else %}
+      <img
+        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% endif %} {% endif %}
     </div>
-    <div class="c-1 place-items-center bg-primary">
+    <div
+      class="c-1 place-items-center bg-primary right-rounded-border hide-on-phone"
+    >
+      {% if item.premium.size > 1 %}
+      <p>{{item.premium}}</p>
+      {% else %} {% if item.premium %}
       <img
         src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
         alt="NEET counselling"
-        width="60"
+        width="50"
       />
+      {% else %}
+      <img
+        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% endif %} {% endif %}
     </div>
+  </div>
+  {% endfor %}
+  <p>
+    <small><em>*Conditions Apply</em></small>
+  </p>
+
+  <div class="flex">
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H006dHKAXpZVDo" async> </script> </form>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H00FGHGdtNwPUr" async> </script> </form>
+    <!-- <button class="bg-success px-4 py-2 text-white">Buy Basic ₹7,980</button>
+    <button class="bg-accent px-4 py-2 text-white">Buy Premium ₹24,980</button> -->
   </div>
 </div>
 
@@ -79,6 +132,7 @@
     grid-gap: 10px;
     margin-bottom: 10px;
   }
+
   .bg-primary {
     background-color: #fcd21c;
   }
@@ -87,6 +141,9 @@
   }
   .bg-accent {
     background-color: #201169;
+  }
+  .bg-success {
+    background-color: #0a5;
   }
   .bg-primary-light {
     background-color: #f2d379;
@@ -114,15 +171,25 @@
     margin: 0 auto;
     width: 100%;
   }
-  .rows8 h3 {
+  .rows8 h3,
+  .rows8 h2,
+  .rows8 p {
     margin: 0;
   }
+  .rows8 p {
+    line-height: 1.7;
+  }
+
   .p-10 {
-    padding: 10px;
+    padding: 8px;
   }
   .left-rounded-border {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+  .right-rounded-border {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .relative {
     position: relative;
@@ -131,11 +198,51 @@
     position: absolute;
   }
   .ml-50-pl-60 {
-    margin-left: 50px;
-    padding-left: 60px;
+    margin-left: 40px;
+    padding-left: 50px;
   }
   .left-0 {
     left: 0;
+  }
+  .right-0 {
+    right: 0;
+  }
+  .top--1 {
+    top: -0.8em;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .features {
+    margin: 0;
+  }
+  .features li {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
+  .hide-on-desk {
+    display: none;
+  }
+  .mb-md-5 {
+    margin-bottom: inherit !important;
+  }
+  @media screen and (max-width: 600px) {
+    .hide-on-phone {
+      display: none;
+    }
+    .ml-50-pl-60 {
+      margin-left: unset;
+      padding-left: 10px;
+    }
+    .left-rounded-border {
+      border-radius: 10px;
+    }
+    .mb-md-5 {
+      margin-bottom: 2em !important;
+    }
+    .hide-on-desk {
+      display: block;
+    }
   }
 </style>
 
