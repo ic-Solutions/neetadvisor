@@ -14,6 +14,7 @@
   </div>
 </div>
 
+<!-- UG Service -->
 <div class="centeral py-3 py-md-5">
   <div class="rows8 table-head m-2 mb-md-5">
     <div class="c-5 place-items-center bg-secondary">
@@ -117,7 +118,8 @@
     <small><em>*Conditions Apply</em></small>
   </p>
 
-  <div class="flex justify-content-center">
+  <div class="md-flex justify-content-center m-2">
+    <h2 class="mr-4">NEET UG Packages</h2>
     <form>
       <script
         src="https://checkout.razorpay.com/v1/payment-button.js"
@@ -125,7 +127,7 @@
         async
       ></script>
     </form>
-    <form class="ml-4">
+    <form class="ml-md-4">
       <script
         src="https://checkout.razorpay.com/v1/payment-button.js"
         data-payment_button_id="pl_H00FGHGdtNwPUr"
@@ -137,8 +139,139 @@
   </div>
 </div>
 
+<hr class="border" />
+
+<!-- PG Service -->
+
+<div class="centeral py-3 py-md-5">
+  <div class="rows8 table-head m-2 mb-md-5">
+    <div class="c-5 place-items-center bg-secondary">
+      <h2 class="text-center">NEET PG Services</h2>
+    </div>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>Mode of Delivery</h4>
+    </div>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>
+        Basic <br />
+        ₹7,980 /-
+      </h4>
+    </div>
+    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+      <h4>
+        Premium <br />
+        ₹24980 /-
+      </h4>
+    </div>
+  </div>
+  {% for item in site.data.pricing-table.neet-ug %}
+  <div class="rows8 m-2 mb-md-5">
+    <div class="c-5 relative place-items-center p-0">
+      <img
+        class="left-0 absolute hide-on-phone"
+        src="{{item.image}}"
+        alt="NEET UG Package"
+        width="80"
+      />
+      <div
+        class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60"
+      >
+        {% if item.basic != true %} {% if item.premium.size %}
+        <span
+          class="hide-on-desk bg-accent text-white border-radius px-2 absolute right-0 top--1"
+          >{{item.premium}}</span
+        >
+        {% else %}
+        <span
+          class="hide-on-desk bg-accent text-white border-radius px-2 absolute right-0 top--1"
+          >Premium</span
+        >
+        {% endif %} {% else %}
+        <span
+          class="hide-on-desk bg-success text-white border-radius px-2 absolute right-0 top--1"
+          >Basic</span
+        >
+        {% endif %}
+        <div class="font-bold text-xl">{{item.title}}</div>
+        <p>{{item.description}}</p>
+        <ul class="features">
+          {% for feat in item.features %}
+          <li>{{feat}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="c-1 place-items-center bg-accent hide-on-phone">
+      <p class="text-white">{{item.mode}}</p>
+    </div>
+    <div class="c-1 place-items-center bg-primary-light hide-on-phone">
+      {% if item.basic.size > 1 %}
+      <p>{{item.basic}}</p>
+      {% else %} {% if item.basic %}
+      <img
+        src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% else %}
+      <img
+        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% endif %} {% endif %}
+    </div>
+    <div
+      class="c-1 place-items-center bg-primary right-rounded-border hide-on-phone"
+    >
+      {% if item.premium.size > 1 %}
+      <p>{{item.premium}}</p>
+      {% else %} {% if item.premium %}
+      <img
+        src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% else %}
+      <img
+        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
+        alt="NEET counselling"
+        width="50"
+      />
+      {% endif %} {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  <p>
+    <small><em>*Conditions Apply</em></small>
+  </p>
+
+  <div class="md-flex justify-content-center m-2">
+    <h2 class="mr-4">NEET PG Packages</h2>
+    <form>
+      <script
+        src="https://checkout.razorpay.com/v1/payment-button.js"
+        data-payment_button_id="pl_H04HR1BBnCAWdS"
+        async
+      ></script>
+    </form>
+    <form class="ml-md-4">
+      <script
+        src="https://checkout.razorpay.com/v1/payment-button.js"
+        data-payment_button_id="pl_H04I2mOZTlpSez"
+        async
+      ></script>
+    </form>
+    <!-- <button class="bg-success px-4 py-2 text-white">Buy Basic ₹7,980</button>
+    <button class="bg-accent px-4 py-2 text-white">Buy Premium ₹24,980</button> -->
+  </div>
+</div>
+
+<hr class="border" />
+<br>
+
 <style>
-  .flex {
+  .md-flex {
     display: flex;
   }
   .justify-content-center {
@@ -244,7 +377,13 @@
   .mb-md-5 {
     margin-bottom: inherit !important;
   }
+  .call-us {
+    text-decoration: underline;
+  }
   @media screen and (max-width: 600px) {
+    .md-flex {
+      display: block;
+    }
     .hide-on-phone {
       display: none;
     }
@@ -264,6 +403,12 @@
   }
 </style>
 
+<div class="text-center">
+  <h4>Discuss your queries with us. We are just a call away.</h4>
+  <h2>Call: <a class="call-us" href="tel:9911203280">991 120 3280</a></h2>
+</div>
+
+<!-- 
 <div
   data-delay="0"
   data-vc-full-width="true"
@@ -351,4 +496,4 @@
       </section>
     </div>
   </div>
-</div>
+</div> -->
