@@ -117,15 +117,33 @@
     <small><em>*Conditions Apply</em></small>
   </p>
 
-  <div class="flex">
-    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H006dHKAXpZVDo" async> </script> </form>
-    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H00FGHGdtNwPUr" async> </script> </form>
+  <div class="flex justify-content-center">
+    <form>
+      <script
+        src="https://checkout.razorpay.com/v1/payment-button.js"
+        data-payment_button_id="pl_H006dHKAXpZVDo"
+        async
+      ></script>
+    </form>
+    <form class="ml-4">
+      <script
+        src="https://checkout.razorpay.com/v1/payment-button.js"
+        data-payment_button_id="pl_H00FGHGdtNwPUr"
+        async
+      ></script>
+    </form>
     <!-- <button class="bg-success px-4 py-2 text-white">Buy Basic ₹7,980</button>
     <button class="bg-accent px-4 py-2 text-white">Buy Premium ₹24,980</button> -->
   </div>
 </div>
 
 <style>
+  .flex {
+    display: flex;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
   .rows8 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
