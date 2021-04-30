@@ -14,8 +14,8 @@
   </div>
 </div>
 
-<!-- UG Service -->
-<div class="centeral py-3 py-md-5">
+<!-- UG Service start -->
+<div class="centeral py-3 py-md-5 hide-on-phone">
   <div class="text-center">
     <h3 class="text-gray">An innovative guide exclusively</h3>
     <h2 class="text-brand text-2xl">designed for Medical Aspirants</h2>
@@ -124,22 +124,6 @@
 
   <div class="text-center justify-content-center m-2">
     <h2 class="mr-4">NEET UG Packages</h2>
-    <!-- <form>
-      <script
-        src="https://checkout.razorpay.com/v1/payment-button.js"
-        data-payment_button_id="pl_H006dHKAXpZVDo"
-        async
-      ></script>
-    </form>
-    <form class="ml-md-4">
-      <script
-        src="https://checkout.razorpay.com/v1/payment-button.js"
-        data-payment_button_id="pl_H00FGHGdtNwPUr"
-        async
-      ></script>
-    </form> -->
-    <!-- <button class="bg-success px-4 py-2 text-white">Buy Basic ₹7,980</button>
-    <button class="bg-accent px-4 py-2 text-white">Buy Premium ₹24,980</button> -->
     <div class="text-center">
       <a
         href="https://rzp.io/l/neet-ug-basic"
@@ -155,11 +139,13 @@
   </div>
 </div>
 
+<!-- UG Service start -->
+
 <hr class="border" />
 
-<!-- PG Service -->
+<!-- PG Service start -->
 
-<div class="centeral py-3 py-md-5">
+<div class="centeral py-3 py-md-5 hide-on-phone">
   <div class="rows8 table-head m-2 mb-md-5">
     <div class="c-5 place-items-center bg-secondary">
       <h2 class="text-center">NEET PG Services</h2>
@@ -264,20 +250,6 @@
 
   <div class="text-center justify-content-center m-2">
     <h2 class="mr-4">NEET PG Packages</h2>
-    <!-- <form>
-      <script
-        src="https://checkout.razorpay.com/v1/payment-button.js"
-        data-payment_button_id="pl_H04HR1BBnCAWdS"
-        async
-      ></script>
-    </form>
-    <form class="ml-md-4">
-      <script
-        src="https://checkout.razorpay.com/v1/payment-button.js"
-        data-payment_button_id="pl_H04I2mOZTlpSez"
-        async
-      ></script>
-    </form> -->
     <div class="text-center">
       <a
         href="https://rzp.io/l/neet-pg-basic"
@@ -292,6 +264,8 @@
     </div>
   </div>
 </div>
+
+<!-- PG Service end -->
 
 <hr class="border" />
 <br />
@@ -446,43 +420,31 @@
   <h2>Call: <a class="call-us" href="tel:9911203280">991 120 3280</a></h2>
 </div>
 
-<!-- 
-<div
-  data-delay="0"
-  data-vc-full-width="true"
-  data-vc-full-width-init="true"
-  data-vc-stretch-content="true"
-  class="vc_row wpb_row vc_row-fluid"
-  style="
-    position: relative;
-    left: -58.6px;
-    box-sizing: border-box;
-    width: 1227px;
-  "
->
+<div class="hide-on-desktop">
   <div class="r">
     <div class="c-6">
       <section class="pricing-table pricing-table-neet py-3 py-md-5">
         <div class="content">
           <div class="table-wrapper m-3 m-md-0">
             <div class="payment-info py-3 py-md-5 text-center">
-              <h2 class="table-header">NEET UG Guide</h2>
-              <h3>(Premium / Exclusive Package)</h3>
-              <h2 class="price">39,980 INR</h2>
+              <h2 class="table-header">NEET UG</h2>
+              <h3>(Basic Package)</h3>
+              <h2 class="price">₹7,980 <sup>+GST</sup></h2>
               <a
                 title="Buy neet under graduate package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-advisor-ug-guide"
+                href="https://rzp.io/l/neet-ug-basic"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% for item in site.data.pricing-table.neet-ug %}
+            {% assign basic-ug-pack = site.data.pricing-table.neet-ug | where:
+            "basic", "true" %} {% for item in basic-ug-pack %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
               </div>
-              <div class="c-10 d-grid align-content-center">
+              <div class="c-10 d-grid align-content-center py-2">
                 <h5 class="table-title">{{item.title}}</h5>
                 <p class="table-description">{{item.description}}</p>
                 <ul class="features">
@@ -490,6 +452,44 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
+                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-table pricing-table-neet py-3 py-md-5">
+        <div class="content">
+          <div class="table-wrapper m-3 m-md-0">
+            <div class="payment-info py-3 py-md-5 text-center">
+              <h2 class="table-header">NEET UG</h2>
+              <h3>(Premium Package)</h3>
+              <h2 class="price">₹24,980 <sup>+GST</sup></h2>
+              <a
+                title="Buy neet under graduate package"
+                class="btn btn-danger px-4"
+                href="https://rzp.io/l/neet-ug-premium"
+                target="_blank"
+                >Buy Now</a
+              >
+            </div>
+            {% assign premium-ug-pack = site.data.pricing-table.neet-ug | where:
+            "premium", "true" %} {% for item in premium-ug-pack %}
+            <div class="r table-row">
+              <div class="c-2 text-center">
+                <img class="image" src="{{item.image}}" alt="{{item.title}}" />
+              </div>
+              <div class="c-10 d-grid align-content-center py-2">
+                <h5 class="table-title">{{item.title}}</h5>
+                <p class="table-description">{{item.description}}</p>
+                <ul class="features">
+                  {% for i in item.features %}
+                  <li>{{i}}</li>
+                  {% endfor %}
+                </ul>
+                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
               </div>
             </div>
             {% endfor %}
@@ -502,23 +502,24 @@
         <div class="content">
           <div class="table-wrapper m-3 m-md-0">
             <div class="payment-info py-3 py-md-5 text-center">
-              <h2 class="table-header">NEET PG Guide</h2>
-              <h3>(Platinum Package)</h3>
-              <h2 class="price">49,980 INR</h2>
+              <h2 class="table-header">NEET PG</h2>
+              <h3>(Basic Package)</h3>
+              <h2 class="price">₹7,980 <sup>+GST</sup></h2>
               <a
                 title="Buy neet post graduate counselling package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-advisor-pg-guide"
+                href="https://rzp.io/l/neet-pg-basic"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% for item in site.data.pricing-table.neet-pg %}
+            {% assign basic-pg-pack = site.data.pricing-table.neet-pg | where:
+            "basic", "true" %} {% for item in basic-pg-pack %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
               </div>
-              <div class="c-10 d-grid align-content-center">
+              <div class="c-10 d-grid align-content-center py-2">
                 <h5 class="table-title">{{item.title}}</h5>
                 <p class="table-description">{{item.description}}</p>
                 <ul class="features">
@@ -526,6 +527,44 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
+                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-table pricing-table-neet py-3 py-md-5">
+        <div class="content">
+          <div class="table-wrapper m-3 m-md-0">
+            <div class="payment-info py-3 py-md-5 text-center">
+              <h2 class="table-header">NEET PG</h2>
+              <h3>(Premium Package)</h3>
+              <h2 class="price">₹24,980 <sup>+GST</sup></h2>
+              <a
+                title="Buy neet post graduate counselling package"
+                class="btn btn-danger px-4"
+                href="https://rzp.io/l/neet-pg-premium-package"
+                target="_blank"
+                >Buy Now</a
+              >
+            </div>
+            {% assign premium-pg-pack = site.data.pricing-table.neet-pg | where:
+            "premium", "true" %} {% for item in premium-pg-pack %}
+            <div class="r table-row">
+              <div class="c-2 text-center">
+                <img class="image" src="{{item.image}}" alt="{{item.title}}" />
+              </div>
+              <div class="c-10 d-grid align-content-center py-2">
+                <h5 class="table-title">{{item.title}}</h5>
+                <p class="table-description">{{item.description}}</p>
+                <ul class="features">
+                  {% for i in item.features %}
+                  <li>{{i}}</li>
+                  {% endfor %}
+                </ul>
+                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
               </div>
             </div>
             {% endfor %}
@@ -534,4 +573,4 @@
       </section>
     </div>
   </div>
-</div> -->
+</div>
