@@ -2,7 +2,7 @@ neet-ug:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
     image: /assets/images/pricing-table-icons/1.png
-    mode: Online
+    mode: Offline
     basic: true
     premium: true
 
@@ -81,7 +81,7 @@ neet-ug:
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
     image: /assets/images/pricing-table-icons/11.png
-    mode: Online
+    mode: Offline / Online
     basic: false
     premium: true
 
@@ -103,7 +103,7 @@ neet-pg:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process of M.D./ M.S./ PG Diploma courses/ <strong>DNB seats</strong>.
     image: /assets/images/pricing-table-icons/1.png
-    mode: Online
+    mode: Offline
     basic: true
     premium: true
 
@@ -129,14 +129,14 @@ neet-pg:
     description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
     image: /assets/images/pricing-table-icons/5.png
     mode: Online
-    basic: Two Sessions*
-    premium: Six Sessions*
+    basic: One Session*
+    premium: Five Sessions*
 
   - title: Guidance from your Advisor
     description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling
     features:
       - All about NEET Counselling
-      - Look Beyond MBBS
+      - Look Beyond MD/MS
       - Life in a Medical College
       - Study Medicine Abroad
     image: /assets/images/pricing-table-icons/6.png
@@ -175,7 +175,7 @@ neet-pg:
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
     image: /assets/images/pricing-table-icons/11.png
-    mode: Online
+    mode: Offline / Online
     basic: false
     premium: true
 
