@@ -7,6 +7,12 @@ permalink: /blog/:title/
 rzp-key: rzp_live_5l5MyQbw9aux1L
 #rzp-neet-key: rzp_live_LLG1Bxq7atk0FU
 
+payment-links:
+  ug-basic: https://rzp.io/l/neet-ug-basic-package
+  ug-premium: https://rzp.io/l/neet-advisor-ug-guide
+  pg-basic: https://rzp.io/l/neet-advisor-pg-basic
+  pg-premium: https://rzp.io/l/neet-advisor-pg-guide
+
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
@@ -22,6 +28,7 @@ social:
     - https://in.linkedin.com/company/neetadvisordotcom
     - https://www.instagram.com/neetadvisor_com/
     - https://www.youtube.com/channel/UCiJqbK5EeRtijkCgqwP5e4A/
+    
 
 facebook:
   app_id: 272085763872601

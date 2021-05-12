@@ -126,12 +126,12 @@
     <h2 class="mr-4">NEET UG Packages</h2>
     <div class="text-center">
       <a
-        href="https://rzp.io/l/neet-ug-basic"
+        href="{{site.payment-links.ug-basic}}"
         class="btn btn-danger px-4 py-2 text-white mr-4"
         >Buy Basic</a
       >
       <a
-        href="https://rzp.io/l/neet-ug-premium"
+        href="{{site.payment-links.ug-premium}}"
         class="btn btn-danger px-4 py-2 text-white"
         >Buy Premium</a
       >
@@ -252,12 +252,12 @@
     <h2 class="mr-4">NEET PG Packages</h2>
     <div class="text-center">
       <a
-        href="https://rzp.io/l/neet-pg-basic"
+        href="{{site.payment-links.pg-basic}}"
         class="btn btn-danger px-4 py-2 text-white mr-4"
         >Buy Basic</a
       >
       <a
-        href="https://rzp.io/l/neet-pg-premium-package"
+        href="{{site.payment-links.pg-premium}}"
         class="btn btn-danger px-4 py-2 text-white"
         >Buy Premium</a
       >
@@ -433,13 +433,14 @@
               <a
                 title="Buy neet under graduate package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-ug-basic"
+                href="{{site.payment-links.ug-basic}}"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% assign basic-ug-pack = site.data.pricing-table.neet-ug | where:
-            "basic", "true" %} {% for item in basic-ug-pack %}
+            {% for item in site.data.pricing-table.neet-ug %} {% if item.basic
+            == true or item.basic.size > 0 %} {% if item.hideonphone != true %}
+            {{item.hideonphone}}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -452,10 +453,17 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
-                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+                {% if item.basic.size %}
+                <span class="text-center"
+                  ><strong>Sessions: </strong>{{item.basic}}</span
+                >
+                {% endif %}
+                <span class="text-center"
+                  ><strong>Mode:</strong> {{item.mode}}</span
+                >
               </div>
             </div>
-            {% endfor %}
+            {% endif %} {% endif %}{% endfor %}
           </div>
         </div>
       </section>
@@ -470,13 +478,13 @@
               <a
                 title="Buy neet under graduate package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-ug-premium"
+                href="{{site.payment-links.ug-premium}}"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% assign premium-ug-pack = site.data.pricing-table.neet-ug | where:
-            "premium", "true" %} {% for item in premium-ug-pack %}
+            {% assign premium-ug-pack = site.data.pricing-table.neet-ug %} {%
+            for item in premium-ug-pack %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -489,7 +497,14 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
-                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+                {% if item.premium.size %}
+                <span class="text-center"
+                  ><strong>Sessions: </strong>{{item.premium}}</span
+                >
+                {% endif %}
+                <span class="text-center"
+                  ><strong>Mode: </strong>{{item.mode}}</span
+                >
               </div>
             </div>
             {% endfor %}
@@ -508,13 +523,14 @@
               <a
                 title="Buy neet post graduate counselling package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-pg-basic"
+                href="{{site.payment-links.pg-basic}}"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% assign basic-pg-pack = site.data.pricing-table.neet-pg | where:
-            "basic", "true" %} {% for item in basic-pg-pack %}
+            {% for item in site.data.pricing-table.neet-pg %} {% if item.basic
+            == true or item.basic.size > 0 %} {% if item.hideonphone != true %}
+            {{item.hideonphone}}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -527,9 +543,18 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
-                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+                {% if item.basic.size %}
+                <span class="text-center"
+                  ><strong>Sessions: </strong>{{item.basic}}</span
+                >
+                {% endif %}
+                <span class="text-center"
+                  ><strong>Mode:</strong> {{item.mode}}</span
+                >
               </div>
             </div>
+            {% endif %}
+            {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -545,13 +570,13 @@
               <a
                 title="Buy neet post graduate counselling package"
                 class="btn btn-danger px-4"
-                href="https://rzp.io/l/neet-pg-premium-package"
+                href="{{site.payment-links.pg-premium}}"
                 target="_blank"
                 >Buy Now</a
               >
             </div>
-            {% assign premium-pg-pack = site.data.pricing-table.neet-pg | where:
-            "premium", "true" %} {% for item in premium-pg-pack %}
+            {% assign premium-pg-pack = site.data.pricing-table.neet-pg %} {%
+            for item in premium-pg-pack %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -564,7 +589,14 @@
                   <li>{{i}}</li>
                   {% endfor %}
                 </ul>
-                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
+                {% if item.premium.size %}
+                <span class="text-center"
+                  ><strong>Sessions: </strong>{{item.premium}}</span
+                >
+                {% endif %}
+                <span class="text-center"
+                  ><strong>Mode:</strong> {{item.mode}}</span
+                >
               </div>
             </div>
             {% endfor %}

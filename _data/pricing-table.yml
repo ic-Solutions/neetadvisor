@@ -98,6 +98,7 @@ neet-ug:
     mode: All
     basic: On Demand*
     premium: On Demand*
+    hideonphone: true
 
 neet-pg:
   - title: Medical Mantra
@@ -192,3 +193,4 @@ neet-pg:
     mode: All
     basic: On Demand*
     premium: On Demand*
+    hideonphone: true
