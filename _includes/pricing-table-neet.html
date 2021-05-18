@@ -440,7 +440,6 @@
             </div>
             {% for item in site.data.pricing-table.neet-ug %} {% if item.basic
             == true or item.basic.size > 0 %} {% if item.hideonphone != true %}
-            {{item.hideonphone}}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -484,7 +483,7 @@
               >
             </div>
             {% assign premium-ug-pack = site.data.pricing-table.neet-ug %} {%
-            for item in premium-ug-pack %}
+            for item in premium-ug-pack %}{% if item.hideonphone != true %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -507,6 +506,7 @@
                 >
               </div>
             </div>
+            {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -530,7 +530,6 @@
             </div>
             {% for item in site.data.pricing-table.neet-pg %} {% if item.basic
             == true or item.basic.size > 0 %} {% if item.hideonphone != true %}
-            {{item.hideonphone}}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -576,7 +575,7 @@
               >
             </div>
             {% assign premium-pg-pack = site.data.pricing-table.neet-pg %} {%
-            for item in premium-pg-pack %}
+            for item in premium-pg-pack %} {% if item.hideonphone != true %}
             <div class="r table-row">
               <div class="c-2 text-center">
                 <img class="image" src="{{item.image}}" alt="{{item.title}}" />
@@ -599,6 +598,7 @@
                 >
               </div>
             </div>
+            {% endif %}
             {% endfor %}
           </div>
         </div>
