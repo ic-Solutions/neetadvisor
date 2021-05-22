@@ -27,17 +27,27 @@
     <div class="c-1 place-items-center bg-secondary hide-on-phone">
       <h4>Mode of Delivery</h4>
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-1 bg-secondary hide-on-phone">
       <h4>
         Basic <br />
         ₹7,980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
+      <a
+        href="{{site.payment-links.ug-basic}}"
+        class="block btn-danger px-2 py-1 text-white rounded"
+        >Buy Now</a
+      >
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-1 bg-secondary hide-on-phone">
       <h4>
         Premium <br />
         ₹24980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
+      <a
+        href="{{site.payment-links.ug-premium}}"
+        class="block btn-danger px-2 py-1 text-white rounded"
+        >Buy Now</a
+      >
     </div>
   </div>
   {% for item in site.data.pricing-table.neet-ug %}
@@ -153,17 +163,27 @@
     <div class="c-1 place-items-center bg-secondary hide-on-phone">
       <h4>Mode of Delivery</h4>
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-1 bg-secondary hide-on-phone">
       <h4>
         Basic <br />
         ₹7,980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
+      <a
+      href="{{site.payment-links.pg-basic}}"
+      class="block btn-danger px-2 py-1 text-white rounded"
+      >Buy Now</a
+    >
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-1 bg-secondary hide-on-phone">
       <h4>
         Premium <br />
         ₹24980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
+      <a
+      href="{{site.payment-links.pg-premium}}"
+      class="block btn-danger px-2 py-1 text-white rounded"
+      >Buy Now</a
+    >
     </div>
   </div>
   {% for item in site.data.pricing-table.neet-pg %}
@@ -304,6 +324,9 @@
   }
   .text-brand {
     color: #201169 !important;
+  }
+  .rounded {
+    border-radius: 4px;
   }
   .place-items-center {
     display: flex;
@@ -506,8 +529,7 @@
                 >
               </div>
             </div>
-            {% endif %}
-            {% endfor %}
+            {% endif %} {% endfor %}
           </div>
         </div>
       </section>
@@ -552,9 +574,7 @@
                 >
               </div>
             </div>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
+            {% endif %} {% endif %} {% endfor %}
           </div>
         </div>
       </section>
@@ -598,8 +618,7 @@
                 >
               </div>
             </div>
-            {% endif %}
-            {% endfor %}
+            {% endif %} {% endfor %}
           </div>
         </div>
       </section>
