@@ -8,7 +8,7 @@
 
   .slick-dots {
     @include media-query($on-palm) {
-      bottom: 10px !important
+      bottom: 10px !important;
     }
   }
   .shadow-sm {
