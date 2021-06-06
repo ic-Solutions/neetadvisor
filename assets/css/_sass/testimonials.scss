@@ -1,0 +1,44 @@
+.testimonial-review {
+  .ult-item-wrap {
+    margin: 4em;
+    @include media-query($on-palm) {
+      margin: 1em;
+    }
+  }
+
+  .slick-dots {
+    @include media-query($on-palm) {
+      bottom: 10px !important
+    }
+  }
+  .shadow-sm {
+    box-shadow: 0 0 15px #ddd;
+  }
+  .border-light {
+    border: 1px solid #ddd;
+  }
+  .rounded-lg {
+    border-radius: 8px;
+  }
+  .reverse-image {
+    transform: scale(-1);
+  }
+
+  img {
+    display: inline-block !important;
+    border-radius: 50%;
+  }
+
+  .quote {
+    font-style: italic;
+    padding: 1em 2em;
+    font-size: 1.2em !important;
+    @include media-query($on-palm) {
+      padding: 1em 0;
+    }
+  }
+  .name {
+    font-weight: bold !important;
+    color: $h-color !important;
+  }
+}

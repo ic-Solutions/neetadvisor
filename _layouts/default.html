@@ -7,7 +7,16 @@ layout: compress
   {% include head.html %}
   <body
     data-rsssl="1"
-    class="home page-template-default page page-id-94 layout-wide page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.0.5 vc_responsive"
+    class="
+      home
+      page-template-default page page-id-94
+      layout-wide
+      page-with-slider
+      no-breadcrumb
+      wpb-js-composer
+      js-comp-ver-6.0.5
+      vc_responsive
+    "
   >
     <div class="preloader-plus">
       <div class="preloader-content">
@@ -226,6 +235,59 @@ layout: compress
       });
     </script>
     <!-- Script from goals section ends -->
+
+    <!-- script for testimonials -->
+
+    <script defer>
+      jQuery(document).ready(function ($) {
+        if (typeof jQuery(".testimonial-review").slick == "function") {
+          $(".testimonial-review").slick({
+            autoplay: true,
+            dots: true,
+            autoplaySpeed: 3000,
+            speed: 300,
+            infinite: false,
+            arrows: false,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            swipe: true,
+            draggable: true,
+            touchMove: true,
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            responsive: [
+              {
+                breakpoint: 1026,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              {
+                breakpoint: 1025,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              {
+                breakpoint: 760,
+                settings: {
+                  dots: true,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+            ],
+            pauseOnDotsHover: true,
+            customPaging: function (slider, i) {
+              return '<i type="button" style= "color:#333333;" class="ultsl-record" data-role="none"></i>';
+            },
+          });
+        }
+      });
+    </script>
+    <!-- script for testimonials end -->
 
     {% if page.url == "/about/" %}
     <!-- Script from about page -->
