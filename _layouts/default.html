@@ -288,6 +288,23 @@ layout: compress
       });
     </script>
     <!-- script for testimonials end -->
+    <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+    <script>
+      var imgSlider = simpleslider.getSlider({
+        container: document.getElementById("video-slider"),
+        prop: "left",
+        init: -612,
+        show: 0,
+        end: 612,
+        unit: "px",
+      });
+      document.getElementById("prev").onclick = function () {
+        imgSlider.prev();
+      };
+      document.getElementById("next").onclick = function () {
+        imgSlider.next();
+      };
+    </script>
 
     {% if page.url == "/about/" %}
     <!-- Script from about page -->
