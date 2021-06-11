@@ -6,9 +6,9 @@ layout: post
 author: NEET Advisor
 ---
 
-If you arean aspiring MBBS or BDS student, then knowing all about All India Quota (AIQ) and NEET reservation criteria 2020 can help you get a seat in a reputed university anywhere in India. However, fewseats are also reserved for scheduled tribes (ST), scheduled castes (SC), other backward castes (OBC), economically weaker section (EWS), and also or the candidates with physical disabilities (PWD) for gaining admission to MBBS, BDS, and AYUSH courses through NEETUG.
+If you are an aspiring MBBS or BDS student, then knowing all about All India Quota (AIQ) and NEET reservation criteria 2021 can help you get a seat in a reputed university anywhere in India. However, few seats are also reserved for scheduled tribes (ST), scheduled castes (SC), other backward castes (OBC), economically weaker section (EWS), and also or the candidates with physical disabilities (PWD) for gaining admission to MBBS, BDS, and AYUSH courses through NEETUG.
 
-The primary aim of this AIQ reservation criterion is to bring the underprivileged section of society to the mainstream by giving them an equal opportunity to become a healthcare professional in India. If you qualify the entrance test, you can take part in the counselling process upon which your admission will happen based on the NEET 2020 reservation criteriaand NEET UG rank.
+The primary aim of this AIQ reservation criterion is to bring the underprivileged section of society to the mainstream by giving them an equal opportunity to become a healthcare professional in India. If you qualify the entrance test, you can take part in the counselling process which will be based on NEET 2021 reservation criteria & merit rank.
 
 ## 15% All India Quota vs State Quota
 
@@ -24,10 +24,10 @@ Every state has its exclusive reservation criteria for the 85% state quota seats
 
 ## General Eligibility Criteria for All India 15% counselling
 
-- Candidates who have qualified in NEET2020 entrance with at least 50 percentile (40 percentile for SC/ST/OBC and 45 percentile for PWD) are eligible for the NEET counselling
-- Those belonging to the state of Jammu and Kashmir are not eligible for this reservation
-- It is mandatory for the candidates to register on the MCC website to be eligible
-- In the counselling for deemed universities, all candidates including those from Jammu and Kashmir can participate
+- Candidates who have qualified in NEET 2021 entrance with at least 50 percentile (40 percentile for SC/ST/OBC and 45 percentile for PWD) are eligible for the NEET counselling.
+- Those belonging to the state of Jammu and Kashmir are not eligible for this reservation.
+- It is mandatory for the candidates to register on the MCC website to be eligible.
+- In the counselling for deemed universities, all candidates including those from Jammu and Kashmir can participate.
 
 Read [To become a Doctor, speak to a Doctor](/blog/become-doctor/)
 
@@ -50,7 +50,7 @@ The candidates are required to produce Disability Certificate from any of the Di
 
 1. Vardhaman Mahavir Medical College and Safdarjung Hospital, Ansari Nagar,Ring, road, New Delhi -110029
 2. All India Institute of Physical Medicine and Rehabilitation, Hazi Ali Park, K Khadiya Marg, Mahalaxmi, Mumbai -400034
-3. Institute of Post Graduate Medical Education and Research, 244, Acharya J,C, Bose Marg, Kolkata -700020
+3. Institute of Post Graduate Medical Education and Research, 244, Acharya J.C, Bose Marg, Kolkata -700020
 4. Madras Medical College, Park Town, Chennai -600003
 
 ## Application Process for All India 15% Quota
@@ -61,12 +61,12 @@ This is the step by step procedure:
 
 The steps involved in registration are:
 
-- Click on New Registration at the official website of MCC. Then you need to enter the roll number, application number, candidate name, mother name, date of birth, mobile number, email ID, and security pin as per your admit card. You will receive a new roll no and password which can be used to register
+- Click on New Registration at the official website of MCC. Then you need to enter the roll number, application number, candidate name, mother name, date of birth, mobile number, email ID, and security pin as per your admit card. You will receive a new roll no. and password which can be used to register
   <img src="/assets/images/blog/15-aiq-02.jpg" alt="NEET 15% quota registration" style="" />
 - Then click on ‘Candidate Login’
-- Then, enter your password and roll no
+- Then, enter your password and roll no.
   <img src="/assets/images/blog/15-aiq-03.jpg" alt="NEET 15% quota registration Roll No" style="" />
-- Next, you will be redirected to a page and have to enter details like name, roll no, registration no, contact no, mother’s name, and then, click on ‘Submit’
+- Next, you will be redirected to a page and have to enter details like name, roll no., registration no., contact no., mother’s name, and then, click on ‘Submit’.
 - After checking the details, click on ‘Confirm Registration’. You will receive a registration slip
 
 ## NEET counselling fee:
@@ -75,18 +75,22 @@ Next, the students are asked to pay a refundable and non-refundable counselling 
 
 > Choice Locking options:
 
-- Next, candidates need to fill their preferences. Admission is granted on the basis of NEET scores and preferences given
-- You can give any number of colleges you prefer as per the list available
-- You can arrange the order of your choices by moving them up or down or deleting them
-- Next we canclick ‘Lock Choices’
-- Once locked, youcannot make changes
-- You can get a printout of your choices, including IP address, a unique no generated by your system, locking date and time
+- Next, candidates need to fill their preferences. Admission is granted on the basis of NEET scores and preferences given.
+- You can give any number of colleges you prefer as per the list available.
+- You can arrange the order of your choices by moving them up or down or deleting them.
+- Next we canclick ‘Lock Choices’.
+- Once locked, youcannot make changes.
+- You can get a printout of your choices, including IP address, a unique no generated by your system, locking date and time.
 
 > Release of seat allotment results:
 
 Following each counselling round, seat allotment results will be released by MCC, and an allotment letter will be given to the selected candidates. To complete the admission process, candidates must report to the allotted colleges, along with the allotted letter and other papers.
 
-At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, we will help you realize your medical aspirations through personalized counselling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota and prepare you well for the NEET counselling 2020. We have already impacted the medical careers of more than 50,000 students and will fulfill your dreams of getting admission into the top medical college of your choice. We assess your competitive exam score/rankand other details and suggest the best choices you can make. Being in this field for more than 14 years, we will guide you effectively through the vital application process and help in documentation and submission. For all queries related to NEET UG 2020 and AIQ, meet our friendly advisor at the earliest. Through our experience, we will ensure you grab the best opportunity in Indian medical college.
+**"The best way to predict the future is to create it." —Abraham Lincoln**
+
+At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, helps you realize your medical aspirations through personalized counselling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota counselling and prepare you well for the NEET counselling 2021. We have already impacted the medical careers of 50,000+ students and will fulfill your dreams too of getting admission into the top-notch medical college of your choice. We assess your competitive exam score/rank and other details and suggest the best choices that you can make. Being in this field for more than 14 years, we play a role in guiding you effectively through the vital application process and even in documentation and submission. For all queries related to NEET UG 2021, meet our friendly advisor at the earliest. Through our experience, we will ensure you to grab the best opportunity in the getting best medical college.
+
+**"If you can DREAM it, you can DO it." —Walt Disney**
 
 <hr>
 
