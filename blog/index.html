@@ -1,0 +1,160 @@
+---
+title: Blog
+type: blog
+layout: default
+permalink: /blog/
+---
+
+<section id="primary" class="pb-3 pb-md-5 content-full-width">
+  <div id="post-12043" class="post-12043 page type-page status-publish hentry">
+    <div data-delay="0" class="vc_row wpb_row vc_row-fluid">
+      <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper py-3">
+            <div class="dt-sc-posts-list-wrapper" data-delay="0">
+              <div class="blog-index px-3 px-md-0 pb-3 py-3 py-md-5">
+                {% for post in site.posts %}
+
+                <div class="blog-card">
+                  <div class="blog-image-container">
+                    <a href="{{post.url}}">
+                      <div
+                        class="blog-image"
+                        style="background-image: url({{post.image}});"
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="
+                      blog-card-content
+                      py-2
+                      px-3
+                      d-flex
+                      flex-direction-column
+                    "
+                  >
+                    <div class="meta d-flex pb-3">
+                      <div
+                        class="author-image mr-2"
+                        style="
+                          background-image: url(/assets/images/NEET-Advisor-Logo-For-Blue-Background.png);
+                        "
+                      ></div>
+                      <div class="author-name align-self-center">
+                        <p class="m-0 p-0"><strong>NEET Advisor</strong></p>
+                        <p class="date">
+                          <span>{{post.date | date: '%B %d, %Y'}}</span>
+                          <span>&nbsp;&middot;&nbsp;</span>
+                          <span class="text-body">
+                            {% assign words = post.content | number_of_words %}
+                            {% if words < 360 %} 1 min read. {% else %} {{ words
+                            | divided_by:180 }} mins read. {% endif %}
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="blog-title py-0 my-0">
+                      <a href="{{post.url}}"><h2>{{post.title }}</h2></a>
+                    </div>
+                    <div class="blog-description">
+                      <a class="text-body" href="{{post.url}}"
+                        ><p>{{post.description | truncate: 300}}</p></a
+                      >
+                    </div>
+                    <div class="blog-meta">
+                      <div class="blog-date"></div>
+                      <div class="blog-author"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {% endfor %}
+              </div>
+            </div>
+            <div
+              id="1547095583626-dd297617-6b30"
+              class="dt-sc-empty-space"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--       <div data-delay="0" data-vc-full-width="true" data-vc-full-width-init="false" class="py-3 py-md-5 vc_row wpb_row vc_row-fluid dt-sc-skin-highlight dt-sc-paper-pattern-bottom">
+         <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div id="1545904740275-1deda83c-b600" class="dt-sc-empty-space"></div>
+               </div>
+            </div>
+         </div>
+         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-xs-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div class='dt-sc-icon-box type1 custom-style' data-delay='0'>
+                     <div class="icon-wrapper"><span class='zmdi zmdi-graduation-cap zmdi-hc-fw'> </span></div>
+                     <div class="icon-content">
+                        <h4>Become a <strong>Tutor</strong></h4>
+                        <p>Discuss with the tutee the amount of time necessary to complete each part of their task.</p>
+                        <p><a href="#">Learn More</a></p>
+                     </div>
+                     <span class='zmdi zmdi-graduation-cap zmdi-hc-fw large-icon'> </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-xs-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div class='dt-sc-icon-box type1 custom-style' data-delay='0'>
+                     <div class="icon-wrapper"><span class='zmdi zmdi-info zmdi-hc-fw'> </span></div>
+                     <div class="icon-content">
+                        <h4>How it <strong>Works?</strong></h4>
+                        <p>Discuss with the tutee the amount of time necessary to complete each part of their task.</p>
+                        <p><a href="#">Learn More</a></p>
+                     </div>
+                     <span class='zmdi zmdi-info zmdi-hc-fw large-icon'> </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-xs-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div class='dt-sc-icon-box type1 custom-style' data-delay='0'>
+                     <div class="icon-wrapper"><span class='zmdi zmdi-book zmdi-hc-fw'> </span></div>
+                     <div class="icon-content">
+                        <h4>Students <strong>Resources</strong></h4>
+                        <p>Discuss with the tutee the amount of time necessary to complete each part of their task.</p>
+                        <p><a href="#">Learn More</a></p>
+                     </div>
+                     <span class='zmdi zmdi-book zmdi-hc-fw large-icon'> </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-xs-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div class='dt-sc-icon-box type1 custom-style' data-delay='0'>
+                     <div class="icon-wrapper"><span class='zmdi zmdi-search zmdi-hc-fw'> </span></div>
+                     <div class="icon-content">
+                        <h4>Find a <strong>Tutor</strong></h4>
+                        <p>Discuss with the tutee the amount of time necessary to complete each part of their task.</p>
+                        <p><a href="#">Learn More</a></p>
+                     </div>
+                     <span class='zmdi zmdi-search zmdi-hc-fw large-icon'> </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
+            <div class="vc_column-inner">
+               <div class="wpb_wrapper">
+                  <div id="1545904739989-64ec3980-c7a9" class="dt-sc-empty-space"></div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+    <div class="vc_row-full-width vc_clearfix"></div>
+  </div>
+</section>
