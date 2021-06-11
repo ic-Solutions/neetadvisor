@@ -15,7 +15,7 @@ NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” f
 
 A one-stop destination for all your NEET counselling doubts. A platform to clarify doubts and get a better understanding of the counselling procedure. Parent from states around Delhi NCR also attend these seminars.
 
-## How to Become a Part of the Seminar?
+## How to Become a Part of the NEET Seminar?
 Keep all your doubts ready and track us through our Facebook and Instagram pages. Stay updated about our upcoming events. We also entertain walk-ins and spot registrations for our seminars.
 
 Free Entry upon a pre-registration. 
