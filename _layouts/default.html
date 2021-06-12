@@ -300,10 +300,13 @@ layout: compress
       });
       document.getElementById("prev").onclick = function () {
         imgSlider.prev();
+        imgSlider.pause();
       };
       document.getElementById("next").onclick = function () {
         imgSlider.next();
+        imgSlider.pause();
       };
+      imgSlider.pause();
     </script>
 
     {% if page.url == "/about/" %}

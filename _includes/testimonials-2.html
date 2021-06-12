@@ -36,15 +36,6 @@
               text-gray-800
             "
           >
-            <img
-              width="90"
-              height="90"
-              loading="lazy"
-              src="{{item.image}}"
-              alt="{{item.name}}"
-              class="shadow-sm"
-            />
-
             <div class="w-full mb-10">
               <svg
                 width="40"
@@ -59,8 +50,16 @@
               <p class="quote text-center">{{item.quote}}</p>
             </div>
             <div class="w-full">
+              <img
+                width="90"
+                height="90"
+                loading="lazy"
+                src="{{item.image}}"
+                alt="{{item.name}}"
+                class="shadow-sm"
+              />
               <h6 class="name">{{item.name}}</h6>
-              <p>{{item.designation}}</p>
+              <p class="designation">{{item.designation}}</p>
             </div>
           </div>
         </div>

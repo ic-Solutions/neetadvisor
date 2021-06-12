@@ -5,7 +5,6 @@
       margin: 1em;
     }
   }
-
   .slick-dots {
     @include media-query($on-palm) {
       bottom: 10px !important;
@@ -22,23 +21,47 @@
   }
   .reverse-image {
     transform: scale(-1);
+    fill: $brand-color;
+    @include media-query($on-palm) {
+      display: none !important;
+    }
+  }
+  .py-5 {
+    @include media-query($on-palm) {
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+    }
   }
 
   img {
     display: inline-block !important;
     border-radius: 50%;
+    @include media-query($on-palm) {
+      height: 40px;
+      width: 40px;
+    }
   }
 
   .quote {
-    font-style: italic;
-    padding: 1em 2em;
-    font-size: 1.2em !important;
+    font-family: $monospace;
+    padding: 1em;
+    font-size: 1em !important;
     @include media-query($on-palm) {
+      font-size: 0.7em !important;
+      line-height: 1.5 !important;
       padding: 1em 0;
     }
   }
   .name {
     font-weight: bold !important;
     color: $h-color !important;
+    margin-bottom: 0;
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+    }
+  }
+  .designation {
+    font-size: 0.8em;
+    color: #555 !important;
   }
 }

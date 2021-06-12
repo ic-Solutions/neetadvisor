@@ -27,14 +27,16 @@
     height: 570px;
     border-radius: 10px;
     @include media-query($on-palm) {
-      height: 360px;
+      height: 320px;
     }
   }
 
-  img {
+  iframe.video {
+    width: 50vw;
     height: 570px;
     @include media-query($on-palm) {
-      height: 360px;
+      width: 100vw;
+      height: 320px;
     }
   }
 

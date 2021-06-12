@@ -637,6 +637,9 @@ a.control_next {
 
 .footer-logo {
   max-width: 80% !important;
+  @include media-query($on-palm) {
+    width: 100px;
+  }
 }
 
 .social-icons-ul {
