@@ -1,6 +1,12 @@
 .attention-container {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+
+  .p-5 {
+    @include media-query($on-palm) {
+      padding: 1rem !important;
+    }
+  }
   .bg-yellow {
     background-color: #fbba18;
   }
