@@ -1,6 +1,6 @@
 .testimonial-review {
   .ult-item-wrap {
-    margin: 2em;
+    margin: 1em;
     @include media-query($on-palm) {
       margin: 1em;
     }
@@ -24,8 +24,9 @@
     padding-right: 10px;
     border-right: 3px solid lighten($h-color, 10%);
     @include media-query($on-palm) {
-      order: 2;
       border: none;
+      padding: 0;
+      margin-top: 1em;
     }
   }
   .slick-dots {
@@ -71,10 +72,10 @@
 
   .quote {
     padding: 1em;
-    font-size: 1.2em !important;
+    font-size: 0.8em !important;
     line-height: 1.5 !important;
     @include media-query($on-palm) {
-      font-size: 0.7em !important;
+      font-size: 0.6em !important;
       padding: 1em 0;
     }
   }
@@ -83,11 +84,12 @@
     color: $h-color !important;
     margin-bottom: 0;
     @include media-query($on-palm) {
-      font-size: 0.9em !important;
+      font-size: 0.7em !important;
     }
   }
   .designation {
-    font-size: 0.8em;
+    margin: 0;
+    font-size: 0.6em;
     color: #555 !important;
   }
 }

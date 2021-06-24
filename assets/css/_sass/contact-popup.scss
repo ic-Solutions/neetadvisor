@@ -2,6 +2,11 @@
   .color-brand {
     color: $h-color;
   }
+  h4 {
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+    }
+  }
   .hidden {
     display: none !important;
   }
