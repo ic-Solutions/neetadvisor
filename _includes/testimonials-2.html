@@ -33,19 +33,22 @@
             border-light
             shadow-sm
             text-gray-800
+            place-items-center
           "
         >
-          <div class="image-container place-items-center">
-            <img
-              width="120"
-              height="120"
-              loading="lazy"
-              src="{{item.image}}"
-              alt="{{item.name}}"
-              class="shadow-sm"
-            />
-            <h6 class="name">{{item.name}}</h6>
-            <p class="designation">{{item.designation}}</p>
+          <div class="image-container">
+            <div>
+              <img
+                width="120"
+                height="120"
+                loading="lazy"
+                src="{{item.image}}"
+                alt="{{item.name}}"
+                class="shadow-sm"
+              />
+              <h6 class="name">{{item.name}}</h6>
+              <p class="designation">{{item.designation}}</p>
+            </div>
           </div>
           <div class="w-full quote-container place-items-center">
             <svg
