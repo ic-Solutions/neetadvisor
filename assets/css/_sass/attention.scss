@@ -1,0 +1,76 @@
+.attention-container {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  .p-5 {
+    @include media-query($on-palm) {
+      padding: 1rem !important;
+    }
+  }
+  .bg-yellow {
+    background-color: #fbba18;
+  }
+  .bg-blue {
+    background-color: #201169;
+    border-bottom: 5px solid #8a77eb;
+  }
+  .text-white {
+    color: white !important;
+  }
+  .attention {
+    font-size: 5em !important;
+    color: #201169 !important;
+    margin-bottom: 0 !important;
+  }
+  .attention-sub {
+    font-size: 2em !important;
+  }
+  .right-tick-blue-bg {
+    display: block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-image: url("/assets/images/right-tick-30.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: #201169;
+  }
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .place-items-center {
+    place-items: center;
+  }
+  .grid-columns-5 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 10fr 1fr 10fr 1fr 10fr;
+  }
+
+  @media screen and (max-width: 600px) {
+    .attention {
+      font-size: 2.5em !important;
+    }
+    .attention-sub {
+      font-size: 1em !important;
+    }
+    .right-tick-blue-bg {
+      display: none;
+    }
+    .grid-columns-5 {
+      display: block;
+    }
+    .equation h2 {
+      font-size: 0.8em !important;
+      margin: 0;
+    }
+    .equation p {
+      margin: 0;
+    }
+    .equation strong {
+      font-size: 0.7em;
+    }
+  }
+}

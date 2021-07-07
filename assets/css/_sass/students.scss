@@ -1,0 +1,18 @@
+.students {
+  .font-light {
+    font-weight: 300 !important;
+  }
+  .text-xl {
+    font-size: 1.2em !important;
+    @include media-query($on-palm) {
+      font-size: 0.6em !important;
+      margin-bottom: 0;
+    }
+  }
+  .text-2xl {
+    font-size: 1.8em !important;
+    @include media-query($on-palm) {
+      font-size: 1.2em !important;
+    }
+  }
+}

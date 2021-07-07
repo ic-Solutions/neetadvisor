@@ -23,45 +23,45 @@
     <div class="testimonial-review">
       {% for item in site.data.testimonials %}
       <div class="ult-item-wrap" data-animation="animated no-animation">
-        <div class="flex items-center justify-center mb-5">
-          <div
-            class="
-              px-4
-              py-5
-              text-center
-              rounded-lg
-              bg-white
-              border-light
-              shadow-sm
-              text-gray-800
-            "
-          >
-            <img
-              width="90"
-              height="90"
-              loading="lazy"
-              src="{{item.image}}"
-              alt="{{item.name}}"
-              class="shadow-sm"
-            />
-
-            <div class="w-full mb-10">
-              <svg
-                width="40"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 50 50"
-                class="d-flex reverse-image"
-              >
-                <path
-                  d="M 25 11 C 17.300781 11 11 17.300781 11 25 C 11 32.605469 16.300781 39 24 39 C 25.082031 39 26.484375 38.683594 27.828125 38.433594 C 25.765625 43.707031 22.21875 45.5 22.21875 45.5 L 20.914063 46.101563 L 24.921875 50.109375 L 25.472656 49.96875 C 25.472656 49.96875 28.976563 49.050781 32.34375 45.457031 C 35.710938 41.863281 39 35.570313 39 25 C 39 17.300781 32.699219 11 25 11 Z M 25 13 C 31.609375 13 37 18.390625 37 25 C 37 35.15625 33.902344 40.863281 30.882813 44.089844 C 28.269531 46.882813 26.09375 47.632813 25.46875 47.828125 L 24.140625 46.5 C 25.507813 45.671875 28.714844 43.433594 30.390625 37.46875 L 30.910156 35.628906 L 29.105469 36.25 C 28.023438 36.625 25.316406 37 24 37 C 17.390625 37 13 31.703125 13 25 C 13 18.390625 18.390625 13 25 13 Z"
-                ></path>
-              </svg>
-              <p class="quote text-center">{{item.quote}}</p>
-            </div>
-            <div class="w-full">
+        <div
+          class="
+            testimonial-item
+            px-4
+            py-5
+            text-center
+            rounded-lg
+            border-light
+            shadow-sm
+            text-gray-800
+            place-items-center
+          "
+        >
+          <div class="image-container">
+            <div>
+              <img
+                width="120"
+                height="120"
+                loading="lazy"
+                src="{{item.image}}"
+                alt="{{item.name}}"
+                class="shadow-sm"
+              />
               <h6 class="name">{{item.name}}</h6>
-              <p>{{item.designation}}</p>
+              <p class="designation">{{item.designation}}</p>
             </div>
+          </div>
+          <div class="w-full quote-container place-items-center">
+            <svg
+              width="40"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+              class="d-flex reverse-image"
+            >
+              <path
+                d="M 25 11 C 17.300781 11 11 17.300781 11 25 C 11 32.605469 16.300781 39 24 39 C 25.082031 39 26.484375 38.683594 27.828125 38.433594 C 25.765625 43.707031 22.21875 45.5 22.21875 45.5 L 20.914063 46.101563 L 24.921875 50.109375 L 25.472656 49.96875 C 25.472656 49.96875 28.976563 49.050781 32.34375 45.457031 C 35.710938 41.863281 39 35.570313 39 25 C 39 17.300781 32.699219 11 25 11 Z M 25 13 C 31.609375 13 37 18.390625 37 25 C 37 35.15625 33.902344 40.863281 30.882813 44.089844 C 28.269531 46.882813 26.09375 47.632813 25.46875 47.828125 L 24.140625 46.5 C 25.507813 45.671875 28.714844 43.433594 30.390625 37.46875 L 30.910156 35.628906 L 29.105469 36.25 C 28.023438 36.625 25.316406 37 24 37 C 17.390625 37 13 31.703125 13 25 C 13 18.390625 18.390625 13 25 13 Z"
+              ></path>
+            </svg>
+            <p class="quote text-center">{{item.quote}}</p>
           </div>
         </div>
       </div>

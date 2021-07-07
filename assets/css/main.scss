@@ -4,25 +4,26 @@
 
 @charset "utf-8";
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$brand-color:      #fcd21c;
-$h-color:          #270a68;
+$brand-color: #fcd21c;
+$h-color: #270a68;
 
-$text-color:       #777;
+$text-color: #777;
 $background-color: #f9f9f9;
 
-
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
+
+$monospace: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+  "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+  "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
 // Width of the content area
-$content-width:    800px;
-$on-palm:          600px;
-$on-laptop:        1000px;
-
-
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 1000px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -32,26 +33,12 @@ $on-laptop:        1000px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"web-grid",
-	"c1",
-	"c3",
-	"c4",
-	"c5",
-	"c6",
-	"pricing-table",
-	"share-buttons",
-	"bootstrap-utilities",
-	"old-styles",
-	"testimonials",
-	"videos",
-	"custom"
-;
+@import "web-grid", "c1", "c3", "c4", "c5", "c6", "pricing-table",
+  "share-buttons", "bootstrap-utilities", "old-styles", "testimonials",
+  "students", "videos", "attention", "contact-popup", "custom";

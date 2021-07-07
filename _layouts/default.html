@@ -300,10 +300,13 @@ layout: compress
       });
       document.getElementById("prev").onclick = function () {
         imgSlider.prev();
+        imgSlider.pause();
       };
       document.getElementById("next").onclick = function () {
         imgSlider.next();
+        imgSlider.pause();
       };
+      imgSlider.pause();
     </script>
 
     {% if page.url == "/about/" %}
@@ -473,7 +476,8 @@ layout: compress
     <script src="/assets/vendors/fancybox/jquery.fancybox.min.js"></script>
 
     {% include whatsapp-chat.html %}
-
+    {% include contact-popup-script.html %}
+    
     <script
       src="https://instant.page/3.0.0"
       defer

@@ -1,6 +1,6 @@
 .videos-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
 
   @include media-query($on-palm) {
     display: block;
@@ -16,29 +16,36 @@
       font-size: 2em !important;
       text-align: center;
       max-width: 16ch;
+      color: #555 !important;
       @include media-query($on-palm) {
         font-size: 1.2em !important;
+      }
+      span {
+        color: $h-color;
       }
     }
   }
 
   .video-slider {
-    grid-column: span 1;
-    height: 570px;
-    border-radius: 10px;
+    display: grid;
+    height: 420px;
     @include media-query($on-palm) {
-      height: 360px;
+      height: 320px;
     }
   }
 
-  img {
-    height: 570px;
+  iframe.video {
+    width: 900px;
+    height: 420px;
     @include media-query($on-palm) {
-      height: 360px;
+      width: 100vw;
+      height: 320px;
     }
   }
 
   .slide-navs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
   }
   .relative {
@@ -64,6 +71,10 @@
     place-items: center;
     cursor: pointer;
     border: 1px solid #eee;
+    padding: 0.5em 1em;
+    @include media-query($on-palm) {
+      padding: 0.25em 0.5em;
+    }
     &:hover {
       background-color: #ddd;
     }
