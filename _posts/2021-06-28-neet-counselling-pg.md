@@ -4,7 +4,6 @@ image: /assets/images/blog/neet-pg-counselling.png
 description: The National Eligibility cum Entrance Test Post Graduate, abbreviated as NEET PG is the main qualifying entrance and rank determining exam held in India.
 layout: post
 author: NEET Advisor
-title: My amazing post
 redirect_from:
   - /blog/neet-PG/
   - /blog/neet-counselling-pg/
