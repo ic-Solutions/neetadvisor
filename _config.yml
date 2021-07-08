@@ -42,3 +42,4 @@ destination: public
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from

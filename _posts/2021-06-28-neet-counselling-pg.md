@@ -1,9 +1,13 @@
 ---
 title: NEET PG
-image: /assets/images/blog/neet-pg-counselling.jpg
+image: /assets/images/blog/neet-pg-counselling.png
 description: The National Eligibility cum Entrance Test Post Graduate, abbreviated as NEET PG is the main qualifying entrance and rank determining exam held in India.
 layout: post
 author: NEET Advisor
+title: My amazing post
+redirect_from:
+  - /blog/neet-PG/
+  - /blog/neet-counselling-pg/
 ---
 
 The National Eligibility cum Entrance Test Post Graduate, abbreviated as NEET PG is the main
@@ -46,7 +50,7 @@ students having graduated from Foreign Medical Colleges, there are two more prim
 requirements to apply for NEET PG. Firstly, the candidate should register to the Medical Council
 of India (Central or State) and complete one full year of the internship program.
 
-## Counselling Eligibility
+## NEET Counselling Eligibility
 
 MCC shall lay down a particular cut off for the year. Candidates obtaining equal to or more than
 the qualifying cut off marks laid down by the MCC, will be eligible to attend the NEET PG
@@ -58,7 +62,7 @@ quota.
 
 The entire process of NEET PG counselling is held online. It proceeds in the following steps:-
 
-## Registration
+## NEET Registration
 
 Candidates willing to participate in the online counselling process of NEET PG, must first register
 themselves through the official website of MCC. You shall be asked to register with your official
@@ -70,13 +74,13 @@ refundable and nin refundable. The counselling fees for the deemed universities 
 greater than the counselling fees for the AIQ or Central Universities. You can refer to the website
 for more details.
 
-## Choice Filling
+## NEET Choice Filling
 
 After registration, candidates need to choose their desired colleges according to preference priority. There shall already be an existing list of colleges; you have to select the ones you want
 and sequence them according to your preference. After completion of choice filling, sub, it the list
 and keep a copy of the same for future use.
 
-## Seat Allotment
+## NEET Seat Allotment
 
 After this, the council shall conduct the first round of seat allotment. If the candidate gets a seat in their desired institute, they can proceed forward with the admission process, if not, the candidate may choose for a free exit. After this, MCI initiates registration for the second round of
 counselling. The candidates can place a new preference list in the second round of registration
@@ -101,14 +105,14 @@ Following documents are needed for the NEET PG Counselling:-
 - Disability certificate (if applicable)
 - EWS certificate (if applicable)
 
-## Document Verification Process
+## NEET Document Verification Process
 
 If the candidate opts for admission, he or she has to be present at the respective institute on a
 particular day for document verification as shall be notified officially by the MCI. On this day, the personnel of the allocated institutes shall verify the documents. The candidates must have the
 original documents with themselves along with self-attested photocopies of the required
 documents.
 
-## Seat Allotment Results
+## NEET Seat Allotment Results
 
 The total number of available seats is usually divided into two halves. This division is applicable
 for MD, MS and Diploma courses. One-half of the seats are for the Institutes that are under Central
