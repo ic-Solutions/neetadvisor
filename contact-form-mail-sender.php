@@ -30,12 +30,12 @@ if(isset($_POST['submit'])){
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'cs3002.hostgator.in';        // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'neetamls';                     // SMTP username
-    $mail->Password   = 'xU7CLq4Fu25Pec';                               // SMTP password
+    $mail->Username   = 'email@neetadvisor.com';                     // SMTP username
+    $mail->Password   = 'S99BDLg%J1V(';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
-    $mail->setFrom('info@neetadvisor.com', 'NEET Advisor Career Solutions');
+    $mail->setFrom('email@neetadvisor.com', 'NEET Advisor Career Solutions');
     $mail->addAddress($email, $name);       // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
     $mail->addCC('info@neetadvisor.com');
@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
     $mail->Body = "Hi $name, <br/> We have received the following details.<br /><br />Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message<br /><br />We will get back to you as soon as possible. In case you think we missed it, please call us at 9911203280<br /><br />Thanks<br />NEET Advisor<br />https://neetadvisor.com/";
     $mail->send();
     //header("Location: https://leopride.in/success.php");
-    echo "<script>window.location = 'https://neetadvisor.com/success.php'</script>";
+    // echo "<script>window.location = 'https://neetadvisor.com/success.php'</script>";
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo} <br/> Please contact info@neetadvisor.com";
 
