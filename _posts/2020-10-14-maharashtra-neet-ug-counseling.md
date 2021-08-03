@@ -48,7 +48,7 @@ NEET Advisor helps you in document preparation which must be submitted with orig
 9. Online application form filled at the official website www.mahacet.org
 10. Other documents if required: Caste proof certificate, Disputed Area Certificate, mother tongue certificate, proof of EWS (economically weaker section), disability certificate, or documents supporting minority status, documents supporting specified reservation claim, such as children of defence personnel, document proof if belonging to Gujarati/Sindhi minority category, proof of Hindu Linguistic minority.
 
-## Procedure to Apply Online for Maharashtra NEET UG counselling
+## Procedure to Apply Online for Maharashtra NEET counselling (UG)
 
 Follow this step-by-step process for applying online and if you are stuck at any stage, feel free to reach out to NEET Advisor:
 
@@ -83,21 +83,22 @@ After finishing registration, you get the option to lock your choice of college 
 
 ## Seat Allotment Results
 
-The seat allotment results are displayed after each round of counselling in the form of a list. The seat allotment letter is handed over to the candidates. The candidates can verify their name, roll number, allotted college, and other details on the list. During the time of admission, the students must carry the seat allotment letter, along with other required documents.
+The seat allotment results are displayed after each round of NEET counselling in the form of a list. The seat allotment letter is handed over to the candidates. The candidates can verify their name, roll number, allotted college, and other details on the list. During the time of admission, the students must carry the seat allotment letter, along with other required documents.
 
-After Maharashtra NEET UG counselling is completed, candidates have to report to the allotted colleges according to the reporting time. The next step to complete admission process would be to submit documents and fees. The admission of any candidate can be cancelled if found ineligible in later stages and the seat will be transferred to another candidate.
+After Maharashtra NEET counselling (UG) is completed, candidates have to report to the allotted colleges according to the reporting time. The next step to complete admission process would be to submit documents and fees. The admission of any candidate can be cancelled if found ineligible in later stages and the seat will be transferred to another candidate.
 
-**NEET ADVISOR** ensures that you follow all the steps of NEET counselling process carefully to avoid last minute seat cancellation. We have a team of experts who will scrutinize all the steps and help you to sail through the process of the counselling swiftly.
-We are a one stop solution for NEET counselling, where we provide innovative counselling services to NEET UG and NEET PG aspirants. We have helped thousands of NEET aspirants carving successful career in medicine.
+**NEET ADVISOR** ensures that you follow all the steps of NEET counselling process carefully to avoid last minute seat cancellation. We have a team of experts who will scrutinize all the steps and help you to sail through the process of the NEET counselling swiftly.
+
+We are a one stop solution for NEET counselling, where we provide innovative NEET counselling services to UG and PG aspirants. We have helped thousands of NEET aspirants carving successful career in medicine.
 
 Our unique process of preparation of personalized reports (based on student’s NEET score/rank) helps the candidate to select the best medical college. We have a team of NEET counselling Expert who guides the aspirant and by which NEET aspirants can clear all their queries in one-to-one session so as to make an informed decision.
 
-We provide all the important and crucial information required for All India quota, state quota, Deemed, Central, AFMC, AIIMS, JIPMER and various other State quota counselling under non domicile criterion too. We provide handholding throughout the entire process
+We provide all the important and crucial information required for All India quota, state quota, Deemed, Central, AFMC, AIIMS, JIPMER and various other State quota NEET counselling under non domicile criterion too. We provide handholding throughout the entire process
 – From start to finish, till an aspirant get admission in a good medical college. This helps the medical aspirants to negate any errors during form filling or choosing the college. With **14+ Glorious years of Excellence**, we have guided millions of students across India and Abroad.
 
 ### When it comes to “What after NEET”?
 
-We at NEET ADVISOR believe that the right information, is the secret to success. Our only GOAL is to help students in the entire counselling process, by connecting the dots. Through our services and handholding process, we feel pride in saying that many students could choose the right medical college and unleash their potential to the fullest.
+We at NEET ADVISOR believe that the right information, is the secret to success. Our only GOAL is to help students in the entire NEET counselling process, by connecting the dots. Through our services and handholding process, we feel pride in saying that many students could choose the right medical college and unleash their potential to the fullest.
 
 <hr>
 

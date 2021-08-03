@@ -22,7 +22,7 @@ Read [NEET COUNSELLING: Seminars and Workshops by NEET ADVISOR](/blog/neet-couns
 
 ## How to reach us?
 
-To reach NEET advisor you can call or visit our website and book your appointment for the one on one counselling session. We at NEET advisor provide skype session too for the convenience. Our organization is very flexible and work according to the needs of aspirants.
+To reach NEET advisor you can call or visit our website and book your appointment for the one on one NEET counselling session. We at NEET advisor provide skype session too for the convenience. Our organization is very flexible and work according to the needs of aspirants.
 
 The vision of organization is to impart best of knowledge to the students and parents who are aiming for Medical profession. NEET advisor can proudly say that it has 100% service satisfaction from medical aspirants and are happy with the college they are allotted in.
 

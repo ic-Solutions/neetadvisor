@@ -8,11 +8,11 @@ author: NEET Advisor
 
 If you are an aspiring MBBS or BDS student, then knowing all about All India Quota (AIQ) and NEET reservation criteria 2021 can help you get a seat in a reputed university anywhere in India. However, few seats are also reserved for scheduled tribes (ST), scheduled castes (SC), other backward castes (OBC), economically weaker section (EWS), and also or the candidates with physical disabilities (PWD) for gaining admission to MBBS, BDS, and AYUSH courses through NEETUG.
 
-The primary aim of this AIQ reservation criterion is to bring the underprivileged section of society to the mainstream by giving them an equal opportunity to become a healthcare professional in India. If you qualify the entrance test, you can take part in the counselling process which will be based on NEET 2021 reservation criteria & merit rank.
+The primary aim of this AIQ reservation criterion is to bring the underprivileged section of society to the mainstream by giving them an equal opportunity to become a healthcare professional in India. If you qualify the entrance test, you can take part in the NEET counselling process which will be based on NEET 2021 reservation criteria & merit rank.
 
 ## 15% All India Quota vs State Quota
 
-Every state has its exclusive reservation criteria for the 85% state quota seats. This is based on the latest reservation policy released by the counselling authority. The state counselling authority also covers all seats in private medical and dental colleges.
+Every state has its exclusive reservation criteria for the 85% state quota seats. This is based on the latest reservation policy released by the NEET counselling authority. The state NEET counselling authority also covers all seats in private medical and dental colleges.
 
 ## Seats Distribution of 15% all India quota
 
@@ -27,7 +27,7 @@ Every state has its exclusive reservation criteria for the 85% state quota seats
 - Candidates who have qualified in NEET 2021 entrance with at least 50 percentile (40 percentile for SC/ST/OBC and 45 percentile for PWD) are eligible for the NEET counselling.
 - Those belonging to the state of Jammu and Kashmir are not eligible for this reservation.
 - It is mandatory for the candidates to register on the MCC website to be eligible.
-- In the counselling for deemed universities, all candidates including those from Jammu and Kashmir can participate.
+- In the NEET counselling for deemed universities, all candidates including those from Jammu and Kashmir can participate.
 
 Read [To become a Doctor, speak to a Doctor](/blog/become-doctor/)
 
@@ -71,7 +71,7 @@ The steps involved in registration are:
 
 ## NEET counselling fee:
 
-Next, the students are asked to pay a refundable and non-refundable counselling fee. There are options for paying like credit, card debit card, or net banking
+Next, the students are asked to pay a refundable and non-refundable NEET counselling fee. There are options for paying like credit, card debit card, or net banking
 
 > Choice Locking options:
 
@@ -88,7 +88,7 @@ Following each counselling round, seat allotment results will be released by MCC
 
 **"The best way to predict the future is to create it." —Abraham Lincoln**
 
-At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, helps you realize your medical aspirations through personalized counselling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota counselling and prepare you well for the NEET counselling 2021. We have already impacted the medical careers of 50,000+ students and will fulfill your dreams too of getting admission into the top-notch medical college of your choice. We assess your competitive exam score/rank and other details and suggest the best choices that you can make. Being in this field for more than 14 years, we play a role in guiding you effectively through the vital application process and even in documentation and submission. For all queries related to NEET UG 2021, meet our friendly advisor at the earliest. Through our experience, we will ensure you to grab the best opportunity in the getting best medical college.
+At NEET ADVISOR -An initiative of LeoPrideCareer Solutions, helps you realize your medical aspirations through personalized NEET counselling. In our one-to-one sessions, we will answer all your queries related to AIQ and state Quota counselling and prepare you well for the NEET counselling 2021. We have already impacted the medical careers of 50,000+ students and will fulfill your dreams too of getting admission into the top-notch medical college of your choice. We assess your competitive exam score/rank and other details and suggest the best choices that you can make. Being in this field for more than 14 years, we play a role in guiding you effectively through the vital application process and even in documentation and submission. For all queries related to NEET UG 2021, meet our friendly advisor at the earliest. Through our experience, we will ensure you to grab the best opportunity in the getting best medical college.
 
 **"If you can DREAM it, you can DO it." —Walt Disney**
 

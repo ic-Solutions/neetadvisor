@@ -14,7 +14,7 @@ Seminars/Webinars are the most trending at this time of the pre-academic year si
 
 NEET ADVISOR conducts a number of seminars/webinars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars/webinars.
 
-A one-stop destination for all your NEET counselling doubts. A platform to clarify doubts and get a better understanding of the counselling procedure. Parent from states around Delhi NCR also attend these seminars/webinars. Our webinars are conducted in and around Pan India.
+A one-stop destination for all your NEET counselling doubts. A platform to clarify doubts and get a better understanding of the NEET counselling procedure. Parent from states around Delhi NCR also attend these seminars/webinars. Our webinars are conducted in and around Pan India.
 
 ## How to Become a Part of the NEET Seminar/Webinar?
 

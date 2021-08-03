@@ -14,19 +14,19 @@ It is not just about hard work and burning overnight oil now. The admission proc
 
 Parents play a vital role in the admission procedure. It is not only about supporting the child, providing funds for their education or motivating them. It is about gathering all the information that your child will need after appearing for the exam. Let them prepare for the exam.
 
-You, prepare for what comes after it, ‘The Counselling Procedure’. A plethora of coaching institutes are available to help your children with their studies. But we haven't bailed out on you to handle the non-academic process yourself. NEET ADVISOR will educate and assist you through the counselling procedure at the drop of a hat.
+You, prepare for what comes after it, ‘The NEET Counselling Procedure’. A plethora of coaching institutes are available to help your children with their studies. But we haven't bailed out on you to handle the non-academic process yourself. NEET ADVISOR will educate and assist you through the NEET counselling procedure at the drop of a hat.
 
-## What should a parent do to ensure their child&#39;s admission?
+## What should a parent do to ensure their child's admission?
 
 • A detailed health analysis of medical colleges is what every parent should do. This includes cut-offs, connectivity, facilities, infrastructure, faculty, etc.
 
 • You should be aware of the detailed structure of counselling, AIQ, State or deemed. You should be aware of the domicile requirements, reservation category, language, quota, etc. To get any kind of leverage that you can possibly get.
 
-• Prepare early and look beyond. Predict a NEET score. And plan every step of your counselling beforehand.
+• Prepare early and look beyond. Predict a NEET score. And plan every step of your NEET counselling beforehand.
 
 • Keep the documents handy. Do not wait until the last moment.
 
-• Be well versed in the counselling process. Research and educate yourself.
+• Be well versed in the NEET counselling process. Research and educate yourself.
 
 ## Do you doubt an effective contribution and involvement from your end?
 

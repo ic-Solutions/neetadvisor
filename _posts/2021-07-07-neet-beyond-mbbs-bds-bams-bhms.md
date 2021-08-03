@@ -55,7 +55,7 @@ It allows a person to practice homeopathy. After BHMS, an MD in Homeopathy can b
 **Career After BHMS** - Pharmacist, Doctor, Consultant, Researcher, Public Health Specialist, Medical Assistant, Lecturer, etc.
 
 **NEET ADVISOR: Your One Stop Career Solution**
-With a diversity of options and a limited number of seats, there is always a challenge to get everything right. While you work on exams, let NEET ADVISOR take care of your counselling and admission procedures.
+With a diversity of options and a limited number of seats, there is always a challenge to get everything right. While you work on exams, let NEET ADVISOR take care of your NEET counselling and admission procedures.
 
 **NEVER STAY IN DOUBT WHEN YOU COME TO NEET ADVISOR!**
 {: .text-center .mt-5}
