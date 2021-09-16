@@ -57,12 +57,12 @@ neet-ug:
     basic: false
     premium: true
 
-  - title: Profile Mapping
-    description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
-    image: /assets/images/pricing-table-icons/8.png
-    mode: Online
-    basic: false
-    premium: true
+  #- title: Profile Mapping
+    #description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report #will be designed to help you to get the best option available.
+    #image: /assets/images/pricing-table-icons/8.png
+    #mode: Online
+    #basic: false
+    #premium: true
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
