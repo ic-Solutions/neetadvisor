@@ -6,18 +6,11 @@ neet-ug:
     basic: true
     premium: true
 
-  - title: Rank UP NEET
-    description: Boost up your NEET Score and enhance final preparation for NEET 2021.
-    image: /assets/images/pricing-table-icons/2.png
-    mode: Online
-    basic: true
-    premium: true
-
   - title: Gear UP NEET
     description:
     features:
       - Predict your Rank based on your Expected Score.
-      - Facts & Figures of NEET 2020.
+      - Facts & Figures of NEET 2021.
       - Get E-Books on State Quota Counselling
     image: /assets/images/pricing-table-icons/3.png
     mode: Online
@@ -48,7 +41,7 @@ neet-ug:
     image: /assets/images/pricing-table-icons/6.png
     mode: Offline / Online
     basic: Two Sessions*
-    premium: Eight Sessions*
+    premium: Six Sessions*
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
@@ -102,7 +95,7 @@ neet-ug:
 
 neet-pg:
   - title: Medical Mantra
-    description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process of M.D./ M.S./ PG Diploma courses/ <strong>DNB seats</strong>.
+    description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process of M.D./ M.S./ Diploma courses/ <strong>DNB seats</strong>.
     image: /assets/images/pricing-table-icons/1.png
     mode: Offline
     basic: true
@@ -112,7 +105,7 @@ neet-pg:
     description:
     features:
       - Predict your Rank based on your Expected Score.
-      - Facts & Figures of NEET 2020.
+      - Facts & Figures of NEET 2021.
       - Get E-Books on State Quota Counselling
     image: /assets/images/pricing-table-icons/3.png
     mode: Online
@@ -143,7 +136,7 @@ neet-pg:
     image: /assets/images/pricing-table-icons/6.png
     mode: Offline / Online
     basic: Two Sessions*
-    premium: Eight Sessions*
+    premium: Six Sessions*
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.

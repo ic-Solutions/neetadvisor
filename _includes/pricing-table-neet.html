@@ -20,32 +20,17 @@
     <h3 class="text-gray">An innovative guide exclusively</h3>
     <h2 class="text-brand text-2xl">designed for Medical Aspirants</h2>
   </div>
+
   <div class="rows8 table-head m-2 mb-md-5">
-    <div class="c-5 place-items-center bg-secondary">
+    <div class="c-4 place-items-center bg-secondary">
       <h2 class="text-center">NEET UG Services</h2>
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-2 place-items-center bg-secondary hide-on-phone">
       <h4>Mode of Delivery</h4>
     </div>
-    <div class="c-1 bg-secondary hide-on-phone">
+    <div class="c-2 bg-secondary hide-on-phone" style="display:flex;justify-content: center;flex-direction: column;align-items: center;">
       <h4>
-        Basic <br />
-        ₹7,980 <sup class="text-xs font-normal">+GST</sup>
-      </h4>
-      <!-- <a
-        href="{{site.payment-links.ug-basic}}"
-        class="block btn-danger px-2 py-1 text-white rounded"
-        >Buy Now</a
-      > -->
-      <a
-        class="block px-2 py-1 text-white rounded"
-        style="background-color: dimgray"
-        >Sold Out</a
-      >
-    </div>
-    <div class="c-1 bg-secondary hide-on-phone">
-      <h4>
-        Premium <br />
+        Neet Guide <br />
         ₹24980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
       <a
@@ -57,7 +42,7 @@
   </div>
   {% for item in site.data.pricing-table.neet-ug %}
   <div class="rows8 m-2 mb-md-5">
-    <div class="c-5 relative place-items-center" style="padding: 0">
+    <div class="c-4 relative place-items-center" style="padding: 0">
       <img
         class="left-0 absolute hide-on-phone"
         src="{{item.image}}"
@@ -119,29 +104,12 @@
         </ul>
       </div>
     </div>
-    <div class="c-1 place-items-center bg-accent hide-on-phone">
+    <div class="c-2 place-items-center bg-accent hide-on-phone">
       <p class="text-white">{{item.mode}}</p>
-    </div>
-    <div class="c-1 place-items-center bg-primary-light hide-on-phone">
-      {% if item.basic.size > 1 %}
-      <p>{{item.basic}}</p>
-      {% else %} {% if item.basic %}
-      <img
-        src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
-        alt="NEET counselling"
-        width="50"
-      />
-      {% else %}
-      <img
-        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
-        alt="NEET counselling"
-        width="50"
-      />
-      {% endif %} {% endif %}
     </div>
     <div
       class="
-        c-1
+        c-2
         place-items-center
         bg-primary
         right-rounded-border
@@ -181,7 +149,7 @@
       <a
         href="{{site.payment-links.ug-premium}}"
         class="btn btn-danger px-4 py-2 text-white"
-        >Buy Premium</a
+        >Buy Neet Guide</a
       >
     </div>
   </div>
@@ -195,31 +163,15 @@
 
 <div class="centeral py-3 py-md-5 hide-on-phone">
   <div class="rows8 table-head m-2 mb-md-5">
-    <div class="c-5 place-items-center bg-secondary">
+    <div class="c-4 place-items-center bg-secondary">
       <h2 class="text-center">NEET PG Services</h2>
     </div>
-    <div class="c-1 place-items-center bg-secondary hide-on-phone">
+    <div class="c-2 place-items-center bg-secondary hide-on-phone">
       <h4>Mode of Delivery</h4>
     </div>
-    <div class="c-1 bg-secondary hide-on-phone">
+    <div class="c-2 bg-secondary hide-on-phone" style="display:flex;justify-content: center;flex-direction: column;align-items: center;">
       <h4>
-        Basic <br />
-        ₹7,980 <sup class="text-xs font-normal">+GST</sup>
-      </h4>
-      <!-- <a
-        href="{{site.payment-links.pg-basic}}"
-        class="block btn-danger px-2 py-1 text-white rounded"
-        >Buy Now</a
-      > -->
-      <a
-        class="block px-2 py-1 text-white rounded"
-        style="background-color: dimgray"
-        >Sold Out</a
-      >
-    </div>
-    <div class="c-1 bg-secondary hide-on-phone">
-      <h4>
-        Premium <br />
+        Neet Guide <br />
         ₹24980 <sup class="text-xs font-normal">+GST</sup>
       </h4>
       <a
@@ -231,7 +183,7 @@
   </div>
   {% for item in site.data.pricing-table.neet-pg %}
   <div class="rows8 m-2 mb-md-5">
-    <div class="c-5 relative place-items-center p-0">
+    <div class="c-4 relative place-items-center p-0">
       <img
         class="left-0 absolute hide-on-phone"
         src="{{item.image}}"
@@ -293,29 +245,12 @@
         </ul>
       </div>
     </div>
-    <div class="c-1 place-items-center bg-accent hide-on-phone">
+    <div class="c-2 place-items-center bg-accent hide-on-phone">
       <p class="text-white">{{item.mode}}</p>
-    </div>
-    <div class="c-1 place-items-center bg-primary-light hide-on-phone">
-      {% if item.basic.size > 1 %}
-      <p>{{item.basic}}</p>
-      {% else %} {% if item.basic %}
-      <img
-        src="/assets/images/pricing-table-icons/right-tick-blue-100.png"
-        alt="NEET counselling"
-        width="50"
-      />
-      {% else %}
-      <img
-        src="/assets/images/pricing-table-icons/cross-checkmark-100.png"
-        alt="NEET counselling"
-        width="50"
-      />
-      {% endif %} {% endif %}
     </div>
     <div
       class="
-        c-1
+        c-2
         place-items-center
         bg-primary
         right-rounded-border
@@ -355,7 +290,7 @@
       <a
         href="{{site.payment-links.pg-premium}}"
         class="btn btn-danger px-4 py-2 text-white"
-        >Buy Premium</a
+        >Buy Neet Guide</a
       >
     </div>
   </div>
