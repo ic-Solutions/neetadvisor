@@ -1,7 +1,63 @@
+@media only screen and (max-width: 900px) {
+  #myBtn {
+    display: none;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  /* 15% from the top and centered */
+  padding: 5px;
+  border: 1px solid #888;
+  width: 70%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// ------------end of model-------------//
 .dt-sc-icon-box.type2.custom-style {
   h5 {
     box-shadow: inset 0 0 0 8px $h-color !important;
   }
+
   &:hover {
     h5 {
       color: white !important;
@@ -26,6 +82,7 @@ small {
 
 header {
   margin-top: 20px !important;
+
   @include media-query($on-palm) {
     margin-top: 0 !important;
   }
@@ -49,6 +106,7 @@ header {
 .d-flex {
   display: flex !important;
 }
+
 .d-grid {
   display: grid;
 }
@@ -60,6 +118,7 @@ header {
 .justify-content-center {
   justify-content: center;
 }
+
 .align-items-center {
   align-items: center;
 }
@@ -71,6 +130,7 @@ header {
 .align-content-center {
   align-content: center;
 }
+
 .flex-direction-column {
   flex-direction: column;
 }
@@ -146,9 +206,11 @@ header {
 .bg-brand {
   background-color: $brand-color;
 }
+
 .bg-h {
   background-color: $h-color;
 }
+
 .h-100 {
   height: 100vh;
 }
@@ -179,11 +241,13 @@ header {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+
 .btn:hover,
 .btn:focus {
   color: #333;
   text-decoration: none;
 }
+
 .btn:active {
   background-image: none;
   outline: 0;
@@ -194,6 +258,7 @@ header {
 .btn-h {
   color: white;
   background-color: $h-color;
+
   &:hover {
     color: white;
     background-color: lighten($h-color, 10%);
@@ -205,6 +270,7 @@ header {
 .btn-danger {
   background-color: #d9534f !important;
   color: white;
+
   &:hover {
     background-color: darken(#d9534f, 5%) !important;
     color: white;
@@ -243,6 +309,7 @@ header {
 .uavc-list-icon {
   padding: 5px !important;
 }
+
 .uavc-list-content {
   margin-bottom: 0 !important;
 }
@@ -288,6 +355,7 @@ header {
   height: 80vh;
   text-align: center;
   line-height: 300px;
+
   @include media-query($on-palm) {
     height: 33vh;
   }
@@ -308,6 +376,7 @@ a.control_next {
   font-weight: 600;
   font-size: 18px;
   cursor: pointer;
+
   .fa {
     -webkit-transition: all 0.2s ease;
   }
@@ -346,6 +415,7 @@ a.control_next {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+
   @include media-query($on-palm) {
     display: block;
   }
@@ -355,6 +425,7 @@ a.control_next {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
+
   @include media-query($on-palm) {
     display: block;
   }
@@ -384,6 +455,7 @@ a.control_next {
   a {
     color: white !important;
     background-color: $h-color !important;
+
     &:hover {
       background-color: lighten($h-color, 10%) !important;
     }
@@ -405,21 +477,26 @@ a.control_next {
 
 .students {
   grid-gap: 20px;
+
   @include media-query($on-palm) {
     align-items: center;
   }
+
   .student {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
       0 5px 15px rgba(0, 0, 0, 0.07);
+
     @include media-query($on-palm) {
       width: 75%;
       margin: 0 auto;
     }
+
     img {
       display: inline-block !important;
     }
+
     h5 {
       font-size: 1em !important;
     }
@@ -464,6 +541,7 @@ a.control_next {
 
   .blog-title h2 {
     font-size: 1.5em !important;
+
     @include media-query($on-palm) {
       font-size: 0.8em !important;
     }
@@ -472,6 +550,7 @@ a.control_next {
   .blog-description {
     p {
       font-size: 1em !important;
+
       @include media-query($on-palm) {
         font-size: 0.9em !important;
       }
@@ -487,6 +566,7 @@ a.control_next {
     background-repeat: no-repeat;
     background-size: 70%;
     align-self: center;
+
     @include media-query($on-palm) {
       height: 50px;
       width: 50px;
@@ -535,6 +615,7 @@ a.control_next {
   .image {
     // height: 350px;
     overflow: hidden;
+
     img {
       border: 1px solid #eee;
       object-fit: cover;
@@ -564,6 +645,7 @@ a.control_next {
       font-size: 1.2em !important;
     }
   }
+
   h3 {
     @include media-query($on-palm) {
       font-size: 1.1em !important;
@@ -579,6 +661,7 @@ a.control_next {
   @include media-query($on-laptop) {
     grid-template-columns: 1fr 1fr;
   }
+
   @include media-query($on-palm) {
     grid-template-columns: 1fr;
   }
@@ -592,6 +675,7 @@ a.control_next {
     .blog-image-container {
       border-radius: 0;
     }
+
     .blog-image {
       width: 300px;
       height: 300px;
@@ -615,6 +699,7 @@ a.control_next {
 
 .footer-logo {
   max-width: 80% !important;
+
   @include media-query($on-palm) {
     width: 100px;
   }
@@ -622,6 +707,7 @@ a.control_next {
 
 .social-icons-ul {
   display: flex;
+
   @include media-query($on-palm) {
     justify-content: center;
   }
@@ -654,6 +740,7 @@ a.control_next {
   &:before {
     font-family: "FontAwesome" !important;
   }
+
   &:after {
     font-family: "FontAwesome" !important;
   }
@@ -664,11 +751,13 @@ a.control_next {
 .gallery-tabs {
   list-style: none;
   display: flex;
+
   li {
     margin-right: 30px;
 
     a {
       border-bottom: 2px solid $brand-color;
+
       &:hover {
         color: $h-color;
         border-color: $h-color;
@@ -690,10 +779,12 @@ a.control_next {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+
   @include media-query($on-laptop) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
+
   @include media-query($on-palm) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -740,8 +831,10 @@ a.control_next {
 
   .content {
     align-self: center;
+
     p {
       font-weight: 400 !important;
+
       @include media-query($on-palm) {
         text-align: justify;
       }
@@ -758,32 +851,40 @@ a.control_next {
     font-size: 0.9em !important;
   }
 }
+
 .nav-neet {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .vc_row.vc_hidden[data-vc-full-width] {
   opacity: 1;
 }
-.vc_column_container > .vc_column-inner {
+
+.vc_column_container>.vc_column-inner {
   padding-left: 25px;
   padding-right: 25px;
 }
+
 body:not(.block-editor-page):not(.wp-core-ui) {
   font-weight: 400 !important;
 }
+
 .subform {
   width: 85%;
   margin: 0 auto;
 }
+
 .sub-btn {
   background: #fcd21c !important;
 }
+
 /*FAQ Accordion */
 .faq-home {
   margin: 0 15px;
 }
+
 button.accordion {
   background-color: #eee;
   color: #444;
@@ -821,69 +922,87 @@ div.panel {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
 @include media-query($on-palm) {
   .mobile-center {
     display: flex;
     justify-content: center;
     text-align: center;
+
     .dt-sc-fancy-list.yellow.image-bullet {
       display: inline-block;
     }
+
     .dt-sc-contact-info {
       display: inherit;
       justify-content: center !important;
     }
+
     .vc_custom_1574417885893 {
       margin-left: 0 !important;
     }
+
     .vc_custom_1571998176762 {
       margin-right: 0 !important;
     }
+
     .vc_custom_1574417845589 {
       margin-right: 0 !important;
     }
+
     .column img,
     .vc_column_container img,
     .wpb_column img {
       display: block;
       margin: 0 auto;
     }
+
     .text-left {
       text-align: center !important;
     }
   }
+
   .home-neet-05 .alignright {
     float: none !important;
     margin: 0 auto;
   }
+
   .home-h1 h1 {
     text-align: center !important;
     padding: 1em 0;
   }
+
   .offer-btn {
     text-align: center;
     display: block;
   }
+
   .about-headings {
     font-size: 24px !important;
   }
+
   .hide-margin-bottom-mobile {
     margin-bottom: 0px !important;
   }
+
   .dt-sc-team.type2 {
     border: none;
+
     .dt-sc-team-details {
       text-align: center;
       padding: 0px;
+
       h4 {
         margin-bottom: 15px;
       }
+
       .dt-sc-team-social {
         text-align: center;
         margin: 10px 0;
       }
     }
   }
+
   .neet-guide-headings {
     text-align: center;
     font-size: 24px !important;

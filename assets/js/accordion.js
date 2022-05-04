@@ -1,50 +1,74 @@
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 var acc = document.getElementsByClassName("accordion");
-  var i;
-	
-  // Open the first accordion
-  var firstAccordion = acc[0];
-  var firstPanel = firstAccordion.nextElementSibling;
-  firstAccordion.classList.add("active");
-  firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
+var i;
 
-  // Add onclick listener to every accordion element
-  for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-      // For toggling purposes detect if the clicked section is already "active"
-      var isActive = this.classList.contains("active");
+// Open the first accordion
+var firstAccordion = acc[0];
+var firstPanel = firstAccordion.nextElementSibling;
+firstAccordion.classList.add("active");
+firstPanel.style.maxHeight = firstPanel.scrollHeight + "px";
 
-      // Close all accordions
-      var allAccordions = document.getElementsByClassName("accordion");
-      for (j = 0; j < allAccordions.length; j++) {
-        // Remove active class from section header
-        allAccordions[j].classList.remove("active");
+// Add onclick listener to every accordion element
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function () {
+    // For toggling purposes detect if the clicked section is already "active"
+    var isActive = this.classList.contains("active");
 
-        // Remove the max-height class from the panel to close it
-        var panel = allAccordions[j].nextElementSibling;
-        var maxHeightValue = getStyle(panel, "maxHeight");
-      
-      if (maxHeightValue !== "0px") {
-          panel.style.maxHeight = null;
-        }
-      }
+    // Close all accordions
+    var allAccordions = document.getElementsByClassName("accordion");
+    for (j = 0; j < allAccordions.length; j++) {
+      // Remove active class from section header
+      allAccordions[j].classList.remove("active");
 
-      // Toggle the clicked section using a ternary operator
-      isActive ? this.classList.remove("active") : this.classList.add("active");
-
-      // Toggle the panel element
-      var panel = this.nextElementSibling;
+      // Remove the max-height class from the panel to close it
+      var panel = allAccordions[j].nextElementSibling;
       var maxHeightValue = getStyle(panel, "maxHeight");
-      
+
       if (maxHeightValue !== "0px") {
         panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
       }
-    };
-  }
-  
-  // Cross-browser way to get the computed height of a certain element. Credit to @CMS on StackOverflow (http://stackoverflow.com/a/2531934/7926565)
-  function getStyle(el, styleProp) {
+    }
+
+    // Toggle the clicked section using a ternary operator
+    isActive ? this.classList.remove("active") : this.classList.add("active");
+
+    // Toggle the panel element
+    var panel = this.nextElementSibling;
+    var maxHeightValue = getStyle(panel, "maxHeight");
+
+    if (maxHeightValue !== "0px") {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  };
+}
+
+// Cross-browser way to get the computed height of a certain element. Credit to @CMS on StackOverflow (http://stackoverflow.com/a/2531934/7926565)
+function getStyle(el, styleProp) {
   var value, defaultView = (el.ownerDocument || document).defaultView;
   // W3C standard way:
   if (defaultView && defaultView.getComputedStyle) {
@@ -54,13 +78,13 @@ var acc = document.getElementsByClassName("accordion");
     return defaultView.getComputedStyle(el, null).getPropertyValue(styleProp);
   } else if (el.currentStyle) { // IE
     // sanitize property name to camelCase
-    styleProp = styleProp.replace(/\-(\w)/g, function(str, letter) {
+    styleProp = styleProp.replace(/\-(\w)/g, function (str, letter) {
       return letter.toUpperCase();
     });
     value = el.currentStyle[styleProp];
     // convert other units to pixels on IE
-    if (/^\d+(em|pt|%|ex)?$/i.test(value)) { 
-      return (function(value) {
+    if (/^\d+(em|pt|%|ex)?$/i.test(value)) {
+      return (function (value) {
         var oldLeft = el.style.left, oldRsLeft = el.runtimeStyle.left;
         el.runtimeStyle.left = el.currentStyle.left;
         el.style.left = value || 0;
