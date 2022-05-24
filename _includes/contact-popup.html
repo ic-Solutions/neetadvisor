@@ -1,37 +1,32 @@
-<div class="contact-popup">
-  <div class="Click-here">Click Here</div>
-  <div class="custom-model-main">
-    <div class="custom-model-inner">
-      <div class="close-btn">×</div>
-      <div class="custom-model-wrap p-4">
-        <div class="pop-up-content-wrap">
-          <h4 class="text-center m-0 p-0">
-            Request Callback
-          </h4>
-          <hr />
-          <div class="contact-form-in-popup">
-            <form
-              action="https://form.digitalsochmedia.com/thanku.php"
-              class="kwes-form"
-              novalidate="novalidate"
-              id="kwes-form"
-              method="POST"
-            >
-              <div class="form-group" style="margin-bottom: 0px;">
-                  <input type="text" name="name"  class="form-control" placeholder="Enter Your Name" style="margin-bottom: 15px;"/>
-                  <input type="text" class="form-control" name="mobile" pattern="[0-9]{10,10}" autocomplete="off"  maxlength="10" id="extra7" onKeyPress="return isNumber(event)" placeholder="Enter Mobile Number" aria-describedby="basic-addon1" style="border: 2px solid #4ab242; margin-bottom: 15px;">
-                  <input type="text" class="form-control" name="msg" placeholder="Enter Your Message"  style="margin-bottom: 15px;">
-              </div>
-              <input type="hidden" name="clientMailID" value="info@neetadvisor.com">
+<!-- Onload popup -->
+<div id="myModal" class="modal fade onload_modal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div> -->
+      <div class="modal-header" style="padding:15px 20px; background: #034a6a;">
+          <h5 style="color:#fff; margin: 0;"><span class="fa fa-phone" style="margin-right: 5px;"></span> Request Callback</h5><button type="button" data-dismiss="modal" style="position: absolute; right: 20px; top: 0px; background: no-repeat; border: 0px; font-size: 35px; margin: 0px; padding: 0px; color: #fff;">&times;</button>
+      </div>
+      <div class="modal-body" style="padding:20px 30px;">
+      <form method="post" action="https://form.digitalsochmedia.com/thanku.php">
+        <div class="form-group" style="margin-bottom: 0px;">
+            <input type="text" name="name"  class="form-control" placeholder="Enter Your Name" style="margin-bottom: 15px;"/>
+            <input type="text" class="form-control" name="mobile" pattern="[0-9]{10,10}" autocomplete="off"  maxlength="10" id="extra7" onKeyPress="return isNumber(event)" placeholder="Enter Mobile Number" aria-describedby="basic-addon1" style="border: 2px solid #4ab242; margin-bottom: 15px;">
+            <input type="text" class="form-control" name="msg" placeholder="Enter Your Message"  style="margin-bottom: 15px;">
+        </div>
+        <input type="hidden" name="clientMailID" value="info@neetadvisor.com">
               <input name="website" type="hidden" value="neetadvisor.com/thanku.html" />            
               <input name="loginID" type="hidden" value="574" />
-              
-                <button type="submit" class="btn btn-block" style="background: #034a6a; color:#fff; border: 0px;"><span class="fa fa-paper-plane"></span> Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
+        
+          <button type="submit" class="btn btn-block" style="background: #034a6a; color:#fff; border: 0px;"><span class="fa fa-paper-plane"></span> Submit</button>
+      </form>
     </div>
-    <div class="bg-overlay"></div>
+      <div class="modal-footer text-center">
+          <p style="text-align: center !important; margin-right: auto; margin-left: auto;">Our team will contact you soon.</p>          
+        </div>
+    </div>
+
   </div>
 </div>
