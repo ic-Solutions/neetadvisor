@@ -1,5 +1,27 @@
-<script type="text/javascript">
-    $(document).ready(function(){       
-   $('#myModal').modal('show');
-    }); 
+<script src="https://kwes.io/v2/kwes-script.js" defer></script>
+<script>
+  jQuery(document).ready(function ($) {
+    let popupShowed = sessionStorage["popupShowed"];
+
+    setTimeout(() => {
+      if (!popupShowed) {
+        $(".Click-here").trigger("click");
+      }
+    }, 10000);
+
+    $("#kwes-form").submit((e) => {
+      e.preventDefault();
+      sessionStorage["popupShowed"] = true;
+      $(".custom-model-main").removeClass("model-open");
+      e.submit();
+    });
+
+    $(".Click-here").on("click", function () {
+      $(".custom-model-main").addClass("model-open");
+    });
+    $(".close-btn, .bg-overlay").click(function () {
+      $(".custom-model-main").removeClass("model-open");
+      sessionStorage["popupShowed"] = true;
+    });
+  });
 </script>
