@@ -1,9 +1,10 @@
-.r {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px
+@media only screen and (min-width: 600px) {
+    .r {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px
+    }
 }
-
 .c-2,
 .c-10 {
     grid-column: span 12;

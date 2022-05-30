@@ -43,7 +43,7 @@
     box-shadow: 0 0 25px rgba(0,0,0,0.4);
     background-color: $brand-color;
   }
-
+  @media only screen and (min-width: 600px) {
   .r {
     border-top: 2px solid black;
     @include media-query($on-palm) {
@@ -55,6 +55,7 @@
         padding: 0;
       }
     }
+  }
   }
   
 
@@ -87,11 +88,12 @@
   }
 
 }
-
+@media only screen and (min-width: 600px) {
 .neet-info {
   .r {
     border: none;
   }
+}
 }
 
 
