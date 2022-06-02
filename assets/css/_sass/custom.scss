@@ -1,9 +1,21 @@
-@media only screen and (max-width: 900px) {
-  #myBtn {
-    display: none;
-  }
+// @media only screen and (max-width: 900px) {
+//   #myBtn {
+//     display: none;
+//   }
+// }
+#myBtn{
+  position:fixed;
+    top:50%;
+    right: -80px;
+    padding:0px;
+    margin:0px;
+    width: 200px;
+    height:60px;
+  -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
 }
-
 /* The Modal (background) */
 .modal {
   display: none;
