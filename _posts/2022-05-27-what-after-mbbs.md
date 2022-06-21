@@ -1,6 +1,6 @@
 ---
 title: What after MBBS
-image: /assets/images/blog/what-after-mbbs.jpg
+image: /assets/images/blog/what-after-mbbs.webp
 description: This blog is framed to give you insight about what after MBBS you should pursue. Here we’ll be talking about options which candidate can avail after completing MBBS.
 layout: post
 author: NEET Advisor
