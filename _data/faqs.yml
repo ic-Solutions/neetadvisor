@@ -145,53 +145,53 @@
         Group IV - Candidates who have been allotted with a seat but Not Joined.<br>
         Group V - Candidates who have resigned from the allotted seat of the first round at college.<br>
 
-    - q: Which Colleges/ Universities are allotted through MCC/DGHS Counselling?
-      a: DGHS (The Directorate General of Health Services) on behalf of the MCC will conduct counselling for the 15% All India Quota and all seats of Deemed universities / Central universities/ seats of ESIC & AFMC/ Delhi University (DU), VMMC, BHU, AMU, AIIMS & JIPMER.
+    # - q: Which Colleges/ Universities are allotted through MCC/DGHS Counselling?
+    #   a: DGHS (The Directorate General of Health Services) on behalf of the MCC will conduct counselling for the 15% All India Quota and all seats of Deemed universities / Central universities/ seats of ESIC & AFMC/ Delhi University (DU), VMMC, BHU, AMU, AIIMS & JIPMER.
 
-    - q: What is All India Rank (AIR)?
-      a: AIR places a student depending upon their position scored amongst all candidates who have qualified NEET.
+    # - q: What is All India Rank (AIR)?
+    #   a: AIR places a student depending upon their position scored amongst all candidates who have qualified NEET.
 
-    - q: What does free exit for the 1st round mean?
-      a: Free exit for 1st round means if a candidate allotted a seat in 1st round and even if a candidate does not report/join the allotted college he would not be penalized (security deposit will not be forfeited) and will be eligible for subsequent rounds.
+    # - q: What does free exit for the 1st round mean?
+    #   a: Free exit for 1st round means if a candidate allotted a seat in 1st round and even if a candidate does not report/join the allotted college he would not be penalized (security deposit will not be forfeited) and will be eligible for subsequent rounds.
 
-    - q: Is it necessary to join the allotted Medical/Dental College of MCC Round 1 to get a chance to participate in MCC Round 2?
-      a: No candidates need not report or join the allotted college of round 1 since there is free exit. However, if they want to hold the Round 1 seat, they can join the college of Round 1 and give a request for up gradation in Round 2.
+    # - q: Is it necessary to join the allotted Medical/Dental College of MCC Round 1 to get a chance to participate in MCC Round 2?
+    #   a: No candidates need not report or join the allotted college of round 1 since there is free exit. However, if they want to hold the Round 1 seat, they can join the college of Round 1 and give a request for up gradation in Round 2.
 
-    - q: Is there any restriction to the number of choices of institution and course (MBBS or BDS) during choice filling?
-      a: There is no restriction, and the candidate is free to select as many choices from available options. But make sure to enter the choices in the order of preference.
+    # - q: Is there any restriction to the number of choices of institution and course (MBBS or BDS) during choice filling?
+    #   a: There is no restriction, and the candidate is free to select as many choices from available options. But make sure to enter the choices in the order of preference.
 
-    - q: If I mistakenly opt for Deemed Universities seats instead of All India Quota (AIQ), can it be corrected?
-      a: The candidate can fix the problem using the reset initialization option provided at the registration page. But note that the facility can be used only once.
+    # - q: If I mistakenly opt for Deemed Universities seats instead of All India Quota (AIQ), can it be corrected?
+    #   a: The candidate can fix the problem using the reset initialization option provided at the registration page. But note that the facility can be used only once.
 
-    - q: Is there any medical college which admits only Girls?
-      a: Yes, at present there are three medical colleges exclusively for Girls, namely Lady Hardinge Medical College Delhi, BPS Govt. Medical College, Sonepat and SVIMS, Sri Padmavathi College for Women Tirupati.
+    # - q: Is there any medical college which admits only Girls?
+    #   a: Yes, at present there are three medical colleges exclusively for Girls, namely Lady Hardinge Medical College Delhi, BPS Govt. Medical College, Sonepat and SVIMS, Sri Padmavathi College for Women Tirupati.
 
-    - q: What does exit with forfeiture mean in 2nd round of counselling?
-      a: Exit with forfeiture means if a candidate allotted a seat in 2nd round of counselling and does not want to join the allotted seat he can still exit with forfeiture (losing security amount deposited) and once candidate joined the allotted seat would not be eligible for resigning/surrender of joined seat.
+    # - q: What does exit with forfeiture mean in 2nd round of counselling?
+    #   a: Exit with forfeiture means if a candidate allotted a seat in 2nd round of counselling and does not want to join the allotted seat he can still exit with forfeiture (losing security amount deposited) and once candidate joined the allotted seat would not be eligible for resigning/surrender of joined seat.
 
-    - q: After I join the second round of counselling of 15% AIQ, can I leave/ resign to join the state Quota/private college seat?
-      a: Once you join second round seat from 15% All India Quota, you will not be allowed to vacate from allotted 2nd round seat as per direction by Hon'ble supreme court in WP(C) (267/2017) dated 09/05/2017. However, if you are allotted a seat in the second round in AIQ/ Deemed, you can exit with forfeiture of security amount.
+    # - q: After I join the second round of counselling of 15% AIQ, can I leave/ resign to join the state Quota/private college seat?
+    #   a: Once you join second round seat from 15% All India Quota, you will not be allowed to vacate from allotted 2nd round seat as per direction by Hon'ble supreme court in WP(C) (267/2017) dated 09/05/2017. However, if you are allotted a seat in the second round in AIQ/ Deemed, you can exit with forfeiture of security amount.
 
-    - q: Who is the Financial Custodian?
-      a: HLL Life care Ltd, a Govt. of India Undertaking under Ministry of Health and Family Welfare is the Financial Custodian. They will, on behalf of MCC, collect non-refundable Registration Fees and refundable security amounts from the candidates and refund the security amount, on the advice of MCC, to the candidates.
+    # - q: Who is the Financial Custodian?
+    #   a: HLL Life care Ltd, a Govt. of India Undertaking under Ministry of Health and Family Welfare is the Financial Custodian. They will, on behalf of MCC, collect non-refundable Registration Fees and refundable security amounts from the candidates and refund the security amount, on the advice of MCC, to the candidates.
 
-    - q: Can a candidate participate in the second round without submitting fresh choices (based on choices submitted before round-1)?
-      a: Fresh choice submission by eligible candidates is necessary for consideration for seat allotment during round-2. If a candidate does not submit fresh choice(s) during choice filling period, the candidate will not be considered for allotment of seat during Round-2 and will retain the already allotted (joined) seat, if any.
+    # - q: Can a candidate participate in the second round without submitting fresh choices (based on choices submitted before round-1)?
+    #   a: Fresh choice submission by eligible candidates is necessary for consideration for seat allotment during round-2. If a candidate does not submit fresh choice(s) during choice filling period, the candidate will not be considered for allotment of seat during Round-2 and will retain the already allotted (joined) seat, if any.
 
-    - q: Can a candidate participate in the second round without submitting fresh choices (based on choices submitted before round-1)?
-      a: Fresh choice submission by eligible candidates is necessary for consideration for seat allotment during round-2. If a candidate does not submit fresh choice(s) during choice filling period, the candidate will not be considered for allotment of seat during Round-2 and will retain the already allotted (joined) seat, if any.
+    # - q: Can a candidate participate in the second round without submitting fresh choices (based on choices submitted before round-1)?
+    #   a: Fresh choice submission by eligible candidates is necessary for consideration for seat allotment during round-2. If a candidate does not submit fresh choice(s) during choice filling period, the candidate will not be considered for allotment of seat during Round-2 and will retain the already allotted (joined) seat, if any.
     
-    - q: In case I have a Birth Certificate / Caste Certificate/ other certificate(s) in regional language, will it be acceptable at the time of reporting?
-      a: Certificates issued by the competent authority on standard format, should be in English or Hindi language. Please remember that some of the states insist on a certificate in English language only. Candidates are advised to carry certified (attested) Copy of English version of the original certificate, in case certificate issued is in other than English language, along with the original certificate.
+    # - q: In case I have a Birth Certificate / Caste Certificate/ other certificate(s) in regional language, will it be acceptable at the time of reporting?
+    #   a: Certificates issued by the competent authority on standard format, should be in English or Hindi language. Please remember that some of the states insist on a certificate in English language only. Candidates are advised to carry certified (attested) Copy of English version of the original certificate, in case certificate issued is in other than English language, along with the original certificate.
     
-    - q: Whether Up-gradation is allowed from 2nd round counselling of Deemed/ Central Universities to Mop-up Round counselling of DGHS for Central / Deemed Universities?
-      a: No, Up-gradation is not allowed once a candidate joins a seat allotted in Round II of Deemed/ Central Universities and the candidate will not be allowed to vacate the seat. For Deemed/ Central Universities the candidate will not be allowed in any further counselling including Stray Vacancy Round of Deemed/ Central Universities.
+    # - q: Whether Up-gradation is allowed from 2nd round counselling of Deemed/ Central Universities to Mop-up Round counselling of DGHS for Central / Deemed Universities?
+    #   a: No, Up-gradation is not allowed once a candidate joins a seat allotted in Round II of Deemed/ Central Universities and the candidate will not be allowed to vacate the seat. For Deemed/ Central Universities the candidate will not be allowed in any further counselling including Stray Vacancy Round of Deemed/ Central Universities.
     
-    - q: How much time will I be given to join the allotted college?
-      a: Candidates allotted seats will be required to join the allotted college/course within stipulated time. However, candidates are advised to join as early as possible and not to wait for the last day of joining. In some of the colleges/ universities, 2-3 days time is required to complete admission formalities. Therefore, candidates are advised to contact the allotted college immediately after declaration of the result of the counselling. If a candidate fails to join the allotted Medical/Dental College within stipulated time, then the allotted seat will be cancelled.
+    # - q: How much time will I be given to join the allotted college?
+    #   a: Candidates allotted seats will be required to join the allotted college/course within stipulated time. However, candidates are advised to join as early as possible and not to wait for the last day of joining. In some of the colleges/ universities, 2-3 days time is required to complete admission formalities. Therefore, candidates are advised to contact the allotted college immediately after declaration of the result of the counselling. If a candidate fails to join the allotted Medical/Dental College within stipulated time, then the allotted seat will be cancelled.
 
-    - q: Who are eligible for the 2nd round of allotment?
-      a: Candidates eligible for seat allotment in 2nd round would be one from the following groups<br>Group I - Registered candidates who did not get any seat allotment in the 1st round.<br>Group II - Registered candidates who have secured seat under reserved quota & whose 1st round of allotted seat got cancelled during the document verification on reporting for admission will be considered for allotment of seat in the next round of seat allotment, with changed Category, subject to availability of seat in respective category.<br>Group III - Candidates who have reported at allotted institute during 1st round of allotment and submitted willingness for second round up-gradation as Yes.<br>Group IV - Candidates who have been allotted a seat but Not Joined.<br>Group V - Candidates who have resigned from the allotted seat of the first round.
+    # - q: Who are eligible for the 2nd round of allotment?
+    #   a: Candidates eligible for seat allotment in 2nd round would be one from the following groups<br>Group I - Registered candidates who did not get any seat allotment in the 1st round.<br>Group II - Registered candidates who have secured seat under reserved quota & whose 1st round of allotted seat got cancelled during the document verification on reporting for admission will be considered for allotment of seat in the next round of seat allotment, with changed Category, subject to availability of seat in respective category.<br>Group III - Candidates who have reported at allotted institute during 1st round of allotment and submitted willingness for second round up-gradation as Yes.<br>Group IV - Candidates who have been allotted a seat but Not Joined.<br>Group V - Candidates who have resigned from the allotted seat of the first round.
 
 
 
