@@ -14,7 +14,7 @@ Experienced Doctor who has been in mentorship/counselling can be profitable for 
 
 > NEET ADVISOR – Your one stop solution
 
-NEET advisor with 14+ years of expertise helps you in guiding through the admission procedure and handhold you till the allotment of the college.
+NEET advisor with 15+ years of expertise helps you in guiding through the admission procedure and handhold you till the allotment of the college.
 
 NEET advisor helps those who have been cheated by vultures present in the society, it’s never too late and we firmly believe in this as our hardworking team will assist you and give right guidance so that the future of aspirant won’t spoil and their dream of becoming doctor comes true.
 

@@ -78,7 +78,7 @@ Culture of the university is to learn, wherein they have full support from their
 
 **We at NEET advisor**
 
-NEET advisor with its 14+ years’ experience in the field of NEET Counselling is here to help you in converting your dream into reality. Experts counsellor from NEET advisor will guide you throughout the admission process and will make sure that the student gets enrolled in the top-notch medical college according to their score and rank.
+NEET advisor with its 15+ years’ experience in the field of NEET Counselling is here to help you in converting your dream into reality. Experts counsellor from NEET advisor will guide you throughout the admission process and will make sure that the student gets enrolled in the top-notch medical college according to their score and rank.
 
 We will take care of minimalistic gaps in the admission process and you take care of your NEET preparation.
 

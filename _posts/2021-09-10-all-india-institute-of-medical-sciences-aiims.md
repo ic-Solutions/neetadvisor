@@ -97,7 +97,7 @@ There are total 19 AIIMS:
 
 “Learning is creation, not consumption. Knowledge is not something a learner absorbs, but something a learner creates.”.
 
-With our **14+ year** experience we are there to help you through all thin and thick to get enrolled in the top-notch medical colleges because that’s where our expertise lies in.
+With our **15+ year** experience we are there to help you through all thin and thick to get enrolled in the top-notch medical colleges because that’s where our expertise lies in.
 
 “**Spoon feeding in the long run teaches us nothing but the shape of the spoon”**
 
