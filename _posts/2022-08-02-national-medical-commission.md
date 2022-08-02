@@ -1,6 +1,6 @@
 ---
 title: National Medical Commission (NMC)
-image: /assets/images/blog/nmc.jpeg
+image: /assets/images/blog/NMC-POST.jpg
 description: On 3rd February 2022, The National Medical Commission in its guidelines has said that private medical colleges and deemed universities should charge fees for 50% of its seats on a par with government medical colleges in that State or Union Territory.
 layout: post
 author: NEET Advisor
