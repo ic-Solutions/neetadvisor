@@ -1,5 +1,5 @@
 ---
-title: "NEET COUNSELLING: Seminars/Workshops and Workshops by NEET ADVISOR"
+title: "NEET COUNSELLING: Seminars/Webinars and Workshops by NEET ADVISOR"
 image: /assets/images/blog/neetcounselling-seminars.jpg
 description: NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars.
 layout: post
