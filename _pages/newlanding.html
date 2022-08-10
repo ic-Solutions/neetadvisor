@@ -1,0 +1,201 @@
+---
+title: New Landing
+description: NEET Advisor provides a total career counselling where we have come together to help, guide and counsel students in every aspect from making the right career choice, choosing the right course/institution and even help you settle down in new environs.
+image: /assets/images/4-1.jpg
+layout: default1
+permalink: /newlanding/
+type: newlanding
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nhighlights{
+            background-color: #020275;
+            padding: 30px;
+        }
+        #main{
+            padding: 0 !important;
+        }
+        .container{
+            width: 100% !important;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hbox{
+            background-color:#fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 5px solid transparent;
+            border-left-color: #f1b301;
+            margin: 10px;
+            box-shadow: 5px 5px 10px grey;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-title,.form-disc{
+            color: #fff !important;
+            text-align: center;
+        }
+        .nform{
+            background-color: #fff;
+            padding: 30px;
+            padding-bottom: 90px;
+            margin: 30px;
+            box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        .nform-btn{
+            width: 100%;
+            padding: 10px !important;
+        }
+        .p1-doc{
+            height: 270px !important;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .nbox p{
+            font-size: 18px;
+            line-height: 1rem;
+        }
+        .nbox{
+            width: 30%;
+        }
+        .highlights-box-1{
+            width: 60%;
+            margin-top: 30px;
+        }
+        .highlights-box-2{
+            width: 40%;
+            padding: 20px;
+        }
+        @media only screen and (max-width: 600px) {
+            .highlights-box-1,.highlights-box-2{
+                width: 100% !important;
+            }
+            .highlights-box-2{
+                padding: 0;
+            }
+            .nbox{
+            width: auto;
+            }
+            h2{
+                font-size: 26px !important;
+            }
+            h4{
+                font-size: 20px !important;
+            }
+
+        }
+        /* nAchievements */
+        #nAchievements{
+            margin-bottom: 50px;
+        }
+        /* video */
+        #nvideo{
+            background-color: #020275;
+            padding: 50px;
+        }
+        .nvideo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #nvideo h2{
+            text-align: center;
+            color: #fff;
+        }
+        .nvideo iframe{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- highlights -->
+    <section id="nhighlights" class="flex">
+        <!-- <div class="highlights "> -->
+            <div class="highlights-box-1">
+                <h2 class="form-title">
+                    Webinar Highlights
+                </h2>
+                <div class="flex">
+                    <div class="nbox">
+                        <p class="hbox">Understand NEET Counselling and complete medical admission process</p>
+                        <p class="hbox">NEET Cut offs, Counselling schedule, Last three years NEET trend and Documents required</p>
+                        <p class="hbox">Learn NEET Counselling tips and tricks to get a medical seat at low NEETscore</p>
+                        <p class="hbox">Know about All India Quota, AIIMS, JIPMER, AFMC, Deemed, State Quota NEETCounselling</p>                    
+                    </div>
+                
+                    <div class="nbox">
+                        <p class="hbox">NMC Bill</p>
+                        <img src="/assets/images/p1-doc.png" alt="" class="p1-doc imgbox">
+                        <p class="hbox">Understand Impact of increase in no of medical colleges, fees, seats, reservations, bond, penalty</p>                    
+                    </div>
+                
+                    <div class="nbox">
+                        <p class="hbox">Know how to get a dream medical college in your budget</p>
+                        <p class="hbox">Know how to avoid mistakes committed by NEET aspirants scoring good NEETScore</p>
+                        <p class="hbox">Know how to crack Multiple state quota counselling and their eligibility norms</p>  
+                        <p class="hbox">Analysis of various round of NEET Counselling</p>                  
+                    </div>
+                </div>
+            </div>
+            <div class="highlights-box-2">
+                <h2 class="form-title">
+                    Book your Seat!
+                </h2>
+                <h4 class="form-disc">
+                    Live Session by NEET Expert
+                </h4>
+                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeaSqbO0GHTMO5M8N5ITG7MIA8QJ4i_Fnkv8ChtD-AUIYS_7A/formResponse" class="nform">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="entry.2093713545">
+
+                    <label for="e-mail">E-mail</label>
+                    <input type="text" id="e-mail" name="entry.1989425961">
+
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="entry.1042056460">
+
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="entry.208464115">
+
+                    <button type="submit" class="nform-btn">Book Now</button>
+                </form>
+            <!-- </div> -->
+        </div>
+        <div class="form"></div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="nAchievements">
+        {% include counter.html %}
+    </section>
+
+    <!-- video -->
+    <section id="nvideo">
+        <h2>Experience of NEET Aspirants:-</h2>
+        <div class="nvideo">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/l1h2eG4QmXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/wjtpCykW1xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/Dt0SOd2dBGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </video>
+        </div>
+    </section>
+
+    <!-- student -->
+    {% include nstudent.html %}
+</body>
+</html>
