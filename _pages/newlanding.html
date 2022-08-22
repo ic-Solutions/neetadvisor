@@ -47,15 +47,18 @@ type: newlanding
             align-items: center;
         }
         .form-title,.form-disc{
-            color: #fff !important;
+            color: rgb(0, 0, 0) !important;
             text-align: center;
+        }
+        .highlights-box-1 .form-title{
+            color: #fff !important;
         }
         .nform{
             background-color: #fff;
             padding: 30px;
             padding-bottom: 90px;
             margin: 30px;
-            box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 0px 20px #01013a;
         }
         .nform-btn{
             width: 100%;
@@ -80,6 +83,7 @@ type: newlanding
         .highlights-box-2{
             width: 40%;
             padding: 20px;
+            margin-top: -100px;
         }
         @media only screen and (max-width: 600px) {
             .highlights-box-1,.highlights-box-2{
@@ -109,7 +113,22 @@ type: newlanding
             .nbanner-mobile{
                 display: block !important;
             }
+            .home-main-img{
+            height: 50vh !important;
+            }
         }
+        .home-main-img{
+            height: 90vh;
+            position: relative;
+            z-index: -1;
+        }
+        .home-main-img img{
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
         .nbanner-mobile{
             display: none;
         }
@@ -167,13 +186,13 @@ type: newlanding
                 </div>
             </div>
             <div class="highlights-box-2">
-                <h2 class="form-title">
-                    Book your Seat!
-                </h2>
-                <h4 class="form-disc">
-                    Live Session by NEET Expert
-                </h4>
                 <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeaSqbO0GHTMO5M8N5ITG7MIA8QJ4i_Fnkv8ChtD-AUIYS_7A/formResponse" class="nform">
+                    <h2 class="form-title">
+                        Book your Seat!
+                    </h2>
+                    <h4 class="form-disc">
+                        Live Session by NEET Expert
+                    </h4>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="entry.2093713545">
 
