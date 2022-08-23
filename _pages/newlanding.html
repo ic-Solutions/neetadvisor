@@ -16,7 +16,7 @@ type: newlanding
     <style>
         #nhighlights{
             background-color: #020275;
-            padding: 30px;
+            padding: 0 20px;
         }
         #main{
             padding: 0 !important;
@@ -46,9 +46,12 @@ type: newlanding
             justify-content: center;
             align-items: center;
         }
-        .form-title,.form-disc{
+        .form-title,.form-disc,.form-footer{
             color: rgb(0, 0, 0) !important;
             text-align: center;
+        }
+        .form-footer{
+            font-size: 18px;
         }
         .highlights-box-1 .form-title{
             color: #fff !important;
@@ -56,7 +59,7 @@ type: newlanding
         .nform{
             background-color: #fff;
             padding: 30px;
-            padding-bottom: 90px;
+            padding-bottom: 10px;
             margin: 30px;
             box-shadow: 0px 0px 0px 20px #01013a;
         }
@@ -80,10 +83,17 @@ type: newlanding
             width: 60%;
             margin-top: 30px;
         }
+        .highlights-box-1 img{
+            position: relative;
+            top: 50%;
+            left:50%;
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
         .highlights-box-2{
             width: 40%;
             padding: 20px;
-            margin-top: -100px;
+            margin-top: -80px;
         }
         #myBtn.nphone{
             top:75% !important;
@@ -94,9 +104,27 @@ type: newlanding
             border-radius: 50% !important;
             }
         @media only screen and (max-width: 600px) {
-          #myBtn.nphone{
+            #myBtn.nphone{
             right: 18px !important;
-          }
+            }
+            .highlights-box-2{
+            margin-top: 0px;
+            }
+            #nhighlights{
+            padding: 0 5px;
+            }
+            .highlights-box-1{
+                margin-top: -5px;
+            }
+            h2.form-title{
+                font-size: 25px !important;
+            }
+            .form-disc{
+                font-weight: 500 !important;
+            }
+            p.form-footer{
+                font-size: 16px;
+            }
         }
         @media only screen and (max-width: 600px) {
             .highlights-box-1,.highlights-box-2{
@@ -120,14 +148,12 @@ type: newlanding
             h4,.students h4.text-xl {
                 font-size: 16px !important;
             }
-            .nbanner{
-                display: none;
-            }
-            .nbanner-mobile{
-                display: block !important;
-            }
             .home-main-img{
             height: 50vh !important;
+            }
+            .home-main-img img{
+                width: 75% !important;
+                top: 40% !important;
             }
         }
         .home-main-img{
@@ -138,12 +164,10 @@ type: newlanding
         .home-main-img img{
             position: relative;
             top: 50%;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-
-        .nbanner-mobile{
-            display: none;
+            left:50%;
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            width: 50%;
         }
         /* nAchievements */
         #nAchievements{
@@ -173,30 +197,7 @@ type: newlanding
     <section id="nhighlights" class="flex">
         <!-- <div class="highlights "> -->
             <div class="highlights-box-1">
-                <h2 class="form-title">
-                    Webinar Highlights
-                </h2>
-                <div class="flex">
-                    <div class="nbox">
-                        <p class="hbox">Understand NEET Counselling and complete medical admission process</p>
-                        <p class="hbox">NEET Cut offs, Counselling schedule, Last three years NEET trend and Documents required</p>
-                        <p class="hbox">Learn NEET Counselling tips and tricks to get a medical seat at low NEETscore</p>
-                        <p class="hbox">Know about All India Quota, AIIMS, JIPMER, AFMC, Deemed, State Quota NEETCounselling</p>                    
-                    </div>
-                
-                    <div class="nbox">
-                        <p class="hbox">NMC Bill</p>
-                        <img src="/assets/images/p1-doc.png" alt="" class="p1-doc imgbox">
-                        <p class="hbox">Understand Impact of increase in no of medical colleges, fees, seats, reservations, bond, penalty</p>                    
-                    </div>
-                
-                    <div class="nbox">
-                        <p class="hbox">Know how to get a dream medical college in your budget</p>
-                        <p class="hbox">Know how to avoid mistakes committed by NEET aspirants scoring good NEETScore</p>
-                        <p class="hbox">Know how to crack Multiple state quota counselling and their eligibility norms</p>  
-                        <p class="hbox">Analysis of various round of NEET Counselling</p>                  
-                    </div>
-                </div>
+                <img src="/assets/images/9POINTchange.png" alt="" srcset="">
             </div>
             <div class="highlights-box-2">
                 <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeaSqbO0GHTMO5M8N5ITG7MIA8QJ4i_Fnkv8ChtD-AUIYS_7A/formResponse" class="nform">
@@ -206,19 +207,20 @@ type: newlanding
                     <h4 class="form-disc">
                         Live Session by NEET Expert
                     </h4>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="entry.2093713545">
+                    <label for="name">Name<span style="color:red">*</span></label>
+                    <input type="text" id="name" name="entry.2093713545" required>
 
-                    <label for="e-mail">E-mail</label>
-                    <input type="text" id="e-mail" name="entry.1989425961">
+                    <label for="e-mail">E-mail<span style="color:red">*</span></label>
+                    <input type="text" id="e-mail" name="entry.1989425961" required>
 
-                    <label for="phone">Phone</label>
-                    <input type="text" id="phone" name="entry.1042056460">
+                    <label for="phone">Phone<span style="color:red">*</span></label>
+                    <input type="text" id="phone" name="entry.1042056460" required>
 
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="entry.208464115">
+                    <label for="state">State<span style="color:red">*</span></label>
+                    <input type="text" id="state" name="entry.208464115" required>
 
                     <button type="submit" class="nform-btn">Book Now</button>
+                    <p class="form-footer">Hurry up! Limited Seats Available</p>
                 </form>
             <!-- </div> -->
         </div>
