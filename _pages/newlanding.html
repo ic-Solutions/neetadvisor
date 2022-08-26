@@ -103,7 +103,20 @@ type: newlanding
             border:1px solid transparent !important;
             border-radius: 50% !important;
             }
+        .nbanner-mobile{
+            display: none;
+        }
+        .highlights-mobile{
+            display: none;
+        }
         @media only screen and (max-width: 600px) {
+            .nbanner-mobile,.highlights-mobile{
+            display: block;
+            }
+            .nbanner,.highlights-desk{
+                display: none;
+            }
+            
             #myBtn.nphone{
             right: 18px !important;
             }
@@ -114,7 +127,7 @@ type: newlanding
             padding: 0 5px;
             }
             .highlights-box-1{
-                margin-top: -5px;
+                padding-left: 10px
             }
             h2.form-title{
                 font-size: 25px !important;
@@ -149,11 +162,11 @@ type: newlanding
                 font-size: 16px !important;
             }
             .home-main-img{
-            height: 50vh !important;
+            height: 70vh !important;
             }
             .home-main-img img{
                 width: 75% !important;
-                top: 40% !important;
+                top: 45% !important;
             }
         }
         .home-main-img{
@@ -197,7 +210,8 @@ type: newlanding
     <section id="nhighlights" class="flex">
         <!-- <div class="highlights "> -->
             <div class="highlights-box-1">
-                <img src="/assets/images/9Points-resize.png" alt="" srcset="">
+                <img src="/assets/images/9Points-resize.png" class="highlights-desk" alt="9 Highlights">
+                <img src="/assets/images/highlights-mobile.png" class="highlights-mobile" alt="9 Highlights">
             </div>
             <div class="highlights-box-2">
                 <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeaSqbO0GHTMO5M8N5ITG7MIA8QJ4i_Fnkv8ChtD-AUIYS_7A/formResponse" class="nform">
