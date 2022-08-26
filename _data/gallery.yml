@@ -1,36 +1,36 @@
 international:
-  - /assets/images/gallery/international/6.png
-  - /assets/images/gallery/international/7.png
-  - /assets/images/gallery/international/3.png
-  - /assets/images/gallery/international/10.png
-  - /assets/images/gallery/international/1.png
-  - /assets/images/gallery/international/5.png
-  - /assets/images/gallery/international/8.png
-  - /assets/images/gallery/international/2.png
-  - /assets/images/gallery/international/9.png
-  - /assets/images/gallery/international/4.png
+  - /assets/images/gallery/international/6.webp
+  - /assets/images/gallery/international/7.webp
+  - /assets/images/gallery/international/3.webp
+  - /assets/images/gallery/international/10.webp
+  - /assets/images/gallery/international/1.webp
+  - /assets/images/gallery/international/5.webp
+  - /assets/images/gallery/international/8.webp
+  - /assets/images/gallery/international/2.webp
+  - /assets/images/gallery/international/9.webp
+  - /assets/images/gallery/international/4.webp
 
 country:
-  - /assets/images/gallery/country/6.png
-  - /assets/images/gallery/country/7.png
-  - /assets/images/gallery/country/3.png
-  - /assets/images/gallery/country/10.png
-  - /assets/images/gallery/country/1.png
-  - /assets/images/gallery/country/5.png
-  - /assets/images/gallery/country/8.png
-  - /assets/images/gallery/country/2.png
-  - /assets/images/gallery/country/9.png
-  - /assets/images/gallery/country/11.png
-  - /assets/images/gallery/country/12.png
-  - /assets/images/gallery/country/4.png
+  - /assets/images/gallery/country/6.webp
+  - /assets/images/gallery/country/7.webp
+  - /assets/images/gallery/country/3.webp
+  - /assets/images/gallery/country/10.webp
+  - /assets/images/gallery/country/1.webp
+  - /assets/images/gallery/country/5.webp
+  - /assets/images/gallery/country/8.webp
+  - /assets/images/gallery/country/2.webp
+  - /assets/images/gallery/country/9.webp
+  - /assets/images/gallery/country/11.webp
+  - /assets/images/gallery/country/12.webp
+  - /assets/images/gallery/country/4.webp
 
 neet:
-  - /assets/images/gallery/neet/6.png
-  - /assets/images/gallery/neet/3.png
-  - /assets/images/gallery/neet/1.png
-  - /assets/images/gallery/neet/5.png
-  - /assets/images/gallery/neet/2.png
-  - /assets/images/gallery/neet/4.png
+  - /assets/images/gallery/neet/6.webp
+  - /assets/images/gallery/neet/3.webp
+  - /assets/images/gallery/neet/1.webp
+  - /assets/images/gallery/neet/5.webp
+  - /assets/images/gallery/neet/2.webp
+  - /assets/images/gallery/neet/4.webp
 
 seminars:
   - /assets/images/gallery/seminars/6.webp
@@ -41,7 +41,7 @@ seminars:
   - /assets/images/gallery/seminars/4.webp
 
 happy:
-  - /assets/images/gallery/happy/1).png
-  - /assets/images/gallery/happy/2).png
-  - /assets/images/gallery/happy/3).png
-  - /assets/images/gallery/happy/4).png
+  - /assets/images/gallery/happy/1).webp
+  - /assets/images/gallery/happy/2).webp
+  - /assets/images/gallery/happy/3).webp
+  - /assets/images/gallery/happy/4).webp
