@@ -111,23 +111,31 @@ type: newlanding
             height:65px !important;
             border:1px solid transparent !important;
             border-radius: 50% !important;
+            box-shadow: 5px 0px 20px #0000007e;
             }
         .nbanner-mobile{
             display: none;
         }
-        .highlights-mobile{
-            display: none;
+        @media only screen and (max-width: 600px) {
+            #myBtn.nphone{
+                top:82% !important
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            #myBtn.nphone{
+                top:78% !important
+            }
         }
         @media only screen and (max-width: 600px) {
-            .nbanner-mobile,.highlights-mobile{
+            .nbanner-mobile{
             display: block;
             }
-            .nbanner,.highlights-desk{
+            .nbanner{
                 display: none;
             }
             
             #myBtn.nphone{
-            right: 18px !important;
+            right: 16px !important;
             }
             .highlights-box-2{
             margin-top: 0px;
@@ -236,7 +244,6 @@ type: newlanding
         <!-- <div class="highlights "> -->
             <div class="highlights-box-1">
                 <img src="/assets/images/9pounts-mobile.png" class="highlights-desk" alt="9 Highlights">
-                <img src="/assets/images/highlights-mobile.png" class="highlights-mobile" alt="9 Highlights">
             </div>
             <div class="highlights-box-2">
                 <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeaSqbO0GHTMO5M8N5ITG7MIA8QJ4i_Fnkv8ChtD-AUIYS_7A/formResponse" class="nform">
