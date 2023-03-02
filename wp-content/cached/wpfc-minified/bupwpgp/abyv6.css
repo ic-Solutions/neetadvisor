@@ -123,6 +123,7 @@ rs-sbg-px { pointer-events: none }
        url(/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
  [class^="revicon-"]:before, [class*=" revicon-"]:before {

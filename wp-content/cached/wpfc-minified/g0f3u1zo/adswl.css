@@ -30615,6 +30615,7 @@ _:-ms-fullscreen,
 }@font-face {
 	font-family: 'Stroke-Gap-Icons';
 	src: url(/wp-content/themes/owly/fonts/Stroke-Gap-Icons.eot);
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Stroke-Gap-Icons';
@@ -31242,6 +31243,7 @@ _:-ms-fullscreen,
     src: url(/wp-content/themes/owly/fonts/IcoMoon-Ultimate.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .icon-moon {
