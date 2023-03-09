@@ -156,7 +156,7 @@
 }
 @media only screen and (max-width: 767px) {
   .dt-sc-contact-info.type4:after,
-  .dt-sc-icon-box.type10 .icon-content h4:after,
+  .dt-sc-icon-box.type10 .icon-content h6:after,
   .dt-sc-counter.type6.last h4::before,
   .dt-sc-counter.type6 h4::after {
     background-color: #fcd21c;
@@ -499,7 +499,7 @@ input[type="reset"] {
   .dt-sc-icon-box.type2.custom-style .icon-content {
     padding: 0px !important;
   }
-  .dt-sc-icon-box.type2.custom-style .icon-content h4 {
+  .dt-sc-icon-box.type2.custom-style .icon-content h6 {
     font-size: 16px !important;
   }
   .dt-sc-icon-box.type2 .icon-content p {
@@ -784,7 +784,7 @@ input[type="reset"] {
   #footer .dt-sc-contact-info p {
     text-align: center !important;
   }
-  .class4 .icon-content h4:nth-child(2) {
+  .class4 .icon-content h6:nth-child(2) {
     display: none !important;
   }
   #footable_21030 .ninja_column_0 {
@@ -1239,15 +1239,15 @@ ul.side-nav li a:hover,
 .dt-sc-icon-box.type1 .icon-wrapper .icon,
 .dt-sc-icon-box.type2 .icon-wrapper .icon,
 .dt-sc-icon-box.type4 .icon-wrapper span,
-.dt-sc-icon-box.type5:hover .icon-content h4 a,
+.dt-sc-icon-box.type5:hover .icon-content h6 a,
 .dt-sc-icon-box.type5.no-icon-bg .icon-wrapper span,
 .dt-sc-icon-box.type5.no-icon-bg:hover .icon-wrapper span,
 .dt-sc-icon-box.type10 .icon-wrapper span,
-.dt-sc-icon-box.type10:hover .icon-content h4,
-.dt-sc-icon-box.type14 .icon-content h4,
+.dt-sc-icon-box.type10:hover .icon-content h6,
+.dt-sc-icon-box.type14 .icon-content h6,
 .dt-sc-icon-box.type12 .icon-wrapper span,
-.dt-sc-icon-box.type12 .icon-content h4 strong,
-.dt-sc-icon-box.type16 .icon-content h4 {
+.dt-sc-icon-box.type12 .icon-content h6 strong,
+.dt-sc-icon-box.type16 .icon-content h6 {
   color: #fcd21c;
 }
 .dt-sc-testimonial.type4 .dt-sc-testimonial-author cite,
@@ -1620,7 +1620,7 @@ blockquote.type4,
 .dt-sc-counter.type5 h4:after {
   background-color: #fcd21c;
 }
-.dt-sc-icon-box.type1 .icon-content h4:before,
+.dt-sc-icon-box.type1 .icon-content h6:before,
 .dt-sc-icon-box.type3 .icon-wrapper span,
 .dt-sc-icon-box.type3.dt-sc-diamond:hover .icon-wrapper:after,
 .dt-sc-icon-box.type5.rounded-skin .icon-wrapper,
@@ -1630,13 +1630,13 @@ blockquote.type4,
 .dt-sc-icon-box.type7 .icon-wrapper,
 .dt-sc-contact-info.type8:hover span,
 .dt-sc-icon-box.type10:hover .icon-wrapper:before,
-.dt-sc-icon-box.type10 .icon-content h4:before,
+.dt-sc-icon-box.type10 .icon-content h6:before,
 .dt-sc-icon-box.type11:before,
 .dt-sc-icon-box.type14:hover,
 .dt-sc-icon-box.type15 .icon-content,
 .dt-sc-icon-box.type12 .icon-content h5:after,
 .dt-sc-icon-box.type5 .icon-wrapper:before,
-.dt-sc-icon-box.type10 .icon-content h4:after {
+.dt-sc-icon-box.type10 .icon-content h6:after {
   background-color: #fcd21c;
 }
 .dt-sc-testimonial-wrapper .dt-sc-testimonial-bullets a:hover,
@@ -1848,7 +1848,7 @@ div[class*="custom-style"].dt-sc-icon-box.type5 .icon-wrapper,
 .vc_row[data-vc-full-width].dt-sc-paper-pattern-bottom:before,
 .dt-sc-team-shortcode-image,
 div[class*="custom-style-2"].dt-sc-icon-box.type3 .icon-wrapper,
-div[class*="custom-style-2"].dt-sc-icon-box.type3 .icon-content h4:before,
+div[class*="custom-style-2"].dt-sc-icon-box.type3 .icon-content h6:before,
 .dt-sc-circular-icon-set,
 .dt-sc-icon-box.type8.animated-icons .icon-wrapper:after,
 .dt-sc-icon-box.type12.custom-style .icon-content:after,
@@ -2075,7 +2075,7 @@ ul.dt-sc-tabs-vertical > li > a.current,
 .dt-sc-contact-info.type9:hover {
   border-color: #fcd21c;
 }
-.dt-sc-icon-box.type5.no-icon .icon-content h4,
+.dt-sc-icon-box.type5.no-icon .icon-content h6,
 .dt-sc-icon-box.type5.no-icon,
 .dt-sc-icon-box.type10,
 .dt-sc-icon-box.type10 .icon-wrapper:before,

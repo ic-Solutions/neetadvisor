@@ -29,7 +29,7 @@ Version:        1.0
 
 /* CSS code for workflow in home page  */
 
-.dt-sc-icon-box.type2.custom-style .icon-content h4 {
+.dt-sc-icon-box.type2.custom-style .icon-content h6 {
     font-size: 18px;
     width: 100%;
     margin-bottom: -12px;
@@ -183,7 +183,7 @@ Version:        1.0
 
 /* CSS code for workflow in home page  */
 
-.dt-sc-icon-box.type2.custom-style .icon-content h4 {
+.dt-sc-icon-box.type2.custom-style .icon-content h6 {
     font-size: 18px;
     width: 100%;
     margin-bottom: -12px;
@@ -623,7 +623,7 @@ select,
 textarea,
 .dt-sc-special-testimonial.custom-style .dt-sc-special-testimonial-images-holder .dt-sc-testimonial-author cite small,
 .dt-sc-awards-heading h6,
-div[class*='custom-style-2'].dt-sc-icon-box.type3 .icon-content h4,
+div[class*='custom-style-2'].dt-sc-icon-box.type3 .icon-content h6,
 .dt-sc-image-caption.type5.dt-sc-student-info .dt-sc-image-title h6,
 .dt-sc-counter.type3.custom-style-2 h4,
 .woocommerce .cart-collaterals .cart_totals h2,

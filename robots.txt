@@ -3,5 +3,5 @@ Disallow: /contact-form-mail-sender.php
 Disallow: /contact-form-mail-sender.php
 Disallow: /donate-books-form.php
 Disallow: /razorpay-php-testapp/
-Disallow: php-mailer.php
+Disallow: /php-mailer.php
 Sitemap: https://neetadvisor.com/sitemap.xml

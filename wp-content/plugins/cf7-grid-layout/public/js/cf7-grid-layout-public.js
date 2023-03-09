@@ -62,9 +62,9 @@
         if($footer.length>0){
           $footer.detach();
           $table.after($footer);
-          $footer.after('<div class="cf7-sg-table-button"><a href="javascript:void(0);" class="ui-button">'+label+'</a></div>');
+          $footer.after('<div class="cf7-sg-table-button"><a href="#;" class="ui-button">'+label+'</a></div>');
         }else{
-          $table.after('<div class="cf7-sg-table-button"><a href="javascript:void(0);" class="ui-button">'+label+'</a></div>');
+          $table.after('<div class="cf7-sg-table-button"><a href="#;" class="ui-button">'+label+'</a></div>');
         }
         //append a hidden clone of the first row which we can use to add
         $row.attr('data-row','0');
