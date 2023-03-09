@@ -1399,9 +1399,9 @@
     font-family: 'slick';
     font-weight: normal;
     font-style: normal;
-	font-display: swap;
     src: url(/wp-content/plugins/designthemes-core-features/shortcodes/css/fonts/slick.eot);
     src: url(/wp-content/plugins/designthemes-core-features/shortcodes/css/fonts/slick.eot?#iefix) format('embedded-opentype'), url(/wp-content/plugins/designthemes-core-features/shortcodes/css/fonts/slick.woff) format('woff'), url(/wp-content/plugins/designthemes-core-features/shortcodes/css/fonts/slick.ttf) format('truetype'), url(/wp-content/plugins/designthemes-core-features/shortcodes/css/fonts/slick.svg#slick) format('svg');
+	font-display: swap;
 }
 /* Arrows */
 .slick-prev,

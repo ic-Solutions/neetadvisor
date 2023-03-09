@@ -31355,6 +31355,7 @@ div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_
     src: url(/wp-content/themes/owly/fonts/IcoMoon-Ultimate.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .icon-moon {
