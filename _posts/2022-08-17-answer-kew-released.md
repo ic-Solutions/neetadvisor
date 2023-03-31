@@ -27,7 +27,7 @@ Get the technical assistant and support from the team of NEET Advisor
 - In this way you can Raise Objection in NEET UG OMR Sheet 2022.
 - After that you have to wait for clarification from NTA for your Query.
 
-Over the 15+ Glorious Years of Excellence, our passion to guide students has led us across the length and breadth of the country.
+Over the 16+ Glorious Years of Excellence, our passion to guide students has led us across the length and breadth of the country.
 
 ## “Preparing for NEET is tough, but the competition for seats is even tougher!! Don’t miss the seat because of any misinformation!!”
 
