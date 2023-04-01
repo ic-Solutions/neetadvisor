@@ -94,7 +94,7 @@ We are a one stop solution for NEET counselling, where we provide innovative NEE
 Our unique process of preparation of personalized reports (based on student’s NEET score/rank) helps the candidate to select the best medical college. We have a team of NEET counselling Expert who guides the aspirant and by which NEET aspirants can clear all their queries in one-to-one session so as to make an informed decision.
 
 We provide all the important and crucial information required for All India quota, state quota, Deemed, Central, AFMC, AIIMS, JIPMER and various other State quota NEET counselling under non domicile criterion too. We provide handholding throughout the entire process
-– From start to finish, till an aspirant get admission in a good medical college. This helps the medical aspirants to negate any errors during form filling or choosing the college. With **15+ Glorious years of Excellence**, we have guided millions of students across India and Abroad.
+– From start to finish, till an aspirant get admission in a good medical college. This helps the medical aspirants to negate any errors during form filling or choosing the college. With **16+ Glorious years of Excellence**, we have guided millions of students across India and Abroad.
 
 ### When it comes to “What after NEET”?
 

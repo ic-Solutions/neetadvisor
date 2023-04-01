@@ -713,17 +713,17 @@ a.control_next {
 .footer-logo {
   max-width: 80% !important;
 
-  @include media-query($on-palm) {
-    width: 100px;
-  }
+  // @include media-query($on-palm) {
+  //   width: 100px;
+  // }
 }
 
 .social-icons-ul {
   display: flex;
 
-  @include media-query($on-palm) {
-    justify-content: center;
-  }
+  // @include media-query($on-palm) {
+  //   justify-content: center;
+  // }
 
   li {
     display: flex;
@@ -734,9 +734,9 @@ a.control_next {
     justify-content: center;
     align-items: center;
 
-    &:hover {
-      background: black;
-    }
+    // &:hover {
+    //   background: black;
+    // }
 
     .fa {
       font-size: 25px;
@@ -748,122 +748,122 @@ a.control_next {
   }
 }
 
-.item-has-icon,
-.mobile-menu ul.dt-primary-nav li.go-back a {
-  &:before {
-    font-family: "FontAwesome" !important;
-  }
+// .item-has-icon,
+// .mobile-menu ul.dt-primary-nav li.go-back a {
+//   &:before {
+//     font-family: "FontAwesome" !important;
+//   }
 
-  &:after {
-    font-family: "FontAwesome" !important;
-  }
-}
+//   &:after {
+//     font-family: "FontAwesome" !important;
+//   }
+// }
 
-//gallery page
+// //gallery page
 
-.gallery-tabs {
-  list-style: none;
-  display: flex;
+// .gallery-tabs {
+//   list-style: none;
+//   display: flex;
 
-  li {
-    margin-right: 30px;
+//   li {
+//     margin-right: 30px;
 
-    a {
-      border-bottom: 2px solid $brand-color;
+//     a {
+//       border-bottom: 2px solid $brand-color;
 
-      &:hover {
-        color: $h-color;
-        border-color: $h-color;
-      }
-    }
-  }
+//       &:hover {
+//         color: $h-color;
+//         border-color: $h-color;
+//       }
+//     }
+//   }
 
-  @include media-query($on-laptop) {
-    display: block;
-  }
+//   @include media-query($on-laptop) {
+//     display: block;
+//   }
 
-  .active {
-    color: $h-color;
-    border-color: $h-color;
-  }
-}
+//   .active {
+//     color: $h-color;
+//     border-color: $h-color;
+//   }
+// }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+// .image-grid {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   grid-gap: 30px;
 
-  @include media-query($on-laptop) {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
+//   @include media-query($on-laptop) {
+//     grid-template-columns: 1fr 1fr;
+//     grid-gap: 20px;
+//   }
 
-  @include media-query($on-palm) {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-}
+//   @include media-query($on-palm) {
+//     grid-template-columns: 1fr 1fr;
+//     grid-gap: 10px;
+//   }
+// }
 
-//guidance page
+// //guidance page
 
-.guidance {
-  .vc_single_image-img {
-    height: 400px !important;
-  }
-}
+// .guidance {
+//   .vc_single_image-img {
+//     height: 400px !important;
+//   }
+// }
 
-// study abroad page
-.flags {
-  .dt-sc-image-caption .dt-sc-image-content {
-    margin: 0 !important;
-  }
-}
+// // study abroad page
+// .flags {
+//   .dt-sc-image-caption .dt-sc-image-content {
+//     margin: 0 !important;
+//   }
+// }
 
-//donate book
+// //donate book
 
-.grid-image-content {
-  float: none;
-  clear: both;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+// .grid-image-content {
+//   float: none;
+//   clear: both;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   grid-gap: 30px;
 
-  @include media-query($on-palm) {
-    grid-template-columns: 1fr;
-    padding: 20px 40px;
-  }
+//   @include media-query($on-palm) {
+//     grid-template-columns: 1fr;
+//     padding: 20px 40px;
+//   }
 
-  .image {
-    padding: 20px;
+//   .image {
+//     padding: 20px;
 
-    @include media-query($on-palm) {
-      padding: 10px;
-      order: 1;
-    }
-  }
+//     @include media-query($on-palm) {
+//       padding: 10px;
+//       order: 1;
+//     }
+//   }
 
-  .content {
-    align-self: center;
+//   .content {
+//     align-self: center;
 
-    p {
-      font-weight: 400 !important;
+//     p {
+//       font-weight: 400 !important;
 
-      @include media-query($on-palm) {
-        text-align: justify;
-      }
-    }
+//       @include media-query($on-palm) {
+//         text-align: justify;
+//       }
+//     }
 
-    @include media-query($on-palm) {
-      order: 2;
-    }
-  }
-}
+//     @include media-query($on-palm) {
+//       order: 2;
+//     }
+//   }
+// }
 
-.dt-sc-title.with-right-border-decor.small-in-phone h3:first-child {
-  @include media-query($on-palm) {
-    font-size: 0.9em !important;
-  }
-}
+// .dt-sc-title.with-right-border-decor.small-in-phone h3:first-child {
+//   @include media-query($on-palm) {
+//     font-size: 0.9em !important;
+//   }
+// }
 
 .nav-neet {
   display: flex;
@@ -884,10 +884,10 @@ body:not(.block-editor-page):not(.wp-core-ui) {
   font-weight: 400 !important;
 }
 
-.subform {
-  width: 85%;
-  margin: 0 auto;
-}
+// .subform {
+//   width: 85%;
+//   margin: 0 auto;
+// }
 
 .sub-btn {
   background: #fcd21c !important;
@@ -936,89 +936,89 @@ div.panel {
   transition: max-height 0.2s ease-out;
 }
 
-@include media-query($on-palm) {
-  .mobile-center {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+// @include media-query($on-palm) {
+//   .mobile-center {
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
 
-    .dt-sc-fancy-list.yellow.image-bullet {
-      display: inline-block;
-    }
+//     .dt-sc-fancy-list.yellow.image-bullet {
+//       display: inline-block;
+//     }
 
-    .dt-sc-contact-info {
-      display: inherit;
-      justify-content: center !important;
-    }
+//     .dt-sc-contact-info {
+//       display: inherit;
+//       justify-content: center !important;
+//     }
 
-    .vc_custom_1574417885893 {
-      margin-left: 0 !important;
-    }
+//     .vc_custom_1574417885893 {
+//       margin-left: 0 !important;
+//     }
 
-    .vc_custom_1571998176762 {
-      margin-right: 0 !important;
-    }
+//     .vc_custom_1571998176762 {
+//       margin-right: 0 !important;
+//     }
 
-    .vc_custom_1574417845589 {
-      margin-right: 0 !important;
-    }
+//     .vc_custom_1574417845589 {
+//       margin-right: 0 !important;
+//     }
 
-    .column img,
-    .vc_column_container img,
-    .wpb_column img {
-      display: block;
-      margin: 0 auto;
-    }
+//     .column img,
+//     .vc_column_container img,
+//     .wpb_column img {
+//       display: block;
+//       margin: 0 auto;
+//     }
 
-    .text-left {
-      text-align: center !important;
-    }
-  }
+//     .text-left {
+//       text-align: center !important;
+//     }
+//   }
 
-  .home-neet-05 .alignright {
-    float: none !important;
-    margin: 0 auto;
-  }
+//   .home-neet-05 .alignright {
+//     float: none !important;
+//     margin: 0 auto;
+//   }
 
-  .home-h1 h1 {
-    text-align: center !important;
-    padding: 1em 0;
-  }
+//   .home-h1 h1 {
+//     text-align: center !important;
+//     padding: 1em 0;
+//   }
 
-  .offer-btn {
-    text-align: center;
-    display: block;
-  }
+//   .offer-btn {
+//     text-align: center;
+//     display: block;
+//   }
 
-  .about-headings {
-    font-size: 24px !important;
-  }
+//   .about-headings {
+//     font-size: 24px !important;
+//   }
 
-  .hide-margin-bottom-mobile {
-    margin-bottom: 0px !important;
-  }
+//   .hide-margin-bottom-mobile {
+//     margin-bottom: 0px !important;
+//   }
 
-  .dt-sc-team.type2 {
-    border: none;
+//   .dt-sc-team.type2 {
+//     border: none;
 
-    .dt-sc-team-details {
-      text-align: center;
-      padding: 0px;
+//     .dt-sc-team-details {
+//       text-align: center;
+//       padding: 0px;
 
-      h4 {
-        margin-bottom: 15px;
-      }
+//       h4 {
+//         margin-bottom: 15px;
+//       }
 
-      .dt-sc-team-social {
-        text-align: center;
-        margin: 10px 0;
-      }
-    }
-  }
+//       .dt-sc-team-social {
+//         text-align: center;
+//         margin: 10px 0;
+//       }
+//     }
+//   }
 
-  .neet-guide-headings {
-    text-align: center;
-    font-size: 24px !important;
-    margin: 1em auto !important;
-  }
-}
+//   .neet-guide-headings {
+//     text-align: center;
+//     font-size: 24px !important;
+//     margin: 1em auto !important;
+//   }
+// }
