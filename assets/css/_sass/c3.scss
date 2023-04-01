@@ -21,6 +21,19 @@
     -webkit-user-select: none;
 }
 
+.call-me{
+    position: fixed; bottom: 15px; left: 20px;
+}
+.call-me img{
+    width: 0px;
+    height: 0px;
+    transition: all ease-in-out 0.3s;
+}
+.call-me.active img{
+    width: 60px;
+    height: 60px;
+}
+
 .whatsappme *,
 .whatsappme:after,
 .whatsappme:before {
