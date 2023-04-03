@@ -10,7 +10,7 @@ neet-ug:
     description:
     features:
       - Predict your Rank based on your Expected Score.
-      - Facts & Figures of NEET 2021.
+      - Facts & Figures of NEET 2022.
       - Get E-Books on State Quota Counselling
     image: /assets/images/pricing-table-icons/3.png
     mode: Online
@@ -105,7 +105,7 @@ neet-pg:
     description:
     features:
       - Predict your Rank based on your Expected Score.
-      - Facts & Figures of NEET 2021.
+      - Facts & Figures of NEET 2022.
       - Get E-Books on State Quota Counselling
     image: /assets/images/pricing-table-icons/3.png
     mode: Online

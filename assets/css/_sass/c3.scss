@@ -23,6 +23,7 @@
 
 .call-me{
     position: fixed; bottom: 15px; left: 20px;
+    z-index: 10000;
 }
 .call-me img{
     width: 0px;
