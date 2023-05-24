@@ -36843,8 +36843,8 @@ img.pentagon,
             mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
             mask-size: 100% 100%;
-    -webkit-mask-image: url(/wp-content/themes/owly/images/pentagon.png);
-            mask-image: url(/wp-content/themes/owly/images/pentagon.png);
+    -webkit-mask-image: url(/wp-content/themes/owly/images/pentagon.webp);
+            mask-image: url(/wp-content/themes/owly/images/pentagon.webp);
     -webkit-mask-position: center center;
             mask-position: center center;
     -webkit-mask-repeat: no-repeat;
@@ -36877,8 +36877,8 @@ img.pentagon,
 
     -webkit-mask-size: 100% 100%;
             mask-size: 100% 100%;
-    -webkit-mask-image: url(/wp-content/themes/owly/images/dotted-pentagon.png);
-            mask-image: url(/wp-content/themes/owly/images/dotted-pentagon.png);
+    -webkit-mask-image: url(/wp-content/themes/owly/images/dotted-pentagon.webp);
+            mask-image: url(/wp-content/themes/owly/images/dotted-pentagon.webp);
     -webkit-mask-position: left top;
             mask-position: left top;
     -webkit-mask-repeat: no-repeat;
