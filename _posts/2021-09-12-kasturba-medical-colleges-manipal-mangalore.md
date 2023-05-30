@@ -1,7 +1,7 @@
 ---
 title: Kasturba Medical Colleges, Manipal/Mangalore
 description: You can get information anywhere, but in that case, you would be lacking behind in knowledge, and its significance, come and join NEET advisor to gain both information and knowledge about the NEET 2021 Counselling.
-image: /assets/images/blog/kmc.webp
+image: /assets/images/blog/kmcm.webp
 layout: post
 author: NEET Advisor
 ---

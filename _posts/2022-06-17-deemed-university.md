@@ -1,6 +1,6 @@
 ---
 title: DEEMED UNIVERSITY
-image: /assets/images/blog/deemed-universities.webp
+image: /assets/images/blog/deemed_universities.webp
 description: The blog which is written below is to help you recognize about the different dimensions of deemed university and how their counseling procedure is different from others.
 layout: post
 author: NEET Advisor
