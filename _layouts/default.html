@@ -8,7 +8,7 @@ layout: compress
 
 <body data-rsssl="1" class=" home page-template-default page page-id-94 layout-wide page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.0.5 vc_responsive
     ">
- 
+
   <div class="preloader-plus">
     <div class="preloader-content">
       <img class="preloader-custom-img" src="/assets/images/leopride-loader.svg" alt="Neet Advisor preloader" />
@@ -74,6 +74,18 @@ layout: compress
       setInterval(function () {
         moveRight();
       }, 15000);
+
+      jQuery.event.special.touchstart = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+      };
+      
+      jQuery.event.special.touchmove = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+      };
 
       var slideCount = $("#sliderSimple ul li").length;
       var slideWidth = $("#sliderSimple ul li").width();
@@ -165,7 +177,9 @@ layout: compress
   <script src="/wp-content/themes/owly/framework/js/ResizeSensor.min.js"></script>
   <script src="/wp-content/themes/owly/framework/js/theia-sticky-sidebar.min.js"></script>
   <!-- <script src="/wp-content/themes/owly/framework/js/matchHeight.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" integrity="sha512-/bOVV1DV1AQXcypckRwsR9ThoCj7FqTV2/0Bm79bL3YSyLkVideFLE3MIZkq1u5t28ke1c0n31WYCOrO01dsUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"
+    integrity="sha512-/bOVV1DV1AQXcypckRwsR9ThoCj7FqTV2/0Bm79bL3YSyLkVideFLE3MIZkq1u5t28ke1c0n31WYCOrO01dsUg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="/wp-content/themes/owly/framework/js/jquery.waypoints.min.js"></script>
 
   <script src="/wp-content/themes/owly/framework/js/magnific/jquery.magnific-popup.min.js"></script>
