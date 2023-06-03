@@ -21,7 +21,7 @@ author: NEET Advisor
 <br>
 <p style="color:blue">Get connected with NEET Advisor to know more about the Pro’s and con’s of NMC bill implementation!</p>
 <center>
-<img src="/assets/images/blog/nmc-inner.jpg">
+<img alt="neet advisor" src="/assets/images/blog/nmc-inner.jpg">
 </center>
 <br>
 When in doubt connect with NEET advisor, **“Your one stop solution for NEET Counselling”**
