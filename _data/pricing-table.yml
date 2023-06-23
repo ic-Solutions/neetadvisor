@@ -1,7 +1,7 @@
 neet-ug:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
-    image: /assets/images/pricing-table-icons/1.png
+    image: /assets/images/pricing-table-icons/1.webp
     mode: Offline
     basic: true
     premium: true
@@ -12,21 +12,21 @@ neet-ug:
       - Predict your Rank based on your Expected Score.
       - Facts & Figures of NEET 2022.
       - Get E-Books on State Quota Counselling
-    image: /assets/images/pricing-table-icons/3.png
+    image: /assets/images/pricing-table-icons/3.webp
     mode: Online
     basic: true
     premium: true
 
   - title: Periodic Alerts
     description: Regular SMS/ Email alerts on announcements, notifications, updates, news, counselling dates, and other updates will be sent.
-    image: /assets/images/pricing-table-icons/4.png
+    image: /assets/images/pricing-table-icons/4.webp
     mode: "SMS / <br> WhatsApp /<br> Email"
     basic: true
     premium: true
 
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
-    image: /assets/images/pricing-table-icons/5.png
+    image: /assets/images/pricing-table-icons/5.webp
     mode: Online
     basic: Two Sessions*
     premium: Six Sessions*
@@ -38,56 +38,56 @@ neet-ug:
       - Look Beyond MBBS
       - Life in a Medical College
       - Study Medicine Abroad
-    image: /assets/images/pricing-table-icons/6.png
+    image: /assets/images/pricing-table-icons/6.webp
     mode: Offline / Online
     basic: Two Sessions*
     premium: Six Sessions*
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/pricing-table-icons/7.png
+    image: /assets/images/pricing-table-icons/7.webp
     mode: Tele-Support /<br> At our office
     basic: false
     premium: true
 
   #- title: Profile Mapping
     #description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report #will be designed to help you to get the best option available.
-    #image: /assets/images/pricing-table-icons/8.png
+    #image: /assets/images/pricing-table-icons/8.webp
     #mode: Online
     #basic: false
     #premium: true
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/pricing-table-icons/9.png
+    image: /assets/images/pricing-table-icons/9.webp
     mode: Online
     basic: false
     premium: true
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/pricing-table-icons/10.png
+    image: /assets/images/pricing-table-icons/10.webp
     mode: Offline / Online
     basic: false
     premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
-    image: /assets/images/pricing-table-icons/11.png
+    image: /assets/images/pricing-table-icons/11.webp
     mode: Offline / Online
     basic: false
     premium: true
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/pricing-table-icons/12.png
+    image: /assets/images/pricing-table-icons/12.webp
     mode: Online
     basic: false
     premium: true
 
   - title: Complete Tracking and Monitoring
     description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/pricing-table-icons/13.png
+    image: /assets/images/pricing-table-icons/13.webp
     mode: All
     basic: On Demand*
     premium: On Demand*
@@ -96,7 +96,7 @@ neet-ug:
 neet-pg:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process of M.D./ M.S./ Diploma courses/ <strong>DNB seats</strong>.
-    image: /assets/images/pricing-table-icons/1.png
+    image: /assets/images/pricing-table-icons/1.webp
     mode: Offline
     basic: true
     premium: true
@@ -107,21 +107,21 @@ neet-pg:
       - Predict your Rank based on your Expected Score.
       - Facts & Figures of NEET 2022.
       - Get E-Books on State Quota Counselling
-    image: /assets/images/pricing-table-icons/3.png
+    image: /assets/images/pricing-table-icons/3.webp
     mode: Online
     basic: true
     premium: true
 
   - title: Periodic Alerts
     description: Regular SMS/ Email alerts on announcements, notifications, updates, news, counselling dates, and other updates will be sent.
-    image: /assets/images/pricing-table-icons/4.png
+    image: /assets/images/pricing-table-icons/4.webp
     mode: "SMS / <br> WhatsApp /<br> Email"
     basic: true
     premium: true
 
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
-    image: /assets/images/pricing-table-icons/5.png
+    image: /assets/images/pricing-table-icons/5.webp
     mode: Online
     basic: One Session*
     premium: Five Sessions*
@@ -133,56 +133,56 @@ neet-pg:
       - Look Beyond MD/MS
       - Life in a Medical College
       - Study Medicine Abroad
-    image: /assets/images/pricing-table-icons/6.png
+    image: /assets/images/pricing-table-icons/6.webp
     mode: Offline / Online
     basic: Two Sessions*
     premium: Six Sessions*
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/pricing-table-icons/7.png
+    image: /assets/images/pricing-table-icons/7.webp
     mode: Tele-Support /<br> At our office
     basic: false
     premium: true
 
   # - title: Profile Mapping
   #   description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
-  #   image: /assets/images/pricing-table-icons/8.png
+  #   image: /assets/images/pricing-table-icons/8.webp
   #   mode: Online
   #   basic: false
   #   premium: true
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/pricing-table-icons/9.png
+    image: /assets/images/pricing-table-icons/9.webp
     mode: Online
     basic: false
     premium: true
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/pricing-table-icons/10.png
+    image: /assets/images/pricing-table-icons/10.webp
     mode: Offline / Online
     basic: false
     premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
-    image: /assets/images/pricing-table-icons/11.png
+    image: /assets/images/pricing-table-icons/11.webp
     mode: Offline / Online
     basic: false
     premium: true
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/pricing-table-icons/12.png
+    image: /assets/images/pricing-table-icons/12.webp
     mode: Online
     basic: false
     premium: true
 
   - title: Complete Tracking and Monitoring
     description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/pricing-table-icons/13.png
+    image: /assets/images/pricing-table-icons/13.webp
     mode: All
     basic: On Demand*
     premium: On Demand*
