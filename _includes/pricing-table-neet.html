@@ -47,6 +47,7 @@
         src="{{item.image}}"
         alt="NEET UG Package"
         width="80"
+        height="80"
       />
       <div
         class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60"
@@ -187,6 +188,7 @@
         src="{{item.image}}"
         alt="NEET UG Package"
         width="80"
+        height="80"
       />
       <div
         class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60"
@@ -518,7 +520,7 @@
             for item in premium-ug-pack %}{% if item.hideonphone != true %}
             <div class="r table-row">
               <div class="c-2 text-center">
-                <img class="image" src="{{item.image}}" alt="{{item.title}}" />
+                <img class="image" loading="lazy" src="{{item.image}}" alt="{{item.title}}" />
               </div>
               <div class="c-10 d-grid align-content-center py-2">
                 <h5 class="table-title">{{item.title}}</h5>
@@ -607,7 +609,7 @@
             for item in premium-pg-pack %} {% if item.hideonphone != true %}
             <div class="r table-row">
               <div class="c-2 text-center">
-                <img class="image" src="{{item.image}}" alt="{{item.title}}" />
+                <img class="image" loading="lazy" src="{{item.image}}" alt="{{item.title}}" />
               </div>
               <div class="c-10 d-grid align-content-center py-2">
                 <h5 class="table-title">{{item.title}}</h5>
