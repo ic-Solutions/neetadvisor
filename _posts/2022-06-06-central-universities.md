@@ -1,6 +1,7 @@
 ---
 title: Central Universities
 image: /assets/images/blog/central_universities.webp
+thumbimage: /assets/images/blog/thumb/central_universities.webp
 description: This blog is all about central universities, readers will get a preview about - What is central university? How many central universities are there in India? What are the Reservation Policies? What are the documents required for counselling?
 layout: post
 author: NEET Advisor

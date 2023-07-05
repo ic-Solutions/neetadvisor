@@ -1,6 +1,7 @@
 ---
 title: NEET UG 2022 Answer Key Released
 image: /assets/images/blog/NEET-UG-ANSWER-KEY.jpg
+thumbimage: /assets/images/blog/thumb/NEET-UG-ANSWER-KEY.jpg
 description: Preparing for NEET is tough, but the competition for seats is even tougher!! Don’t miss the seat because of any misinformation!!
 layout: post
 author: NEET Advisor

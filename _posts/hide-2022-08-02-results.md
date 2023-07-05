@@ -1,6 +1,7 @@
 ---
 title: NEET UG 2022 Result
 image: /assets/images/blog/results.jpeg
+thumbimage: /assets/images/blog/thumb/results.jpeg
 description: As per the trends, the NEET UG Result are almost declared after one month of NEET UG Exam, so accordingly the NEET UG 2022 result is expected to be declared in and around the 3rd week of August, 2022 and answer key is expected to be released in the 1st week of August, 2022.
 layout: post
 author: NEET Advisor

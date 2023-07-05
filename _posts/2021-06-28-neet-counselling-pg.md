@@ -1,6 +1,7 @@
 ---
 title: NEET Counselling (PG)
 image: /assets/images/blog/neet-pg-counselling.webp
+thumbimage: /assets/images/blog/thumb/neet-pg-counselling.webp
 description: The National Eligibility cum Entrance Test Post Graduate, abbreviated as NEET PG is the main qualifying entrance and rank determining exam held in India.
 layout: post
 author: NEET Advisor

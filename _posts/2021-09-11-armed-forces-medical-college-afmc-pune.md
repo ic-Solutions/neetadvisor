@@ -2,6 +2,7 @@
 title: Armed Forces Medical Colleges, Pune
 description: This BLOG will help you gather information about AFMC (Armed Forces medical colleges) NEET 2021 counselling. It would help you know that how it is different from other universities too. 
 image: /assets/images/blog/afmc_pune.webp
+thumbimage: /assets/images/blog/thumb/afmc_pune.webp
 layout: post
 author: NEET Advisor
 ---

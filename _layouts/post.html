@@ -5,7 +5,13 @@ layout: default
 <div class="blog-container px-3 px-md-0 py-3 py-md-5">
   <div class="blog-content">
     <div class="image">
-      <img src="{{page.image}}" width="796" height="597" alt="{{page.title}}" />
+      <!-- <img srcset="{{page.thumbimage}} 480w, {{page.image}} 800w" sizes="(max-width: 600px) 480px, 800px" src="{{page.image}}" width="796" height="597" alt="{{page.title}}" /> -->
+         <picture>
+          <source media="(max-width: 499px)" srcset="{{page.thumbimage}}" />
+          <source media="(min-width: 500px)" srcset="{{page.image}}" />
+          <img src="{{page.image}}" width="796" height="597" alt="{{page.title}}" />
+        </picture>
+      <!-- <img src="{{page.image}}" width="796" height="597" alt="{{page.title}}" /> -->
     </div>
     <div class="title">
       <h1>{{page.title}}</h1>
@@ -15,13 +21,11 @@ layout: default
       <p>
         <small>
           <span><i class="fa fa-calendar mr-2"></i></span>
-          <span >{{ page.date | date: '%B %d, %Y' }}</span>
+          <span>{{ page.date | date: '%B %d, %Y' }}</span>
 
           <span class="ml-3">
-            <a title="neet counselling author" href="/about/"
-              ><span><i class="fa fa-user mr-2"></i></span>{{page.author}}</a
-            ></span
-          >
+            <a title="neet counselling author" href="/about/"><span><i
+                  class="fa fa-user mr-2"></i></span>{{page.author}}</a></span>
         </small>
       </p>
     </div>
