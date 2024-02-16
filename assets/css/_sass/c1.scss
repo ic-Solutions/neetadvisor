@@ -4365,7 +4365,7 @@
 
 	.dt-sc-circular-icon-set { border-radius: 50%; margin: 0 28px; overflow: hidden; box-shadow: none; -moz-transition: all 3s linear; -o-transition: all 3s linear; -ms-transition: all 3s linear; transition: all 3s linear; padding: 92px 0; }
 
-	.dt-sc-circular-icon-set:before { content: ""; display: block; position: absolute; height: 100%; width: 100%; background-image: url(/wp-content/plugins/designthemes-core-features/shortcodes/images/icon-box-set-bg.webp); background-size: 50%; left: 0; top: 0; background-position: center center; -moz-transition: all 30s linear; -o-transition: all 30s linear; -ms-transition: all 30s linear; transition: all 30s linear; -moz-animation: spinoffPulse 60s infinite linear; -webkit-animation: spinoffPulse 60s infinite linear; }
+	.dt-sc-circular-icon-set:before { content: ""; display: block; position: absolute; height: 100%; width: 100%; background-image: url(/wp-content/plugins/designthemes-core-features/shortcodes/images/icon-box-set-bg.png); background-size: 50%; left: 0; top: 0; background-position: center center; -moz-transition: all 30s linear; -o-transition: all 30s linear; -ms-transition: all 30s linear; transition: all 30s linear; -moz-animation: spinoffPulse 60s infinite linear; -webkit-animation: spinoffPulse 60s infinite linear; }
 
 	.dt-sc-circular-icon-set:hover { box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5); }
 	.dt-sc-circular-icon-set:hover:before { background-size: 150%; }

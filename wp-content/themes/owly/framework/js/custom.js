@@ -405,8 +405,8 @@ jQuery(document).ready(function($){
 		}
 	});    
 
-    let callMe = document.querySelector(".call-me")
-    console.log(callMe);
+    let callMe = document.querySelector(".call-me");
+    // console.log(callMe);
     setTimeout(() => {
       callMe.classList.add("active")
     }, 3000);
