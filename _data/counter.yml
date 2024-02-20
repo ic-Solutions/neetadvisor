@@ -6,9 +6,9 @@
   image: /assets/images/icons8-comments-52.png
   text: Counselling one to one
 
-- count: 58900
-  image: /assets/images/icons8-ios-100-1.png
-  text: Successful Clients
+# - count: 58900
+#   image: /assets/images/icons8-ios-100-1.png
+#   text: Successful Clients
 
 - count: 2290
   image: /assets/images/icons8-training-100.png
