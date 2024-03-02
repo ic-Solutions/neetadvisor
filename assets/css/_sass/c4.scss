@@ -1247,8 +1247,9 @@ textarea
 
 select
 {
-    border: 1px solid;
-    -webkit-border-radius: 0; 
+    border: 2px dashed;
+    border-radius: 10px;
+    -webkit-border-radius: 10px; 
     cursor: pointer;
     height: 49px;
     margin: 0;
@@ -1337,8 +1338,8 @@ input[type='submit']::-moz-focus-inner
 }
 .selection-box:after
 {
-    border-left: 1px solid rgba(0, 0, 0, .15);
-    border-right: 1px solid rgba(0, 0, 0, .15); 
+    border-left: 0px solid rgba(0, 0, 0, .15);
+    border-right: 0px solid rgba(0, 0, 0, .15); 
     height: calc(100% - 2px);
     right: 0;
     top: 1px;
