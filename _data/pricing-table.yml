@@ -7,7 +7,7 @@ neet-ug:
     premium: true
 
   - title: Periodic Alerts
-    description: Regular alerts on announcements, notifications, updates, news, counselling <br>dates, etc.
+    description: Regular alerts on announcements, notifications, updates, news, counselling dates, etc.
     image: /assets/images/pricing-table-icons/4.webp
     mode: Online
     basic: true
@@ -63,7 +63,7 @@ neet-ug:
     premium: true
 
   - title: Refund Formalities
-    description: We help you to track the refund status of security deposits paid by you <br>in various counselling.
+    description: We help you to track the refund status of security deposits paid by you in various counselling.
     image: /assets/images/pricing-table-icons/12.webp
     mode: Online
     basic: false
@@ -115,7 +115,7 @@ neet-pg:
     premium: true
 
   - title: Periodic Alerts
-    description: Regular alerts on announcements, notifications, updates, news, counselling <br>dates, etc.
+    description: Regular alerts on announcements, notifications, updates, news, counselling dates, etc.
     image: /assets/images/pricing-table-icons/4.webp
     mode: Online
     basic: true
@@ -171,7 +171,7 @@ neet-pg:
     premium: true
 
   - title: Refund Formalities
-    description: We help you to track the refund status of security deposits paid by you <br>in various counselling.
+    description: We help you to track the refund status of security deposits paid by you in various counselling.
     image: /assets/images/pricing-table-icons/12.webp
     mode: Online
     basic: false
