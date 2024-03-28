@@ -32,7 +32,7 @@ layout: compress
     </div>
   </div>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     var npf_d = 'https://neetadvisors.in5.nopaperforms.com';
     var npf_c = '5277';
     var npf_m = '1';
@@ -41,7 +41,7 @@ layout: compress
     s.async = true;
     s.src = "https://track.nopaperforms.com/js/track.js";
     document.body.appendChild(s);
-  </script>
+  </script> -->
 
   <!-- Load fontawesome -->
   <script>
@@ -56,7 +56,7 @@ layout: compress
   </script>
 
   <!-- Load fancybox -->
-  <script>
+  <!-- <script>
     (function () {
       let css = document.createElement("link");
       css.href = "/assets/vendors/fancybox/jquery.fancybox.min.css";
@@ -64,7 +64,7 @@ layout: compress
       css.type = "text/css";
       document.getElementsByTagName("head")[0].appendChild(css);
     })();
-  </script>
+  </script> -->
 
   <script src="/assets/js/jQuery.js"></script>
 
@@ -491,11 +491,23 @@ layout: compress
   <!-- Script from study yoga page ends -->
   {% endif %}
 
-  <script src="/assets/vendors/fancybox/jquery.fancybox.min.js"></script>
+  <!-- <script src="/assets/vendors/fancybox/jquery.fancybox.min.js"></script> -->
 
   {% include whatsapp-chat.html %}
   {% include call.html %}
   {% include contact-popup-script.html %}
+
+  <script>
+    (function() {
+      document.addEventListener('DOMContentLoaded', function() {
+        const newLink = document.createElement('link');
+        newLink.href = '/assets/css/main.css';
+        newLink.rel = 'stylesheet';
+        newLink.as = 'stylesheet';
+        document.body.appendChild(newLink);
+      });
+    })();
+  </script>
 
   <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" defer></script>
   <script src="/assets/js/accordion.js"></script>
