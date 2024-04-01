@@ -48,7 +48,7 @@ permalink: /contact/
                       <div class="screen-reader-response"></div>
                       <form
                         action="https://docs.google.com/forms/d/e/1FAIpQLSesx5mW7zQrliCLqXD4NSqOg41ronWMLcc6rk3cQcFoDSclEA/formResponse"
-                        method="POST" class="wpcf7-form">
+                        method="POST" class="wpcf7-form" id="myForm">
                         <div class="columns full">
                           <div class="columns full">
                             <div class="field">
@@ -58,6 +58,20 @@ permalink: /contact/
                                     wpcf7-text
                                     wpcf7-validates-as-required
                                   " aria-required="true" aria-invalid="false" required /></span>
+                              <p class="info-tip"></p>
+                            </div>
+                          </div>
+
+                          <div class="columns full" style="position:absolute; left: -999999px;">
+                            <div class="field">
+                              <label><br />Designation<em>*</em></label><span class="wpcf7-form-control-wrap tel-717"><input
+                                  type="text" name="designation" value="" class="
+                                    wpcf7-form-control
+                                    wpcf7-text
+                                    wpcf7-tel
+                                    wpcf7-validates-as-required
+                                    wpcf7-validates-as-tel
+                                  " aria-required="false" aria-invalid="false" tabindex="-1" /></span>
                               <p class="info-tip"></p>
                             </div>
                           </div>
@@ -80,7 +94,7 @@ permalink: /contact/
                           <div class="columns full">
                             <div class="field">
                               <label><br />Phone<em>*</em></label><span class="wpcf7-form-control-wrap tel-717"><input
-                                  type="tel" name="entry.32583428" value="" pattern="[0-9]{10}" size="40" title="10 digits only. No area code required" class="
+                                  type="tel" name="entry.32583428" value="" pattern="[6-9][0-9]{9}" size="40" title="10 digits only. No area code required" class="
                                     wpcf7-form-control
                                     wpcf7-text
                                     wpcf7-tel
@@ -288,3 +302,18 @@ permalink: /contact/
     <div class="vc_row-full-width vc_clearfix"></div>
   </div>
 </section>
+
+<script>
+  function validateAndSubmitForm(e, f) {
+    const desig = document.querySelector('[name="designation"]').value;
+    const mail = document.querySelector('[type="email"]').value;
+    if (desig.length > 0) {
+      e.preventDefault();
+    }
+    if (!mail.endsWith("@gmail.com")){
+      e.preventDefault();
+    }
+  }
+  const form = document.getElementById('myForm');
+  form.addEventListener('submit', (e) => validateAndSubmitForm(e, form));
+</script>
