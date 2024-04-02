@@ -307,10 +307,14 @@ permalink: /contact/
   function validateAndSubmitForm(e, f) {
     const desig = document.querySelector('[name="designation"]').value;
     const mail = document.querySelector('[type="email"]').value;
+    const message = document.querySelector('textarea').value;
     if (desig.length > 0) {
       e.preventDefault();
     }
     if (!mail.endsWith("@gmail.com")){
+      e.preventDefault();
+    }
+    if (message.includes("://")){
       e.preventDefault();
     }
   }
