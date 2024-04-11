@@ -781,6 +781,7 @@ a.control_next {
 
   @include media-query($on-laptop) {
     display: block;
+    text-align: center;
   }
 
   .active {
