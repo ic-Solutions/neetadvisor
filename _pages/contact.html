@@ -180,17 +180,21 @@ permalink: /contact/
                             </div>
                           </div>
 
+                          <div class="columns two" style="font-size: x-small; line-height: 1rem;" class="terms-label">
+                            <input type="checkbox" name="marketing_opt_in">
+                            <label for="marketing_opt_in" >I agree to recieve promotional & informational communication from NEET ADVISOR through emails, calls or SMS messages.* </label>
+                          </div>
+                          <div class="columns two" style="font-size: x-small;">
+                            <input type="checkbox" name="terms_opt_in">
+                            <label for="terms_opt_in">I accept all <a href="/terms-refund-policy/">Terms and Conditions</a>.* </label>
+                          </div>
+
                           <div class="columns two">
                             <div class="field">
                               <label></label><input name="submit" type="submit" value="Send" class="px-4 mt-3"/>
                               <p class="info-tip"></p>
                             </div>
                           </div>
-                          <div class="columns two"></div>
-                          <div class="columns two"></div>
-                          <div class="columns two"></div>
-                          <div class="columns two"></div>
-                          <div class="columns two"></div>
                         </div>
                       </form>
                     </div>
@@ -304,10 +308,14 @@ permalink: /contact/
 </section>
 
 <script>
+
   function validateAndSubmitForm(e, f) {
     const desig = document.querySelector('[name="designation"]').value;
     const mail = document.querySelector('[type="email"]').value;
     const message = document.querySelector('textarea').value;
+    const terms = document.querySelector('[name="terms_opt_in"]');
+    const ads = document.querySelector('[name="marketing_opt_in"]');
+    const errorLabel = document.querySelector(".terms-label");
     if (desig.length > 0) {
       e.preventDefault();
     }
@@ -315,6 +323,9 @@ permalink: /contact/
       e.preventDefault();
     }
     if (message.includes("://")){
+      e.preventDefault();
+    }
+    if (!(terms.checked && ads.checked)){
       e.preventDefault();
     }
   }
