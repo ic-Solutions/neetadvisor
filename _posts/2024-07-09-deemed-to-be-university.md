@@ -7,8 +7,6 @@ layout: post
 author: NEET Advisor
 ---
 
-## DEEMED UNIVERSITY 
-
 The blog which is written below is to help you recognize about the different dimensions of deemed university and how their counselling procedure is different from others.
 This blog is all about deemed university, you would be previewing about.
 - What is Deemed University?
