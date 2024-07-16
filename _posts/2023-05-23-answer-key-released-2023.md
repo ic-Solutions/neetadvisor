@@ -3,6 +3,7 @@ title: NEET UG 2023 Answer Key Released ?
 image: /assets/images/blog/answer-key-releasing-soon-2.webp
 thumbimage: /assets/images/blog/thumb/answer-key-releasing-soon-2.webp
 description: Preparing for NEET is tough, but the competition for seats is even tougher!! Don’t miss the seat because of any misinformation!!
+alt-tag: Check NEET 2023 answer key.
 layout: post
 author: NEET Advisor
 ---

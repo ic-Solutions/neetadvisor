@@ -3,6 +3,7 @@ title: How to overcome NEET stress?
 image: /assets/images/blog/Managment.webp
 thumbimage: /assets/images/blog/thumb/Managment.webp
 description: When we talk about examinations, all we tend to have is anxiety but with the national level exams anxiety reaches to another level because the number of applicants appearing is negatively proportional to the number of applicants clarifying the exam
+alt-tag: How to overcome NEET stress?
 layout: post
 author: NEET Advisor
 ---

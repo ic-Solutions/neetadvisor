@@ -1,6 +1,7 @@
 ---
 title: "DEEMED UNIVERSITY"
 description: "The blog which is written below is to help you recognize about the different dimensions of deemed university and how their counselling procedure is different from others."
+alt-tag: What is deemed to be univsersity?
 image: /assets/images/blog/deemed-to-be-university.webp
 thumbimage: /assets/images/blog/thumb/deemed-to-be-university.webp
 layout: post

@@ -1,6 +1,7 @@
 ---
 title: Preparation tips for NEET 
 description: NEET aspirants need to have good preparation for the exam. They should have the skills to be overcome pressure.NEET is a time bound exam and it is suggested that the student should work on time management. Every year there is a significant increase in the number of students who apply for NEET and hence the competition also increases.
+alt-tag: How to prepare for NEET. Best ways.
 image: /assets/images/blog/Preparation-tips-for-NEET-2.webp
 thumbimage: /assets/images/blog/thumb/Preparation-tips-for-NEET-2.webp
 layout: post

@@ -3,6 +3,7 @@ title: "NEET COUNSELLING: Seminars/Webinars and Workshops by NEET ADVISOR"
 image: /assets/images/blog/neetcounselling-seminars.webp
 thumbimage: /assets/images/blog/thumb/neetcounselling-seminars.webp
 description: NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars.
+alt-tag: Neet guidance seminar near me.
 layout: post
 author: NEET Advisor
 ---

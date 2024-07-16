@@ -1,6 +1,7 @@
 ---
 title: LOOK BEYOND MBBS - MBBS vs BDS vs BAMS vs BHMS
 description: It is always brainy to focus on the long-term goal and try to manifest it in your life. NEET is the qualifying exam conducted for each of these branches of medicine. So, preparing well for the exam is advisable.
+alt-tag: BDS, BAMS, BHMS which is better?
 image: /assets/images/blog/look-beyond-MBBS-2.webp
 thumbimage: /assets/images/blog/thumb/look-beyond-MBBS-2.webp
 layout: post

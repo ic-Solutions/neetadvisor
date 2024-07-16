@@ -1,6 +1,7 @@
 ---
 title: All India Institute of Medical Sciences
 description: AIIMS was created in 1956, as an autonomous institution through an Act of Parliament, to serve as a nucleus for nurturing excellence in all aspects of health care.
+alt-tag: AIIMS. Seats and Reservations.
 image: /assets/images/blog/aiims.webp
 thumbimage: /assets/images/blog/thumb/aiims.webp
 layout: post
