@@ -80,7 +80,7 @@ layout: compress
           this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
         }
       };
-      
+
       jQuery.event.special.touchmove = {
         setup: function (_, ns, handle) {
           this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
@@ -498,8 +498,8 @@ layout: compress
   {% include contact-popup-script.html %}
 
   <script>
-    (function() {
-      document.addEventListener('DOMContentLoaded', function() {
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
         const newLink = document.createElement('link');
         newLink.href = '/assets/css/main.css';
         newLink.rel = 'stylesheet';
@@ -508,8 +508,14 @@ layout: compress
       });
     })();
   </script>
-
-  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" defer></script>
+  <script>
+    function onPopupSubmit(token) {
+      document.getElementById("poupup-submit").submit();
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf_NRkqAAAAADYvknZSCKGFVzWsOe96mki_kZWZ"></script>
+  <script src="//instant.page/5.2.0" type="module"
+    integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" defer></script>
   <script src="/assets/js/accordion.js"></script>
 
   <!-- <script type="text/javascript">var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script> -->
