@@ -64,8 +64,9 @@ permalink: /contact/
 
                           <div class="columns full" style="position:absolute; left: -999999px;">
                             <div class="field">
-                              <label><br />Designation<em>*</em></label><span class="wpcf7-form-control-wrap tel-717"><input
-                                  type="text" name="designation" value="" class="
+                              <label><br />Designation<em>*</em></label><span
+                                class="wpcf7-form-control-wrap tel-717"><input type="text" name="designation" value=""
+                                  class="
                                     wpcf7-form-control
                                     wpcf7-text
                                     wpcf7-tel
@@ -86,7 +87,7 @@ permalink: /contact/
                                     wpcf7-email
                                     wpcf7-validates-as-required
                                     wpcf7-validates-as-email
-                                  " aria-required="true" aria-invalid="false" required/></span>
+                                  " aria-required="true" aria-invalid="false" required /></span>
                               <p class="info-tip"></p>
                             </div>
                           </div>
@@ -94,7 +95,8 @@ permalink: /contact/
                           <div class="columns full">
                             <div class="field">
                               <label><br />Phone<em>*</em></label><span class="wpcf7-form-control-wrap tel-717"><input
-                                  type="tel" name="entry.32583428" value="" pattern="[6-9][0-9]{9}" size="40" title="10 digits only. No area code required" class="
+                                  type="tel" name="entry.32583428" value="" pattern="[6-9][0-9]{9}" size="40"
+                                  title="10 digits only. No area code required" class="
                                     wpcf7-form-control
                                     wpcf7-text
                                     wpcf7-tel
@@ -182,16 +184,22 @@ permalink: /contact/
 
                           <div class="columns two" style="font-size: x-small; line-height: 1rem;" class="terms-label">
                             <input type="checkbox" name="marketing_opt_in">
-                            <label for="marketing_opt_in" >I agree to recieve promotional & informational communication from NEET ADVISOR through emails, calls or SMS messages.* </label>
+                            <label for="marketing_opt_in">I agree to recieve promotional & informational communication
+                              from NEET ADVISOR through emails, calls or SMS messages.* </label>
                           </div>
                           <div class="columns two" style="font-size: x-small;">
                             <input type="checkbox" name="terms_opt_in">
-                            <label for="terms_opt_in">I accept all <a href="/terms-refund-policy/">Terms and Conditions</a>.* </label>
+                            <label for="terms_opt_in">I accept all <a href="/terms-refund-policy/">Terms and
+                                Conditions</a>.* </label>
                           </div>
 
                           <div class="columns two">
                             <div class="field">
-                              <label></label><input name="submit" type="submit" value="Send" class="px-4 mt-3"/>
+                              <div class="g-recaptcha" data-sitekey="6LcbZRkqAAAAAOAgdKFc64L2SejNGHaCXomhyE8T"
+                              data-callback="onCaptchaCompleted"></div>
+                            </div>
+                            <div class="field">
+                              <label></label><input name="submit" type="submit" value="Send" disabled class="px-4 mt-3" />
                               <p class="info-tip"></p>
                             </div>
                           </div>
@@ -306,9 +314,7 @@ permalink: /contact/
     <div class="vc_row-full-width vc_clearfix"></div>
   </div>
 </section>
-
 <script>
-
   function validateAndSubmitForm(e, f) {
     const desig = document.querySelector('[name="designation"]').value;
     const mail = document.querySelector('[type="email"]').value;
@@ -319,13 +325,13 @@ permalink: /contact/
     if (desig.length > 0) {
       e.preventDefault();
     }
-    if (!mail.endsWith("@gmail.com")){
+    if (!mail.endsWith("@gmail.com")) {
       e.preventDefault();
     }
-    if (message.includes("://")){
+    if (message.includes("://")) {
       e.preventDefault();
     }
-    if (!(terms.checked && ads.checked)){
+    if (!(terms.checked && ads.checked)) {
       e.preventDefault();
     }
   }
