@@ -44,8 +44,8 @@ Tighten up your seatbelt, work for the best, work today!!
 **Understanding the syllabus, and exam pattern**
 - Syllabus of NEET UG includes 200 questions which is required to be completed in the duration of 3 hours 20 min.
 - Each subject will consist of two sections. Section A will consist of 35 Questions and Section B will have 15 Questions, out of these 15 Questions, candidates can choose to attempt any 10 Questions. So, the total number of questions and utilization of time will remain the same.
-  - (a) For Section A (MCQs): To answer a question, the candidates need to choose one option corresponding to the correct answer or the most appropriate answer.
-  - (b) For Section B (MCQs): Candidates need to attempt any 10 Questions out of 15 Questions given. In the event of a candidate has attempted more than 10 questions, only the first 10 attempted questions will be considered for evaluation.
+  - For Section A (MCQs): To answer a question, the candidates need to choose one option corresponding to the correct answer or the most appropriate answer.
+  - For Section B (MCQs): Candidates need to attempt any 10 Questions out of 15 Questions given. In the event of a candidate has attempted more than 10 questions, only the first 10 attempted questions will be considered for evaluation.
 - 4 marks are awarded for every correct answer and 1 mark is deducted for wrong answers.
 - Set a target score of at least 650. After getting through with the exam pattern, start understanding the syllabus.
 
@@ -69,7 +69,9 @@ Tighten up your seatbelt, work for the best, work today!!
 
 ### Important topics for NEET 2025
 **Physics:** - Optics, Mechanics, Thermodynamics, Electronic Devices, Current Electricity, Motion In 1 D.
+
 **Chemistry:** - General Organic Chemistry, Mole Concept, Chemical Bonding, Electrochemistry, Thermodynamics, Coordination Compound, Equilibrium.
+
 **Biology:** - Physiology of Plants and Animals, Morphology, Genetics & Evolution, Cell Biology, Biotechnology, Human Physiology, Diversity of Living Organisms.
 
 **Best Books**
