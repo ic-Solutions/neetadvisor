@@ -4,8 +4,8 @@ description: "NEET aspirants need to have good preparation for the exam. They sh
 Every year there is a significant increase in the number of students who apply for NEET and hence the competition also increases.
 "
 alt-tag: Preparation tips for NEET.
-image: /assets/images/blog/preparation-tips-for-neet-2025.jpg
-thumbimage: /assets/images/blog/thumb/preparation-tips-for-neet-2025.jpg
+image: /assets/images/blog/preparation-tips-for-neet-2025.webp
+thumbimage: /assets/images/blog/thumb/preparation-tips-for-neet-2025.webp
 layout: post
 author: NEET Advisor
 ---
