@@ -1,7 +1,7 @@
 ---
 title: What after MBBS ?
-image: /assets/images/blog/answer-key-releasing-soon-2.webp
-thumbimage: /assets/images/blog/thumb/answer-key-releasing-soon-2.webp
+image: /assets/images/blog/what-after-mbbs-2025.jpg
+thumbimage: /assets/images/blog/what-after-mbbs-2025.jpg
 description: NEET Advisor is competent enough to deal with NEET PG counselling and admission process. NEET Advisor and its counsellor take care of post graduate counselling as well as helps student to get the best college of the lot.
 layout: post
 author: NEET Advisor
