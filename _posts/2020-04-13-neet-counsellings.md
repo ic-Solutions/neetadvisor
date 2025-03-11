@@ -6,6 +6,11 @@ description: NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COU
 alt-tag: Neet guidance seminar near me.
 layout: post
 author: NEET Advisor
+meta: 
+  - name: keywords
+    content: NEET, NEET Counselling, NEET Seminars, NEET Webinars, NEET Workshops, NEET Advisor
+  - name: description
+    content: NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars.
 ---
 
 As soon as the NEET result is declared, every parent, every student gets busy in preparing an action plan for the admission procedure. That includes the most crucial, counseling procedure as well.

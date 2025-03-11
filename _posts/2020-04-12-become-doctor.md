@@ -4,6 +4,11 @@ image: /assets/images/blog/To-become-a-Doctor.webp
 thumbimage: /assets/images/blog/thumb/To-become-a-Doctor.webp
 description: Many of the medical aspirants are looking for the answers to their questions with regards to NEET counselling and admission procedure, which can be solved by the people in same profession i.e. doctor but catch here is to which doctor is of benefit and vice versa.
 alt-tag: Talk to doctors about neet
+meta: 
+  - name: keywords
+    content: NEET, NEET Counselling, NEET Admission, Medical Aspirants, Doctor, NEET Advisor
+  - name: description
+    content: Many of the medical aspirants are looking for the answers to their questions with regards to NEET counselling and admission procedure, which can be solved by the people in same profession i.e. doctor but catch here is to which doctor is of benefit and vice versa.
 layout: post
 author: NEET Advisor
 ---
