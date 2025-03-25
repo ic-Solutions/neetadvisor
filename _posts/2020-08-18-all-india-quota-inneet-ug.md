@@ -4,6 +4,11 @@ image: /assets/images/blog/aiq-15.webp
 thumbimage: /assets/images/blog/thumb/aiq-15.webp
 description: If you qualify the entrance test, you can take part in the counselling process upon which your admission will happen based on the NEET 2020 reservation criteriaand NEET UG rank.
 alt-tag: All India Quota. NEET AIQ percentage
+meta: 
+  - name: keywords
+    content: NEET AIQ, All India Quota, NEET 15% reservation, NEET UG counselling, Medical admission, NEET reservation criteria
+  - name: description
+    content: Know all about the All India Quota (AIQ) and NEET reservation criteria 2021 to secure your MBBS or BDS seat.
 layout: post
 author: NEET Advisor
 ---
