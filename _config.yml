@@ -48,3 +48,11 @@ destination: public
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+
+purgecss:
+  enabled: true
+  content:
+    - _site/**/*.html
+  css:
+    - assets/css/main.css
+    

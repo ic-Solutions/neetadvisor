@@ -12,3 +12,5 @@ gem 'jekyll-brotli'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "webrick", "~> 1.7"
+
+gem "jekyll-purgecss", "~> 0.3.0"
