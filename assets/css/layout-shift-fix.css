@@ -109,3 +109,30 @@ img[loading="lazy"] {
 .wpb_column {
   contain: layout;
 }
+
+/* Desktop-specific fixes */
+@media (min-width: 768px) {
+  #footer {
+    min-height: 600px !important;
+  }
+  
+  .vc_custom_1574659096508 {
+    min-height: 400px !important;
+  }
+  
+  .wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"] {
+    min-height: 300px !important;
+  }
+  
+  .vc_column-inner {
+    min-height: 150px !important;
+  }
+  
+  .dt-sc-icon-box.type5 {
+    min-height: 200px !important;
+  }
+  
+  .dt-sc-circular-icon-set {
+    min-height: 250px !important;
+  }
+}
