@@ -74,3 +74,38 @@ img[loading="lazy"] {
   min-height: 40px;
   display: inline-block;
 }
+
+/* Aggressive layout shift prevention */
+.vc_custom_1574659096508 {
+  min-height: 300px !important;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"] {
+  min-height: 200px !important;
+}
+
+/* Footer layout shift prevention */
+#footer {
+  min-height: 500px !important;
+  contain: layout;
+}
+
+/* Prevent all column shifts */
+.vc_column-inner {
+  min-height: 100px !important;
+  contain: layout;
+}
+
+/* Prevent text content shifts */
+.wpb_wrapper {
+  min-height: 50px;
+}
+
+/* Force layout stability */
+.vc_row {
+  contain: layout;
+}
+
+.wpb_column {
+  contain: layout;
+}

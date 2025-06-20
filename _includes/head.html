@@ -50,10 +50,34 @@
   <link rel="preload" as="image" href="/assets/images/neet-advisor-man-223x300.webp" fetchpriority="high" />
 
   {% include critical.html %}
+  <style>
+    /* Critical layout shift prevention */
+    #footer { min-height: 500px !important; }
+    .vc_custom_1574659096508 { min-height: 300px !important; }
+    .wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"] { min-height: 200px !important; }
+    .vc_column-inner { min-height: 100px !important; }
+    img:not([width]):not([height]) { min-height: 50px; background: #f5f5f5; }
+    .dt-logo-container img { width: 96px !important; height: 54px !important; }
+    .footer-logo { width: 240px !important; height: 240px !important; }
+  </style>
   <link rel="stylesheet" href="/assets/css/layout-shift-fix.css" />
   <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="/assets/css/main.css" /></noscript>
   <script>(function(){var l=document.querySelector('link[rel="preload"][as="style"]');if(l&&!l.rel.includes('stylesheet')){setTimeout(function(){l.rel='stylesheet'},100)}})();</script>
+  <script>
+    // Immediate layout shift prevention
+    (function(){
+      const style = document.createElement('style');
+      style.textContent = `
+        #footer{min-height:500px!important}
+        .vc_custom_1574659096508{min-height:300px!important}
+        .wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"]{min-height:200px!important}
+        .vc_column-inner{min-height:100px!important}
+        img:not([width]):not([height]){min-height:50px;background:#f5f5f5}
+      `;
+      document.head.appendChild(style);
+    })();
+  </script>
   <script src="/assets/js/prevent-layout-shift.js"></script>
   <!-- <link rel="preload" as="image" href="https://res.cloudinary.com/dgwluqj82/image/upload/v1749830825/neet-homepage-pic-new-1_l35qwg.webp" type="image/webp"> -->
 
