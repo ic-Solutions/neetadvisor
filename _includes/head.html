@@ -47,9 +47,12 @@
   <link rel="dns-prefetch" href="//www.googletagmanager.com" />
   <link rel="dns-prefetch" href="//s.w.org" />
   <link href="https://fonts.gstatic.com/" crossorigin rel="preconnect" />
+  <link rel="preload" as="image" href="/assets/images/neet-advisor-man-223x300.webp" fetchpriority="high" />
 
   {% include critical.html %}
-  <link rel="stylesheet" href="/assets/css/main.css" data-defer />
+  <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/assets/css/main.css" /></noscript>
+  <script>(function(){var l=document.querySelector('link[rel="preload"][as="style"]');if(l&&!l.rel.includes('stylesheet')){setTimeout(function(){l.rel='stylesheet'},100)}})();</script>
   <!-- <link rel="preload" as="image" href="https://res.cloudinary.com/dgwluqj82/image/upload/v1749830825/neet-homepage-pic-new-1_l35qwg.webp" type="image/webp"> -->
 
   <!-- google console -->
