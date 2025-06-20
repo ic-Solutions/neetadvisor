@@ -1,0 +1,76 @@
+/* Layout Shift Prevention CSS */
+
+/* Header logo dimensions */
+.dt-logo-container img {
+  width: 96px !important;
+  height: 54px !important;
+}
+
+/* Footer logo dimensions */
+.footer-logo {
+  width: 240px !important;
+  height: 240px !important;
+}
+
+/* Main content images */
+img[src*="neet-advisor-400.png"] {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+img[src*="icon1.webp"] {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+/* Reserve space for footer to prevent layout shift */
+#footer {
+  min-height: 400px;
+}
+
+/* Prevent layout shifts for all images */
+img:not([width]):not([height]) {
+  min-height: 50px;
+  background-color: #f5f5f5;
+}
+
+/* Reserve space for images loading */
+img[loading="lazy"] {
+  min-height: 50px;
+}
+
+/* Specific fixes for common layout shift elements */
+.wpb_single_image img,
+.vc_single_image-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer specific fixes */
+#footer .wpb_single_image img {
+  width: 240px;
+  height: 240px;
+}
+
+/* Header specific fixes */
+#header img[src*="logo"] {
+  width: 96px;
+  height: 54px;
+}
+
+/* Prevent menu layout shifts */
+.dt-primary-nav {
+  min-height: 40px;
+}
+
+/* Prevent content container shifts */
+.vc_column-inner {
+  min-height: 1px;
+}
+
+/* Prevent button layout shifts */
+.dt-sc-button {
+  min-height: 40px;
+  display: inline-block;
+}
