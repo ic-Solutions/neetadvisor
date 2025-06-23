@@ -41,7 +41,14 @@ facebook:
   # admins: 1234
 
 compress_html:
+  clippings: all
   comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
 
 destination: public
 

@@ -63,61 +63,25 @@
   <link rel="stylesheet" href="/assets/css/layout-shift-fix.css" />
   <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="/assets/css/main.css" /></noscript>
-  <script>(function(){var l=document.querySelector('link[rel="preload"][as="style"]');if(l&&!l.rel.includes('stylesheet')){setTimeout(function(){l.rel='stylesheet'},100)}})();</script>
-  <script>
-    // Immediate layout shift prevention
-    (function(){
-      const style = document.createElement('style');
-      style.textContent = `
-        #footer{min-height:500px!important}
-        .vc_custom_1574659096508{min-height:300px!important}
-        .wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"]{min-height:200px!important}
-        .vc_column-inner{min-height:100px!important}
-        img:not([width]):not([height]){min-height:50px;background:#f5f5f5}
-        @media(min-width:768px){
-          #footer{min-height:600px!important}
-          .vc_custom_1574659096508{min-height:400px!important}
-          .wpb_column.vc_column_container.vc_col-sm-12[data-delay="0"]{min-height:300px!important}
-          .vc_column-inner{min-height:150px!important}
-          .dt-sc-icon-box.type5{min-height:200px!important}
-        }
-      `;
-      document.head.appendChild(style);
-    })();
-  </script>
+
   <script src="/assets/js/prevent-layout-shift.js"></script>
+
   <!-- <link rel="preload" as="image" href="https://res.cloudinary.com/dgwluqj82/image/upload/v1749830825/neet-homepage-pic-new-1_l35qwg.webp" type="image/webp"> -->
 
   <!-- google console -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11108370794"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11108370794');
-    window.onCaptchaCompleted = function() {
-      document.getElementById("myForm").submit.disabled = false;
-    }
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','AW-11108370794');window.onCaptchaCompleted=function(){document.getElementById("myForm").submit.disabled=false}
   </script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Hide preloader when everything loads -->
   <script>
-    document.addEventListener(
-      "DOMContentLoaded",
-      function () {
-        document.querySelector(".preloader-plus").style.display = "none";
-      },
-      false
-    );
+    document.addEventListener('DOMContentLoaded',function(){document.querySelector('.preloader-plus').style.display='none'},false)
   </script>
 
   <script>
-    document.documentElement.className = document.documentElement.className.replace(
-      "no-js",
-      "js"
-    );
+    document.documentElement.className=document.documentElement.className.replace('no-js','js')
   </script>
   <noscript>
     <style>
@@ -130,12 +94,6 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175201212-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-175201212-1");
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','UA-175201212-1')
   </script>
 </head>
