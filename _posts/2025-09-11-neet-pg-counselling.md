@@ -3,7 +3,7 @@ title: "NEET PG Counselling"
 image: /assets/images/blog/neet-pg-counselling-blog-2025.webp
 thumbimage: /assets/images/blog/thumb/neet-pg-counselling-blog-2025.webp
 description: NEET PG is India's primary entrance exam for determining qualification and rank for postgraduate medical studies. It is conducted each year by the National Board of Examinations and has replaced the former AIPGMEE exam.
-alt-tag: "NEET PG 2025 Counselling: A Complete Guide (Process & Eligibility)"
+alt-tag: A complete guide to the NEET PG 2025 counselling process, detailing the steps from registration to medical college admission in India
 layout: post
 author: NEET Advisor
 ---
