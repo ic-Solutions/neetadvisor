@@ -1,6 +1,7 @@
 ---
 title: NEET COUNSELLING - Seminars/Webinars and Workshops by NEET ADVISOR
-description: As soon as the NEET result is declared, every parent, every student gets busy in preparing an action plan for the admission procedure. That includes the most crucial, counselling procedure as well.
+description: Once the NEET results are out, students and parents quickly shift focus to planning for the crucial counselling and admission process.
+alt-tag: neet-counselling
 image: /assets/images/blog/2025-03-01-neet-counselling.jpg
 thumbimage: /assets/images/blog/2025-03-01-neet-counselling.jpg
 layout: post
