@@ -6,6 +6,12 @@ description: On 3rd February 2022, the NMC directed private medical colleges and
 alt-tag: What are NMC fees rules?
 layout: post
 author: NEET Advisor
+meta: 
+  - name: keywords
+    content: NMC, National Medical Commission, NMC Bill 2019, NMC Fees Structure, Private Medical Colleges Fees, NEET Counselling, NEET Advisor
+  - name: description
+    content: Learn about the National Medical Commission (NMC), its role in regulating medical education, and the latest fee guidelines impacting private medical colleges as per the NMC directive.
+alt: National Medical Commission fee guidelines and NEET counselling insights by NEET Advisor
 ---
 
 ## What is NMC?
