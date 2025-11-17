@@ -2,7 +2,7 @@
 title: 15% All India Quota in NEETUG
 image: /assets/images/blog/aiq-15.webp
 thumbimage: /assets/images/blog/thumb/aiq-15.webp
-description: If you qualify the entrance test, you can take part in the counselling process upon which your admission will happen based on the NEET 2020 reservation criteriaand NEET UG rank.
+description: Clear the test to join counselling; admission depends on NEET 2020 reservation and your NEET UG rank.
 alt-tag: All India Quota. NEET AIQ percentage
 meta: 
   - name: keywords
