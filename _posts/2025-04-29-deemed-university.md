@@ -4,6 +4,11 @@ image: /assets/images/blog/deemed_university_updated.webp
 thumbimage: /assets/images/blog/thumb/deemed_university_updated.webp
 description: The blog which is written below is to help you recognize about the different dimensions of deemed university and how their counseling procedure is different from others.
 alt-tag: What is a deemed to be university? are deemed university valid?
+meta: 
+  - name: keywords
+    content: deemed universities, deemed university meaning, deemed university counselling, counselling process for deemed universities
+  - name: description
+    content: The blog which is written below is to help you recognize about the different dimensions of deemed university and how their counseling procedure is different from others.
 layout: post
 author: NEET Advisor
 ---
