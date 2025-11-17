@@ -4,6 +4,11 @@ image: /assets/images/blog/central_universities.webp
 thumbimage: /assets/images/blog/thumb/central_universities.webp
 description: This blog covers central universities what they are, how many exist in India, their reservation policies, and the documents needed for counselling.
 alt-tag: What is central university. UGC recognized university.
+meta: 
+  - name: keywords
+    content: central universities in India, what is a central university, number of central universities, central university reservation policies
+  - name: description
+    content: This blog covers central universities what they are, how many exist in India, their reservation policies, and the documents needed for counselling.
 layout: post
 author: NEET Advisor
 ---
