@@ -1,10 +1,7 @@
 <div class="neet-info py-3 py-md-5">
   <div class="r">
     <div class="c-4 p-4 p-md-0">
-      <img
-        src="/assets/images/neet-advisor-400.png"
-        alt="NEET 2024 Advisor logo"
-      />
+      <img src="/assets/images/neet-advisor-400.png" alt="NEET 2024 Advisor logo" />
     </div>
     <div class="c-8 p-4 p-md-0 d-flex align-items-center text-h">
       NEET ADVISOR is an exclusive platform founded by LeoPride Career Solutions
@@ -26,34 +23,21 @@
       <h2 class="text-center">NEET UG Guide Services</h2>
     </div>
     <div class="c-3 place-items-center bg-secondary hide-on-phone" style="flex-direction: column; padding: 10px">
-      <h4 class="text-center m-0" >
-        <span style="text-decoration: line-through red; font-size:large;">Rs. 29,480 + GST = 34,786 /-</span>
-        <br>Rs. 24,980 + GST = 29,476 /-
+      <h4 class="text-center m-0">
+        <span style="text-decoration: line-through red; font-size:large;">Rs. 29,480 + GST = 34,480 /-</span>
+        <br>Rs. 24,980 + GST = 29,480 /-
       </h4>
-      <a
-        href="{{site.payment-links.ug-premium}}"
-        class="block btn-danger px-2 py-1 text-white rounded"
-        >Buy Now</a
-      >
+      <a href="{{site.payment-links.ug-premium}}" class="block btn-danger px-2 py-1 text-white rounded">Buy Now</a>
     </div>
   </div>
   {% for item in site.data.pricing-table.neet-ug %}
   <div class="rows8 m-2">
     <div class="c-5 relative place-items-center" style="padding: 0">
-      <img loading="lazy"
-        class="left-0 absolute hide-on-phone"
-        src="{{item.image}}"
-        alt="NEET UG Package"
-        width="100"
-        height="100"
-        style="left:-10px"
-      />
-      <div
-        class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px"
-      >
+      <img loading="lazy" class="left-0 absolute hide-on-phone" src="{{item.image}}" alt="NEET UG Package" width="100"
+        height="100" style="left:-10px" />
+      <div class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px">
         {% if item.basic != true %} {% if item.premium.size %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-accent
             text-white
@@ -62,12 +46,9 @@
             absolute
             right-0
             top--1
-          "
-          >{{item.premium}}</span
-        >
+          ">{{item.premium}}</span>
         {% else %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-accent
             text-white
@@ -76,12 +57,9 @@
             absolute
             right-0
             top--1
-          "
-          >Premium</span
-        >
+          ">Premium</span>
         {% endif %} {% else %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-success
             text-white
@@ -90,9 +68,7 @@
             absolute
             right-0
             top--1
-          "
-          >Basic</span
-        >
+          ">Basic</span>
         {% endif %}
         <div class="font-bold text-xl">{{item.title}}</div>
         <p>{{item.description}}</p>
@@ -106,30 +82,19 @@
     <div class="c-1 place-items-center bg-accent hide-on-phone">
       <p class="text-white">{{item.mode}}</p>
     </div>
-    <div
-      class="
+    <div class="
         c-2
         place-items-center
         bg-primary
         right-rounded-border
         hide-on-phone
-      "
-      style="text-align: center";
-    >
+      " style="text-align: center" ;>
       {% if item.premium.size > 1 %}
       <p>{{item.premium}}</p>
       {% else %} {% if item.premium %}
-      <img
-        src="/assets/images/pricing-table-icons/right-tick-blue-100.webp"
-        alt="NEET counselling"
-        width="50"
-      />
+      <img src="/assets/images/pricing-table-icons/right-tick-blue-100.webp" alt="NEET counselling" width="50" />
       {% else %}
-      <img
-        src="/assets/images/pricing-table-icons/cross-checkmark-100.webp"
-        alt="NEET counselling"
-        width="50"
-      />
+      <img src="/assets/images/pricing-table-icons/cross-checkmark-100.webp" alt="NEET counselling" width="50" />
       {% endif %} {% endif %}
     </div>
   </div>
@@ -162,11 +127,7 @@
         class="btn btn-danger px-4 py-2 text-white mr-4"
         >Buy Basic</a
       > -->
-      <a
-        href="{{site.payment-links.ug-premium}}"
-        class="btn btn-danger px-4 py-2 text-white"
-        >Buy Neet Guide</a
-      >
+      <a href="{{site.payment-links.ug-premium}}" class="btn btn-danger px-4 py-2 text-white">Buy Neet Guide</a>
     </div>
   </div>
 </div>
@@ -187,33 +148,20 @@
     </div> -->
     <div class="c-3 place-items-center bg-secondary hide-on-phone" style="flex-direction: column; padding: 10px">
       <h4 class="text-center m-0">
-        <span style="text-decoration: line-through red; font-size:large;">Rs. 29,480 + GST = 34,786 /-</span>
-        <br>Rs. 24,980 + GST = 29,476 /-
+        <span style="text-decoration: line-through red; font-size:large;">Rs. 29,480 + GST = 34,480 /-</span>
+        <br>Rs. 24,980 + GST = 29,480 /-
       </h4>
-      <a
-        href="{{site.payment-links.pg-premium}}"
-        class="block btn-danger px-2 py-1 text-white rounded"
-        >Buy Now</a
-      >
+      <a href="{{site.payment-links.pg-premium}}" class="block btn-danger px-2 py-1 text-white rounded">Buy Now</a>
     </div>
   </div>
   {% for item in site.data.pricing-table.neet-pg %}
   <div class="rows8 m-2">
     <div class="c-5 relative place-items-center p-0">
-      <img loading="lazy"
-        class="left-0 absolute hide-on-phone"
-        src="{{item.image}}"
-        alt="NEET UG Package"
-        width="100"
-        height="100"
-        style="left: -10px;"
-      />
-      <div
-        class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px"
-      >
+      <img loading="lazy" class="left-0 absolute hide-on-phone" src="{{item.image}}" alt="NEET UG Package" width="100"
+        height="100" style="left: -10px;" />
+      <div class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px">
         {% if item.basic != true %} {% if item.premium.size %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-accent
             text-white
@@ -222,12 +170,9 @@
             absolute
             right-0
             top--1
-          "
-          >{{item.premium}}</span
-        >
+          ">{{item.premium}}</span>
         {% else %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-accent
             text-white
@@ -236,12 +181,9 @@
             absolute
             right-0
             top--1
-          "
-          >Premium</span
-        >
+          ">Premium</span>
         {% endif %} {% else %}
-        <span
-          class="
+        <span class="
             hide-on-desk
             bg-success
             text-white
@@ -250,9 +192,7 @@
             absolute
             right-0
             top--1
-          "
-          >Basic</span
-        >
+          ">Basic</span>
         {% endif %}
         <div class="font-bold text-xl">{{item.title}}</div>
         <p>{{item.description}}</p>
@@ -266,30 +206,19 @@
     <div class="c-1 place-items-center bg-accent hide-on-phone">
       <p class="text-white">{{item.mode}}</p>
     </div>
-    <div
-      class="
+    <div class="
         c-2
         place-items-center
         bg-primary
         right-rounded-border
         hide-on-phone
-      "
-      style="text-align: center"
-    >
+      " style="text-align: center">
       {% if item.premium.size > 1 %}
       <p>{{item.premium}}</p>
       {% else %} {% if item.premium %}
-      <img
-        src="/assets/images/pricing-table-icons/right-tick-blue-100.webp"
-        alt="NEET counselling"
-        width="50"
-      />
+      <img src="/assets/images/pricing-table-icons/right-tick-blue-100.webp" alt="NEET counselling" width="50" />
       {% else %}
-      <img
-        src="/assets/images/pricing-table-icons/cross-checkmark-100.webp"
-        alt="NEET counselling"
-        width="50"
-      />
+      <img src="/assets/images/pricing-table-icons/cross-checkmark-100.webp" alt="NEET counselling" width="50" />
       {% endif %} {% endif %}
     </div>
   </div>
@@ -322,11 +251,7 @@
         class="btn btn-danger px-4 py-2 text-white mr-4"
         >Buy Basic</a
       > -->
-      <a
-        href="{{site.payment-links.pg-premium}}"
-        class="btn btn-danger px-4 py-2 text-white"
-        >Buy Neet Guide</a
-      >
+      <a href="{{site.payment-links.pg-premium}}" class="btn btn-danger px-4 py-2 text-white">Buy Neet Guide</a>
     </div>
   </div>
 </div>
@@ -340,9 +265,11 @@
   .md-flex {
     display: flex;
   }
+
   .justify-content-center {
     justify-content: center;
   }
+
   .rows8 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -353,61 +280,78 @@
   .bg-primary {
     background-color: #fcd21c;
   }
+
   .bg-secondary {
     background-color: #bbadaa;
   }
+
   .bg-accent {
     background-color: #201169;
   }
+
   .bg-success {
     background-color: #0a5;
   }
+
   .bg-primary-light {
     background-color: #f2d379;
   }
+
   .text-white {
     color: white !important;
   }
+
   .text-brand {
     color: #201169 !important;
   }
+
   .rounded {
     border-radius: 4px;
   }
+
   .place-items-center {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .font-bold {
     font-weight: bold;
   }
+
   .text-xl {
     font-size: 1.2em;
   }
+
   .text-2xl {
     font-size: 2em !important;
   }
+
   .text-xs {
     font-size: 0.8em;
   }
+
   .font-normal {
     font-weight: 400;
   }
+
   .table-head {
     overflow: hidden;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
   }
+
   .central {
     margin: 0 auto;
     width: 100%;
   }
+
   .rows8 h3,
   .rows8 h2,
   .rows8 p {
     margin: 0;
   }
+
   .rows8 p {
     line-height: 1.7;
   }
@@ -415,73 +359,94 @@
   .p-10 {
     padding: 8px;
   }
+
   .left-rounded-border {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+
   .right-rounded-border {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
   .relative {
     position: relative;
   }
+
   .absolute {
     position: absolute;
   }
+
   .ml-50-pl-60 {
     margin-left: 40px;
     padding-left: 50px;
   }
+
   .left-0 {
     left: 0;
   }
+
   .right-0 {
     right: 0;
   }
+
   .top--1 {
     top: -0.8em;
   }
+
   .w-full {
     width: 100%;
   }
+
   .features {
     margin: 0;
     list-style: none;
   }
+
   .features li {
     font-size: 1rem;
     padding-bottom: 0;
   }
+
   .features li:before {
     content: '\2714\0020';
   }
+
   .hide-on-desk {
     display: none;
   }
+
   .mb-md-5 {
     margin-bottom: inherit !important;
   }
+
   .call-us {
     text-decoration: underline;
   }
+
   @media screen and (max-width: 600px) {
     .md-flex {
       display: block;
     }
+
     .hide-on-phone {
       display: none;
     }
+
     .ml-50-pl-60 {
       margin-left: unset;
       padding-left: 10px;
     }
+
     .left-rounded-border {
       border-radius: 10px;
     }
+
     .mb-md-5 {
       margin-bottom: 2em !important;
     }
+
     .hide-on-desk {
       display: block;
     }
@@ -547,13 +512,8 @@
               <h2 class="table-header">NEET UG</h2>
               <h3>(Premium Package)</h3>
               <h2 class="price">Rs. 24980 +GST = 29476</h2>
-              <a
-                title="Buy neet under graduate package"
-                class="btn btn-danger px-4"
-                href="{{site.payment-links.ug-premium}}"
-                target="_blank"
-                >Buy Now</a
-              >
+              <a title="Buy neet under graduate package" class="btn btn-danger px-4"
+                href="{{site.payment-links.ug-premium}}" target="_blank">Buy Now</a>
             </div>
             {% assign premium-ug-pack = site.data.pricing-table.neet-ug %} {%
             for item in premium-ug-pack %}{% if item.hideonphone != true %}
@@ -570,13 +530,9 @@
                   {% endfor %}
                 </ul>
                 {% if item.premium.size %}
-                <span class="text-center"
-                  ><strong>Sessions: </strong>{{item.premium}}</span
-                >
+                <span class="text-center"><strong>Sessions: </strong>{{item.premium}}</span>
                 {% endif %}
-                <span class="text-center"
-                  ><strong>Mode: </strong>{{item.mode}}</span
-                >
+                <span class="text-center"><strong>Mode: </strong>{{item.mode}}</span>
               </div>
             </div>
             {% endif %} {% endfor %}
@@ -636,13 +592,8 @@
               <h2 class="table-header">NEET PG</h2>
               <h3>(Premium Package)</h3>
               <h2 class="price">Rs. 24980 +GST = 29476</h2>
-              <a
-                title="Buy neet post graduate counselling package"
-                class="btn btn-danger px-4"
-                href="{{site.payment-links.pg-premium}}"
-                target="_blank"
-                >Buy Now</a
-              >
+              <a title="Buy neet post graduate counselling package" class="btn btn-danger px-4"
+                href="{{site.payment-links.pg-premium}}" target="_blank">Buy Now</a>
             </div>
             {% assign premium-pg-pack = site.data.pricing-table.neet-pg %} {%
             for item in premium-pg-pack %} {% if item.hideonphone != true %}
@@ -659,13 +610,9 @@
                   {% endfor %}
                 </ul>
                 {% if item.premium.size %}
-                <span class="text-center"
-                  ><strong>Sessions: </strong>{{item.premium}}</span
-                >
+                <span class="text-center"><strong>Sessions: </strong>{{item.premium}}</span>
                 {% endif %}
-                <span class="text-center"
-                  ><strong>Mode:</strong> {{item.mode}}</span
-                >
+                <span class="text-center"><strong>Mode:</strong> {{item.mode}}</span>
               </div>
             </div>
             {% endif %} {% endfor %}
