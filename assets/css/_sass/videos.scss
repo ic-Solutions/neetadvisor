@@ -27,19 +27,37 @@
   }
 
   .video-slider {
-    display: grid;
+    display: block;
+    position: relative;
     height: 420px;
+    overflow: hidden;
     @include media-query($on-palm) {
       height: 320px;
+    }
+
+    // Each slide is absolutely positioned and initially hidden off to the right
+    > div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(100%);
+      transition: transform 0.4s ease;
+
+      // First slide visible by default
+      &:first-child {
+        transform: translateX(0);
+      }
     }
   }
 
   iframe.video {
-    width: 900px;
-    height: 420px;
+    width: 100%;
+    height: 100%;
     @include media-query($on-palm) {
-      width: 100vw;
-      height: 320px;
+      width: 100%;
+      height: 100%;
     }
   }
 

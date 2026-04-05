@@ -306,25 +306,28 @@ layout: compress
     });
   </script>
   <!-- script for testimonials end -->
-  <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
   <script>
-    var imgSlider = simpleslider.getSlider({
-      container: document.getElementById("video-slider"),
-      prop: "left",
-      init: -612,
-      show: 0,
-      end: 612,
-      unit: "px",
-    });
-    document.getElementById("prev").onclick = function () {
-      imgSlider.prev();
-      imgSlider.pause();
-    };
-    document.getElementById("next").onclick = function () {
-      imgSlider.next();
-      imgSlider.pause();
-    };
-    imgSlider.pause();
+    (function initVideoSlider() {
+      var slider = document.getElementById("video-slider");
+      if (!slider) return;
+      var slides = Array.from(slider.querySelectorAll(":scope > div"));
+      var total = slides.length;
+      var current = 0;
+
+      function goTo(index) {
+        if (index < 0) index = total - 1;
+        if (index >= total) index = 0;
+        current = index;
+        for (var i = 0; i < total; i++) {
+          slides[i].style.transform = "translateX(" + (i - current) * 100 + "%)";
+        }
+      }
+
+      var prevBtn = document.getElementById("prev");
+      var nextBtn = document.getElementById("next");
+      if (prevBtn) prevBtn.onclick = function () { goTo(current - 1); };
+      if (nextBtn) nextBtn.onclick = function () { goTo(current + 1); };
+    })();
   </script>
 
   {% if page.url == "/about/" %}
